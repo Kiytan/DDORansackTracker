@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import { base } from '$app/paths';
 	import CharacterPanel from '$lib/CharacterPanel.svelte';
 	import ImportDialog from '$lib/ImportDialog.svelte';
 	import ListControls from '$lib/ListControls.svelte';
@@ -54,19 +55,8 @@
 			← ddotools.xyz
 		</a>
 		<div class="header-title">
-			<svg
-				class="logo"
-				viewBox="0 0 48 48"
-				aria-hidden="true"
-				fill="none"
-				stroke="#d4af37"
-				stroke-width="2.5"
-				stroke-linejoin="round"
-			>
-				<path d="M6 20a18 10 0 0 1 36 0v18H6z" fill="rgba(212,175,55,0.12)" />
-				<path d="M6 26h36" />
-				<rect x="21" y="22" width="6" height="9" rx="1" fill="#252832" />
-			</svg>
+			<!-- Served as a file so ddotools.xyz can use the same icon on its tool card. -->
+			<img class="logo" src="{base}/chest.svg" alt="" aria-hidden="true" />
 			<h1>DDO Ransack Tracker</h1>
 		</div>
 		<p>Chest ransack windows and raid lockouts, for every character you play</p>
