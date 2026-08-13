@@ -1,5 +1,15 @@
 # DDO Ransack Tracker - Patch Notes
 
+## Version 1.1.0 - August 2026
+### New Features
+- **Enter the Chest's Countdown**: The timer editor now takes the "Chest Ransack Reset in" figure the game shows you, rather than asking when you first looted it.
+
+### Improvements
+- Days, hours and minutes are entered separately, so the in-game text can be copied straight across. Part-minutes round up, so nothing is lost off the end of the window.
+- The choice between "Resets in" and "First loot at" is remembered between visits.
+
+---
+
 ## Version 1.0.0 - August 2026
 ### New Features
 - **Chest Ransack Timers**: Track the 168-hour window a quest opens on its first loot, and the 8 loots you get inside it.

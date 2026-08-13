@@ -22,6 +22,7 @@ import {
 // --- Storage keys -----------------------------------------------------------
 
 const DATA_KEY = 'ddoransack-data';
+const SETTINGS_KEY = 'ddoransack-settings';
 
 // --- Import limits (trust boundary for URL-hash / file data) ----------------
 
@@ -61,6 +62,27 @@ export const pendingHashImport = writable<TrackerData | null>(null);
 export const questsLoaded = writable(false);
 export const loadError = writable<string | null>(null);
 
+/**
+ * How the timer editor asks for the window.
+ *
+ * `resetsIn` mirrors the chest's own text in game ("Chest Ransack Reset in: 6 days
+ * 23 hours…"), so the number can be copied straight across. `firstLoot` takes the
+ * anchor directly. A UI preference, so it lives outside the shared payload.
+ */
+export type TimerEntryMode = 'resetsIn' | 'firstLoot';
+
+export const timerEntryMode = writable<TimerEntryMode>('resetsIn');
+
+export function setTimerEntryMode(mode: TimerEntryMode): void {
+	timerEntryMode.set(mode);
+	if (!browser) return;
+	try {
+		localStorage.setItem(SETTINGS_KEY, JSON.stringify({ timerEntryMode: mode }));
+	} catch (error) {
+		console.error('Failed to save settings:', error);
+	}
+}
+
 // --- Loading ----------------------------------------------------------------
 
 export async function loadQuests(): Promise<void> {
@@ -87,6 +109,16 @@ export async function loadQuests(): Promise<void> {
 
 export function loadFromStorage(): void {
 	if (!browser) return;
+
+	try {
+		const settings = localStorage.getItem(SETTINGS_KEY);
+		if (settings) {
+			const mode = JSON.parse(settings)?.timerEntryMode;
+			if (mode === 'resetsIn' || mode === 'firstLoot') timerEntryMode.set(mode);
+		}
+	} catch (error) {
+		console.error('Failed to load settings from localStorage:', error);
+	}
 
 	try {
 		const stored = localStorage.getItem(DATA_KEY);

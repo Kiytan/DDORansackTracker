@@ -11,17 +11,37 @@
 		logRaid,
 		removeCharacterFromQuest,
 		setOpens,
+		setTimerEntryMode,
+		timerEntryMode,
 		undoOpen,
 		untrackQuest
 	} from './ransackStore';
-	import { formatShortDateTime, fromDateTimeLocal, toDateTimeLocal } from './time';
-	import { getQuestTier, RANSACK_MAX_OPENS, type CharacterEntry, type QuestRow } from './types';
+	import {
+		formatShortDateTime,
+		fromDateTimeLocal,
+		joinDuration,
+		splitDuration,
+		toDateTimeLocal
+	} from './time';
+	import {
+		getQuestTier,
+		HOUR_MS,
+		RANSACK_MAX_OPENS,
+		RANSACK_WINDOW_HOURS,
+		type CharacterEntry,
+		type QuestRow
+	} from './types';
+
+	const WINDOW_MS = RANSACK_WINDOW_HOURS * HOUR_MS;
 
 	export let row: QuestRow;
 
 	/** Character id whose editor is open, or null. One at a time per card. */
 	let editingCharacterId: string | null = null;
 	let editFirstOpen = '';
+	let editResetDays = 0;
+	let editResetHours = 0;
+	let editResetMinutes = 0;
 	let editRaidAt = '';
 	let confirmRemove = false;
 	/** Character id awaiting confirmation of removal from this quest, or null. */
@@ -35,8 +55,18 @@
 	function openEditor(entry: CharacterEntry) {
 		editingCharacterId = entry.character.id;
 		autoCreated = false;
-		editFirstOpen = toDateTimeLocal(entry.ransack.firstOpen || Date.now());
+		setRansackFields(entry.ransack.firstOpen || Date.now());
 		editRaidAt = toDateTimeLocal(entry.raid.completedAt || Date.now());
+	}
+
+	/** Populate both representations of the window from one anchor. */
+	function setRansackFields(firstOpenMs: number) {
+		editFirstOpen = toDateTimeLocal(firstOpenMs);
+		({
+			days: editResetDays,
+			hours: editResetHours,
+			minutes: editResetMinutes
+		} = splitDuration(firstOpenMs + WINDOW_MS - Date.now()));
 	}
 
 	function toggleEditor(entry: CharacterEntry) {
@@ -52,7 +82,7 @@
 		if (!row.isRaid && entry.ransack.status === 'clear') {
 			setOpens(entry.character.id, quest.id, 1);
 			editingCharacterId = entry.character.id;
-			editFirstOpen = nowValue();
+			setRansackFields(Date.now());
 			autoCreated = true;
 			return;
 		}
@@ -78,9 +108,29 @@
 		return toDateTimeLocal(from + hours * 60 * 60 * 1000);
 	}
 
+	/**
+	 * The anchor to save, derived from whichever way the player chose to enter it.
+	 *
+	 * "Resets in" is clamped to the window length — a chest cannot have more than 168
+	 * hours left — and to a minute at the bottom, so a stray 0 does not silently
+	 * delete the timer. "Clear timer" is the deliberate way to do that.
+	 */
+	function anchorFromFields(): number {
+		if ($timerEntryMode === 'firstLoot') return fromDateTimeLocal(editFirstOpen);
+
+		const remaining = Math.min(
+			WINDOW_MS,
+			Math.max(
+				60_000,
+				joinDuration({ days: editResetDays, hours: editResetHours, minutes: editResetMinutes })
+			)
+		);
+		return Date.now() + remaining - WINDOW_MS;
+	}
+
 	function saveRansackEdit(entry: CharacterEntry) {
 		// The loot count is set with the pips, so only the anchor moves here.
-		editTimer(entry.character.id, quest.id, fromDateTimeLocal(editFirstOpen), entry.ransack.opens);
+		editTimer(entry.character.id, quest.id, anchorFromFields(), entry.ransack.opens);
 		autoCreated = false;
 		editingCharacterId = null;
 	}
@@ -346,35 +396,71 @@
 
 						{#if editing}
 							<form class="editor" on:submit|preventDefault={() => saveRansackEdit(entry)}>
-								<label>
-									<span>First loot (starts the 168h window)</span>
-									<input type="datetime-local" bind:value={editFirstOpen} />
-								</label>
+								<div class="mode-toggle" role="group" aria-label="How to enter the timer">
+									<button
+										type="button"
+										class:active={$timerEntryMode === 'resetsIn'}
+										on:click={() => setTimerEntryMode('resetsIn')}
+									>
+										Resets in
+									</button>
+									<button
+										type="button"
+										class:active={$timerEntryMode === 'firstLoot'}
+										on:click={() => setTimerEntryMode('firstLoot')}
+									>
+										First loot at
+									</button>
+								</div>
+
+								{#if $timerEntryMode === 'resetsIn'}
+									<div class="reset-fields">
+										<label>
+											<span>Days</span>
+											<input type="number" min="0" max="7" bind:value={editResetDays} />
+										</label>
+										<label>
+											<span>Hours</span>
+											<input type="number" min="0" max="23" bind:value={editResetHours} />
+										</label>
+										<label>
+											<span>Minutes</span>
+											<input type="number" min="0" max="59" bind:value={editResetMinutes} />
+										</label>
+									</div>
+								{:else}
+									<label class="anchor-field">
+										<span>First loot (starts the 168h window)</span>
+										<input type="datetime-local" bind:value={editFirstOpen} />
+									</label>
+								{/if}
 
 								<div class="editor-actions">
-									<span class="nudge-group">
-										<button
-											type="button"
-											class="ghost"
-											on:click={() => (editFirstOpen = nowValue())}
-										>
-											Now
-										</button>
-										<button
-											type="button"
-											class="ghost"
-											on:click={() => (editFirstOpen = shiftHours(editFirstOpen, -1))}
-										>
-											−1 hour
-										</button>
-										<button
-											type="button"
-											class="ghost"
-											on:click={() => (editFirstOpen = shiftHours(editFirstOpen, 1))}
-										>
-											+1 hour
-										</button>
-									</span>
+									{#if $timerEntryMode === 'firstLoot'}
+										<span class="nudge-group">
+											<button
+												type="button"
+												class="ghost"
+												on:click={() => (editFirstOpen = nowValue())}
+											>
+												Now
+											</button>
+											<button
+												type="button"
+												class="ghost"
+												on:click={() => (editFirstOpen = shiftHours(editFirstOpen, -1))}
+											>
+												−1 hour
+											</button>
+											<button
+												type="button"
+												class="ghost"
+												on:click={() => (editFirstOpen = shiftHours(editFirstOpen, 1))}
+											>
+												+1 hour
+											</button>
+										</span>
+									{/if}
 
 									<span class="save-group">
 										<button type="submit" class="primary">Save</button>
@@ -396,7 +482,12 @@
 								</div>
 
 								<p class="hint">
-									Moving the first loot moves the reset. The loot count is set with the pips.
+									{#if $timerEntryMode === 'resetsIn'}
+										Copy the chest's own "Chest Ransack Reset in" figure straight across. The loot
+										count is set with the pips.
+									{:else}
+										Moving the first loot moves the reset. The loot count is set with the pips.
+									{/if}
 								</p>
 							</form>
 						{/if}
@@ -726,6 +817,48 @@
 		font-size: 0.74rem;
 		color: #b0b0b0;
 		align-items: flex-start;
+	}
+
+	.mode-toggle {
+		display: inline-flex;
+		align-self: flex-start;
+		border: 1px solid #555;
+		border-radius: 3px;
+		overflow: hidden;
+	}
+
+	.mode-toggle button {
+		background: #1a1a1a;
+		border: none;
+		color: #b0b0b0;
+		padding: 0.2rem 0.55rem;
+		font-size: 0.74rem;
+		cursor: pointer;
+		transition: all 0.2s ease;
+	}
+
+	.mode-toggle button + button {
+		border-left: 1px solid #555;
+	}
+
+	.mode-toggle button:hover {
+		color: #e0e0e0;
+	}
+
+	.mode-toggle button.active {
+		background: #d4af37;
+		color: #1a1a1a;
+		font-weight: 600;
+	}
+
+	.reset-fields {
+		display: flex;
+		gap: 0.5rem;
+		flex-wrap: wrap;
+	}
+
+	.reset-fields input {
+		width: 4.5rem;
 	}
 
 	.editor input {

@@ -63,6 +63,33 @@ export function formatShortDateTime(epochMs: number): string {
 	});
 }
 
+export interface DurationParts {
+	days: number;
+	hours: number;
+	minutes: number;
+}
+
+/**
+ * Split a duration for the days/hours/minutes inputs.
+ *
+ * Rounds up to the next whole minute, because the in-game text reads
+ * "6 days 23 hours 4 minutes 44 seconds" and typing that in should not quietly
+ * shorten the window by the dropped seconds.
+ */
+export function splitDuration(ms: number): DurationParts {
+	const total = Math.max(0, Math.ceil(ms / MINUTE));
+	return {
+		days: Math.floor(total / (24 * 60)),
+		hours: Math.floor((total % (24 * 60)) / 60),
+		minutes: total % 60
+	};
+}
+
+export function joinDuration({ days, hours, minutes }: DurationParts): number {
+	const safe = (value: number) => (Number.isFinite(value) ? Math.max(0, Math.floor(value)) : 0);
+	return safe(days) * DAY + safe(hours) * HOUR + safe(minutes) * MINUTE;
+}
+
 /** Epoch ms → the `YYYY-MM-DDTHH:mm` string an `<input type="datetime-local">` wants. */
 export function toDateTimeLocal(epochMs: number): string {
 	const date = new Date(epochMs);
