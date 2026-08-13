@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 	import { base } from '$app/paths';
 	import CharacterPanel from '$lib/CharacterPanel.svelte';
+	import PatchNotes from '$lib/PatchNotes.svelte';
 	import ImportDialog from '$lib/ImportDialog.svelte';
 	import ListControls from '$lib/ListControls.svelte';
 	import QuestList from '$lib/QuestList.svelte';
@@ -90,6 +91,7 @@
 			to <strong>8</strong> times inside it before named items stop dropping; further loots do not
 			extend the window. Raid lockouts last <strong>2 days 18 hours</strong>.
 		</p>
+		<p class="footer-links"><PatchNotes /></p>
 		<p class="disclaimer">
 			Unofficial fan tool. Dungeons &amp; Dragons Online is a trademark of its respective owners.
 		</p>
@@ -223,6 +225,10 @@
 
 	footer strong {
 		color: #d4af37;
+	}
+
+	.footer-links {
+		font-size: 0.85rem;
 	}
 
 	.disclaimer {

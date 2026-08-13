@@ -526,6 +526,16 @@ function matches(row: QuestRow, activeFilters: TrackerFilters): boolean {
 	if (activeFilters.raids === 'only' && !row.isRaid) return false;
 	if (activeFilters.raids === 'exclude' && row.isRaid) return false;
 
+	// "Nothing left to loot here this week." Raids carry no ransack counter, so they
+	// are never hidden by this — their lockout is a separate thing.
+	if (
+		activeFilters.hideRansacked &&
+		row.entries.length > 0 &&
+		row.entries.every((entry) => entry.ransack.status === 'ransacked')
+	) {
+		return false;
+	}
+
 	return true;
 }
 

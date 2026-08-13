@@ -244,6 +244,8 @@ export interface TrackerFilters {
 	patron: string; // '' = any
 	adventurePack: string; // '' = any
 	raids: 'all' | 'only' | 'exclude';
+	/** Hide quests where every attached character has used all 8 loots. */
+	hideRansacked: boolean;
 	sortBy: SortBy;
 	sortOrder: 'asc' | 'desc';
 }
@@ -255,6 +257,7 @@ export const DEFAULT_FILTERS: TrackerFilters = {
 	patron: '',
 	adventurePack: '',
 	raids: 'all',
+	hideRansacked: false,
 	// Newest first, so a quest you have just added is waiting at the top for its loot
 	// count to be set.
 	sortBy: 'added',

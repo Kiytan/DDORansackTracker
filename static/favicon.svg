@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+	<!--
+		A bolder, backed variant of chest.svg. The transparent hairline version reads
+		poorly at 16px and disappears against light browser chrome, so this one carries
+		the site's own background and heavier strokes.
+	-->
+	<rect width="48" height="48" rx="10" fill="#252832" />
+	<g fill="none" stroke="#d4af37" stroke-width="3" stroke-linejoin="round">
+		<path d="M11 23a13 7.5 0 0 1 26 0v13H11z" fill="rgba(212,175,55,0.18)" />
+		<path d="M11 27.5h26" />
+		<rect x="21.5" y="24" width="5" height="7.5" rx="1" />
+	</g>
+</svg>

@@ -25,7 +25,8 @@
 		$filters.maxLevel !== undefined ||
 		$filters.patron !== '' ||
 		$filters.adventurePack !== '' ||
-		$filters.raids !== 'all';
+		$filters.raids !== 'all' ||
+		$filters.hideRansacked;
 </script>
 
 <section class="panel">
@@ -110,6 +111,19 @@
 						<option value={pack}>{pack}</option>
 					{/each}
 				</select>
+			</label>
+
+			<label class="field checkbox-field">
+				<span>Ransacked</span>
+				<span class="checkbox-row">
+					<input
+						type="checkbox"
+						checked={$filters.hideRansacked}
+						on:change={(event) =>
+							updateFilters({ hideRansacked: (event.currentTarget as HTMLInputElement).checked })}
+					/>
+					Hide fully ransacked
+				</span>
 			</label>
 
 			<div class="field">
@@ -236,6 +250,29 @@
 	.field select {
 		width: 100%;
 		box-sizing: border-box;
+	}
+
+	.checkbox-row {
+		display: flex;
+		align-items: center;
+		gap: 0.4rem;
+		font-size: 0.85rem;
+		color: #e0e0e0;
+		cursor: pointer;
+		/* Line up with the height of the selects on the same row. */
+		min-height: 2rem;
+	}
+
+	.checkbox-row input {
+		accent-color: #d4af37;
+		width: 15px;
+		height: 15px;
+		margin: 0;
+		cursor: pointer;
+	}
+
+	.checkbox-field {
+		cursor: pointer;
 	}
 
 	.level-inputs {
