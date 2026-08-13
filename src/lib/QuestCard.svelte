@@ -3,11 +3,13 @@
 	import OpenPips from './OpenPips.svelte';
 	import TierBadge from './TierBadge.svelte';
 	import {
+		addCharacterToQuest,
 		clearRaid,
 		clearRansack,
 		editTimer,
 		logOpen,
 		logRaid,
+		removeCharacterFromQuest,
 		setOpens,
 		undoOpen,
 		untrackQuest
@@ -22,6 +24,8 @@
 	let editFirstOpen = '';
 	let editRaidAt = '';
 	let confirmRemove = false;
+	/** Character id awaiting confirmation of removal from this quest, or null. */
+	let confirmDetachId: string | null = null;
 	/** True while the open editor's timer was created by opening it, not by the player. */
 	let autoCreated = false;
 
@@ -93,6 +97,13 @@
 		autoCreated = false;
 		setOpens(entry.character.id, quest.id, value);
 	}
+
+	function detach(characterId: string) {
+		if (editingCharacterId === characterId) editingCharacterId = null;
+		autoCreated = false;
+		confirmDetachId = null;
+		removeCharacterFromQuest(quest.id, characterId);
+	}
 </script>
 
 <article class="card">
@@ -128,7 +139,9 @@
 
 	{#if row.entries.length === 0}
 		<p class="no-characters">
-			Add a character to start recording {row.isRaid ? 'raid completions' : 'loots'} for this quest.
+			{row.available.length > 0
+				? 'No characters attached to this quest yet — add one below.'
+				: `Add a character to start recording ${row.isRaid ? 'raid completions' : 'loots'} for this quest.`}
 		</p>
 	{:else}
 		<ul class="characters">
@@ -182,8 +195,24 @@
 								>
 									✎
 								</button>
+								<button
+									class="detach-btn"
+									title="Remove {entry.character.name} from this quest"
+									aria-label="Remove {entry.character.name} from this quest"
+									on:click={() => (confirmDetachId = entry.character.id)}
+								>
+									×
+								</button>
 							</span>
 						</div>
+
+						{#if confirmDetachId === entry.character.id}
+							<div class="detach-confirm">
+								<span>Remove {entry.character.name} from this quest?</span>
+								<button class="danger" on:click={() => detach(entry.character.id)}>Remove</button>
+								<button class="ghost" on:click={() => (confirmDetachId = null)}>Cancel</button>
+							</div>
+						{/if}
 
 						{#if editing}
 							<form class="editor" on:submit|preventDefault={() => saveRaidEdit(entry)}>
@@ -294,8 +323,26 @@
 								>
 									✎
 								</button>
+								<button
+									class="detach-btn"
+									title="Remove {entry.character.name} from this quest"
+									aria-label="Remove {entry.character.name} from this quest"
+									on:click={() => (confirmDetachId = entry.character.id)}
+								>
+									×
+								</button>
 							</span>
 						</div>
+
+						{#if confirmDetachId === entry.character.id}
+							<div class="detach-confirm">
+								<span
+									>Remove {entry.character.name} from this quest? Their timers for it go too.</span
+								>
+								<button class="danger" on:click={() => detach(entry.character.id)}>Remove</button>
+								<button class="ghost" on:click={() => (confirmDetachId = null)}>Cancel</button>
+							</div>
+						{/if}
 
 						{#if editing}
 							<form class="editor" on:submit|preventDefault={() => saveRansackEdit(entry)}>
@@ -357,6 +404,21 @@
 				{/if}
 			{/each}
 		</ul>
+	{/if}
+
+	{#if row.available.length > 0}
+		<div class="add-characters">
+			<span class="add-label">Add to this quest:</span>
+			{#each row.available as character (character.id)}
+				<button
+					class="add-character-btn"
+					title="Add {character.name} to {quest.name}"
+					on:click={() => addCharacterToQuest(quest.id, character.id)}
+				>
+					+ {character.name}
+				</button>
+			{/each}
+		</div>
 	{/if}
 </article>
 
@@ -732,6 +794,65 @@
 		margin: 0;
 		font-size: 0.8rem;
 		color: #888;
+	}
+
+	.detach-btn {
+		background: none;
+		border: none;
+		color: #666;
+		font-size: 1rem;
+		line-height: 1;
+		padding: 0 0.15rem;
+		cursor: pointer;
+		transition: color 0.2s ease;
+	}
+
+	.detach-btn:hover {
+		color: #e4606d;
+	}
+
+	.detach-confirm {
+		display: flex;
+		align-items: center;
+		gap: 0.4rem;
+		flex-wrap: wrap;
+		margin-top: 0.35rem;
+		padding-top: 0.35rem;
+		border-top: 1px solid #22262c;
+		font-size: 0.76rem;
+		color: #e4606d;
+	}
+
+	.add-characters {
+		display: flex;
+		align-items: center;
+		gap: 0.35rem;
+		flex-wrap: wrap;
+		margin-top: 0.5rem;
+		padding-top: 0.45rem;
+		border-top: 1px solid #2a2a2a;
+	}
+
+	.add-label {
+		font-size: 0.72rem;
+		color: #777;
+	}
+
+	.add-character-btn {
+		background: none;
+		border: 1px dashed #555;
+		border-radius: 3px;
+		color: #b0b0b0;
+		padding: 0.15rem 0.5rem;
+		font-size: 0.75rem;
+		cursor: pointer;
+		transition: all 0.2s ease;
+	}
+
+	.add-character-btn:hover {
+		border-style: solid;
+		border-color: #d4af37;
+		color: #d4af37;
 	}
 
 	@media (max-width: 720px) {

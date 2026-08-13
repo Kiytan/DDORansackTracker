@@ -14,6 +14,7 @@ import {
 	type CharacterEntry,
 	type Quest,
 	type QuestRow,
+	type TrackedQuest,
 	type TrackerData,
 	type TrackerFilters
 } from './types';
@@ -49,8 +50,8 @@ export const quests = writable<Quest[]>([]);
 export const characters = writable<Character[]>([]);
 export const characterData = writable<{ [characterId: string]: CharacterData }>({});
 
-/** Quest ids the player has added to their list, oldest first. */
-export const trackedQuests = writable<string[]>([]);
+/** Quests the player has added, oldest first, each with its attached characters. */
+export const trackedQuests = writable<TrackedQuest[]>([]);
 
 export const filters = writable<TrackerFilters>({ ...DEFAULT_FILTERS });
 
@@ -74,8 +75,8 @@ export async function loadQuests(): Promise<void> {
 		// never disagree with what is rendered. Only safe once the fetch has succeeded.
 		const knownIds = new Set(data.map((quest) => quest.id));
 		const tracked = get(trackedQuests);
-		if (tracked.some((questId) => !knownIds.has(questId))) {
-			trackedQuests.set(tracked.filter((questId) => knownIds.has(questId)));
+		if (tracked.some((entry) => !knownIds.has(entry.questId))) {
+			trackedQuests.set(tracked.filter((entry) => knownIds.has(entry.questId)));
 			persist();
 		}
 	} catch (error) {
@@ -151,7 +152,7 @@ function newId(): string {
 	return `c${Date.now().toString(36)}${Math.random().toString(36).slice(2, 8)}`;
 }
 
-export function addCharacter(name: string): string | null {
+export function addCharacter(name: string, includeByDefault = true): string | null {
 	const trimmed = name.trim().slice(0, MAX_NAME_LENGTH);
 	if (!trimmed) return null;
 	if (get(characters).length >= MAX_CHARACTERS) return null;
@@ -159,7 +160,8 @@ export function addCharacter(name: string): string | null {
 	const character: Character = {
 		id: newId(),
 		name: trimmed,
-		createdAt: new Date().toISOString()
+		createdAt: new Date().toISOString(),
+		includeByDefault
 	};
 
 	characters.update((list) => [...list, character]);
@@ -167,6 +169,19 @@ export function addCharacter(name: string): string | null {
 	persist();
 
 	return character.id;
+}
+
+/**
+ * Toggle whether new quests start with this character attached.
+ *
+ * Deliberately does not touch quests already on the list — turning the flag on is a
+ * statement about future quests, not a bulk edit of past ones.
+ */
+export function setIncludeByDefault(id: string, includeByDefault: boolean): void {
+	characters.update((list) =>
+		list.map((character) => (character.id === id ? { ...character, includeByDefault } : character))
+	);
+	persist();
 }
 
 export function renameCharacter(id: string, name: string): void {
@@ -186,27 +201,86 @@ export function deleteCharacter(id: string): void {
 		delete next[id];
 		return next;
 	});
+	detachEverywhere(id);
 	persist();
 }
 
-/** Wipe every timer for one character, leaving the character itself in place. */
+/** Drop a character from every quest's membership list. Does not persist by itself. */
+function detachEverywhere(characterId: string): void {
+	trackedQuests.update((list) =>
+		list.map((entry) => ({
+			...entry,
+			characterIds: entry.characterIds.filter((id) => id !== characterId)
+		}))
+	);
+}
+
+/** Wipe every timer for one character, leaving its quest memberships in place. */
 export function clearCharacterTimers(characterId: string): void {
+	mutate(characterId, () => ({ ransack: {}, raids: {} }));
+}
+
+/**
+ * Detach a character from every quest on the list, keeping the character itself.
+ *
+ * Its timers go too — a timer on a quest the character is no longer attached to has
+ * no row to display it, so leaving them would strand data the player cannot see.
+ */
+export function removeCharacterFromAllQuests(characterId: string): void {
+	detachEverywhere(characterId);
 	mutate(characterId, () => ({ ransack: {}, raids: {} }));
 }
 
 // --- The tracked quest list -------------------------------------------------
 
+/** Add a quest, attaching every character flagged to join new quests by default. */
 export function trackQuest(questId: string): void {
+	const defaults = get(characters)
+		.filter((character) => character.includeByDefault)
+		.map((character) => character.id);
+
 	trackedQuests.update((list) => {
-		if (list.includes(questId) || list.length >= MAX_TRACKED_QUESTS) return list;
-		return [...list, questId];
+		if (list.some((entry) => entry.questId === questId)) return list;
+		if (list.length >= MAX_TRACKED_QUESTS) return list;
+		return [...list, { questId, characterIds: defaults }];
 	});
 	persist();
 }
 
+/** Attach a character to a quest already on the list. */
+export function addCharacterToQuest(questId: string, characterId: string): void {
+	trackedQuests.update((list) =>
+		list.map((entry) =>
+			entry.questId === questId && !entry.characterIds.includes(characterId)
+				? { ...entry, characterIds: [...entry.characterIds, characterId] }
+				: entry
+		)
+	);
+	persist();
+}
+
+/** Detach a character from a quest, discarding its timers for that quest. */
+export function removeCharacterFromQuest(questId: string, characterId: string): void {
+	trackedQuests.update((list) =>
+		list.map((entry) =>
+			entry.questId === questId
+				? { ...entry, characterIds: entry.characterIds.filter((id) => id !== characterId) }
+				: entry
+		)
+	);
+
+	mutate(characterId, (entry) => {
+		const ransack = { ...entry.ransack };
+		const raids = { ...entry.raids };
+		delete ransack[questId];
+		delete raids[questId];
+		return { ransack, raids };
+	});
+}
+
 /** Remove a quest from the list, along with every character's timers for it. */
 export function untrackQuest(questId: string): void {
-	trackedQuests.update((list) => list.filter((id) => id !== questId));
+	trackedQuests.update((list) => list.filter((entry) => entry.questId !== questId));
 
 	characterData.update((data) => {
 		const next: { [characterId: string]: CharacterData } = {};
@@ -370,22 +444,33 @@ export const adventurePacks = derived(quests, ($quests) =>
 );
 
 /**
- * The tracked quests, each with a section per character. Every character appears
- * under every quest — a character with no timer shows as ready to loot.
+ * The tracked quests, each with a section per attached character, plus the characters
+ * that are not attached so the card can offer them as "add to quest" buttons.
+ *
+ * Characters keep their creation order inside a card rather than the order they were
+ * attached, so the same names sit in the same place on every quest.
  */
 const allRows = derived(
 	[trackedQuests, questsById, characters, characterData, now],
 	([$tracked, $questsById, $characters, $data, $now]): QuestRow[] =>
 		$tracked
-			.map((questId, addedIndex) => {
+			.map(({ questId, characterIds }, addedIndex) => {
 				const quest = $questsById.get(questId);
 				if (!quest) return null;
 
 				const questIsRaid = isRaid(quest.name);
+				const attached = new Set(characterIds);
+				const entries: CharacterEntry[] = [];
+				const available: Character[] = [];
 				let soonest = Number.MAX_SAFE_INTEGER;
 				let totalOpens = 0;
 
-				const entries: CharacterEntry[] = $characters.map((character) => {
+				for (const character of $characters) {
+					if (!attached.has(character.id)) {
+						available.push(character);
+						continue;
+					}
+
 					const entry = $data[character.id];
 					// Raids have no chest-ransack counter, only a lockout. Forcing the state
 					// clear here means stats and countdowns can never report a chest timer
@@ -399,13 +484,14 @@ const allRows = derived(
 					if (ransack.status !== 'clear') soonest = Math.min(soonest, ransack.msRemaining);
 					if (raid.status === 'locked') soonest = Math.min(soonest, raid.msRemaining);
 
-					return { character, ransack, raid };
-				});
+					entries.push({ character, ransack, raid });
+				}
 
 				return {
 					quest,
 					isRaid: questIsRaid,
 					entries,
+					available,
 					soonest,
 					totalOpens,
 					addedIndex
@@ -698,6 +784,9 @@ function applyImport(payload: TrackerData, merge: boolean): void {
 	const mergedData = { ...get(characterData) };
 	const keyOf = (character: Character) => character.name.toLowerCase();
 	const existingByKey = new Map(mergedCharacters.map((character) => [keyOf(character), character]));
+	// Incoming character id → the id it ended up under here, so the incoming quest
+	// membership lists can be rewritten to point at the right characters.
+	const idMap = new Map<string, string>();
 
 	for (const incoming of payload.characters) {
 		if (mergedCharacters.length >= MAX_CHARACTERS) break;
@@ -706,6 +795,7 @@ function applyImport(payload: TrackerData, merge: boolean): void {
 		const incomingData = payload.data[incoming.id] ?? { ransack: {}, raids: {} };
 
 		if (match) {
+			idMap.set(incoming.id, match.id);
 			mergedData[match.id] = mergeCharacterData(
 				mergedData[match.id] ?? { ransack: {}, raids: {} },
 				incomingData
@@ -715,6 +805,7 @@ function applyImport(payload: TrackerData, merge: boolean): void {
 				? newId()
 				: incoming.id;
 			const character = { ...incoming, id };
+			idMap.set(incoming.id, id);
 			mergedCharacters.push(character);
 			existingByKey.set(keyOf(character), character);
 			mergedData[id] = incomingData;
@@ -724,10 +815,26 @@ function applyImport(payload: TrackerData, merge: boolean): void {
 	characters.set(mergedCharacters);
 	characterData.set(pruneExpired(mergedData));
 	trackedQuests.update((list) => {
-		const merged = [...list];
-		for (const questId of payload.tracked) {
-			if (!merged.includes(questId) && merged.length < MAX_TRACKED_QUESTS) merged.push(questId);
+		const merged = list.map((entry) => ({ ...entry, characterIds: [...entry.characterIds] }));
+		const byQuestId = new Map(merged.map((entry) => [entry.questId, entry]));
+
+		for (const incoming of payload.tracked) {
+			const characterIds = incoming.characterIds
+				.map((characterId) => idMap.get(characterId))
+				.filter((characterId): characterId is string => characterId !== undefined);
+
+			const existing = byQuestId.get(incoming.questId);
+			if (existing) {
+				for (const characterId of characterIds) {
+					if (!existing.characterIds.includes(characterId)) existing.characterIds.push(characterId);
+				}
+			} else if (merged.length < MAX_TRACKED_QUESTS) {
+				const entry = { questId: incoming.questId, characterIds };
+				merged.push(entry);
+				byQuestId.set(entry.questId, entry);
+			}
 		}
+
 		return merged;
 	});
 	persist();
@@ -809,7 +916,8 @@ export function validateTrackerData(input: unknown): TrackerData | null {
 		validCharacters.push({
 			id,
 			name,
-			createdAt: isIsoDate(candidate.createdAt) ? candidate.createdAt : new Date().toISOString()
+			createdAt: isIsoDate(candidate.createdAt) ? candidate.createdAt : new Date().toISOString(),
+			includeByDefault: candidate.includeByDefault !== false
 		});
 	}
 
@@ -817,7 +925,13 @@ export function validateTrackerData(input: unknown): TrackerData | null {
 
 	const knownIds = new Set(validCharacters.map((character) => character.id));
 	const validData: { [characterId: string]: CharacterData } = {};
-	const questIdsWithTimers = new Set<string>();
+	/** Quest id → the characters that have a timer for it, used to backfill membership. */
+	const timerOwners = new Map<string, Set<string>>();
+	const noteTimer = (questId: string, characterId: string) => {
+		const owners = timerOwners.get(questId) ?? new Set<string>();
+		owners.add(characterId);
+		timerOwners.set(questId, owners);
+	};
 
 	for (const [characterId, entry] of Object.entries(raw.data as Record<string, unknown>)) {
 		if (!knownIds.has(characterId) || !entry || typeof entry !== 'object') continue;
@@ -843,7 +957,7 @@ export function validateTrackerData(input: unknown): TrackerData | null {
 					opens,
 					lastOpen: isIsoDate(candidate.lastOpen) ? candidate.lastOpen : candidate.firstOpen
 				};
-				questIdsWithTimers.add(key);
+				noteTimer(key, characterId);
 				count++;
 			}
 		}
@@ -858,7 +972,7 @@ export function validateTrackerData(input: unknown): TrackerData | null {
 
 				const key = questId.slice(0, 80);
 				raids[key] = { completedAt: candidate.completedAt };
-				questIdsWithTimers.add(key);
+				noteTimer(key, characterId);
 				count++;
 			}
 		}
@@ -866,16 +980,52 @@ export function validateTrackerData(input: unknown): TrackerData | null {
 		validData[characterId] = { ransack, raids };
 	}
 
-	const tracked: string[] = [];
-	const seen = new Set<string>();
-	const candidateIds = Array.isArray(raw.tracked) ? raw.tracked : [];
+	const tracked: TrackedQuest[] = [];
+	const byQuestId = new Map<string, TrackedQuest>();
 
-	for (const value of [...candidateIds, ...questIdsWithTimers]) {
-		if (typeof value !== 'string') continue;
-		const questId = value.slice(0, 80);
-		if (seen.has(questId) || tracked.length >= MAX_TRACKED_QUESTS) continue;
-		seen.add(questId);
-		tracked.push(questId);
+	for (const value of Array.isArray(raw.tracked) ? (raw.tracked as unknown[]) : []) {
+		// A bare string is the pre-membership format: attach every character, which is
+		// what that data meant at the time it was written.
+		const isLegacy = typeof value === 'string';
+		const candidate = (isLegacy ? {} : (value ?? {})) as {
+			questId?: unknown;
+			characterIds?: unknown;
+		};
+
+		const questId = safeString(isLegacy ? value : candidate.questId, 80);
+		if (!questId || byQuestId.has(questId) || tracked.length >= MAX_TRACKED_QUESTS) continue;
+
+		const rawIds: unknown[] = isLegacy
+			? [...knownIds]
+			: Array.isArray(candidate.characterIds)
+				? candidate.characterIds
+				: [];
+
+		const characterIds: string[] = [];
+		for (const candidate of rawIds) {
+			const characterId = safeString(candidate, 64);
+			if (characterId && knownIds.has(characterId) && !characterIds.includes(characterId)) {
+				characterIds.push(characterId);
+			}
+		}
+
+		const entry = { questId, characterIds };
+		tracked.push(entry);
+		byQuestId.set(questId, entry);
+	}
+
+	// A timer with no card to show it on is unreachable, so fold its owner in.
+	for (const [questId, owners] of timerOwners) {
+		const entry = byQuestId.get(questId);
+		if (entry) {
+			for (const characterId of owners) {
+				if (!entry.characterIds.includes(characterId)) entry.characterIds.push(characterId);
+			}
+		} else if (tracked.length < MAX_TRACKED_QUESTS) {
+			const added = { questId, characterIds: [...owners] };
+			tracked.push(added);
+			byQuestId.set(questId, added);
+		}
 	}
 
 	return { characters: validCharacters, data: validData, tracked };

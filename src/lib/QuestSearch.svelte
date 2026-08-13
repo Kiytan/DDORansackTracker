@@ -44,7 +44,7 @@
 	}
 
 	$: generateResults(term);
-	$: trackedSet = new Set($trackedQuests);
+	$: trackedSet = new Set($trackedQuests.map((entry) => entry.questId));
 
 	function add(quest: Quest) {
 		if (trackedSet.has(quest.id)) return;

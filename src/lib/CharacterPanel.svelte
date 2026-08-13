@@ -4,14 +4,19 @@
 		characterSummaries,
 		clearCharacterTimers,
 		deleteCharacter,
-		renameCharacter
+		removeCharacterFromAllQuests,
+		renameCharacter,
+		setIncludeByDefault
 	} from './ransackStore';
 	import Countdown from './Countdown.svelte';
+
+	/** The destructive actions in the edit form all confirm before running. */
+	type DangerAction = 'timers' | 'quests' | 'delete';
 
 	let newName = '';
 	let editingId: string | null = null;
 	let editName = '';
-	let confirmDeleteId: string | null = null;
+	let confirming: DangerAction | null = null;
 
 	function submitNew() {
 		if (!addCharacter(newName)) return;
@@ -21,13 +26,23 @@
 	function startEdit(id: string, name: string) {
 		editingId = id;
 		editName = name;
-		confirmDeleteId = null;
+		confirming = null;
 	}
 
 	function submitEdit() {
 		if (!editingId) return;
 		renameCharacter(editingId, editName);
 		editingId = null;
+	}
+
+	function run(action: DangerAction, characterId: string) {
+		if (action === 'timers') clearCharacterTimers(characterId);
+		if (action === 'quests') removeCharacterFromAllQuests(characterId);
+		if (action === 'delete') {
+			deleteCharacter(characterId);
+			editingId = null;
+		}
+		confirming = null;
 	}
 </script>
 
@@ -44,6 +59,13 @@
 		/>
 		<button type="submit" class="primary" disabled={!newName.trim()}>Add</button>
 	</form>
+
+	{#if $characterSummaries.length > 0}
+		<p class="tick-hint">
+			Tick a character to attach it to quests you add from now on. You can always add or remove one
+			on an individual quest.
+		</p>
+	{/if}
 
 	{#if $characterSummaries.length === 0}
 		<p class="empty">
@@ -62,30 +84,46 @@
 								<button type="button" on:click={() => (editingId = null)}>Cancel</button>
 							</div>
 							<div class="danger-actions">
-								<button
-									type="button"
-									class="link-danger"
-									on:click={() => clearCharacterTimers(character.id)}
-								>
-									Clear all timers
-								</button>
-								{#if confirmDeleteId === character.id}
-									<button
-										type="button"
-										class="danger"
-										on:click={() => {
-											deleteCharacter(character.id);
-											editingId = null;
-											confirmDeleteId = null;
-										}}
-									>
-										Really delete {character.name}?
-									</button>
+								{#if confirming}
+									{@const action = confirming}
+									<p class="confirm-note">
+										{#if action === 'timers'}
+											Reset every timer for {character.name}? They stay on the same quests.
+										{:else if action === 'quests'}
+											Take {character.name} off every quest? Their timers go with them.
+										{:else}
+											Delete {character.name} and everything tracked for them?
+										{/if}
+									</p>
+									<div class="confirm-actions">
+										<button type="button" class="danger" on:click={() => run(action, character.id)}>
+											Yes, {action === 'timers'
+												? 'clear timers'
+												: action === 'quests'
+													? 'remove from all'
+													: 'delete'}
+										</button>
+										<button type="button" on:click={() => (confirming = null)}>Cancel</button>
+									</div>
 								{:else}
 									<button
 										type="button"
 										class="link-danger"
-										on:click={() => (confirmDeleteId = character.id)}
+										on:click={() => (confirming = 'timers')}
+									>
+										Clear all timers
+									</button>
+									<button
+										type="button"
+										class="link-danger"
+										on:click={() => (confirming = 'quests')}
+									>
+										Remove from all quests
+									</button>
+									<button
+										type="button"
+										class="link-danger"
+										on:click={() => (confirming = 'delete')}
 									>
 										Delete character
 									</button>
@@ -94,6 +132,23 @@
 						</form>
 					{:else}
 						<div class="character-row">
+							<label
+								class="default-tick"
+								title="Attach {character.name} to quests you add from now on"
+							>
+								<input
+									type="checkbox"
+									checked={character.includeByDefault}
+									on:change={(event) =>
+										setIncludeByDefault(
+											character.id,
+											(event.currentTarget as HTMLInputElement).checked
+										)}
+								/>
+								<span class="visually-hidden">
+									Add {character.name} to new quests by default
+								</span>
+							</label>
 							<div class="character-info">
 								<span class="name">{character.name}</span>
 								<span class="counts">
@@ -261,6 +316,35 @@
 		cursor: pointer;
 	}
 
+	.confirm-note {
+		margin: 0;
+		font-size: 0.76rem;
+		color: #e4606d;
+		line-height: 1.45;
+	}
+
+	.confirm-actions {
+		display: flex;
+		gap: 0.4rem;
+	}
+
+	.confirm-actions button {
+		flex: 1;
+		background: #3a3a3a;
+		color: #e0e0e0;
+		border: 1px solid #555;
+		border-radius: 4px;
+		padding: 0.4rem;
+		font-size: 0.8rem;
+		cursor: pointer;
+	}
+
+	.confirm-actions button.danger {
+		background: #dc3545;
+		border-color: #dc3545;
+		color: white;
+	}
+
 	button.danger:hover {
 		background: #c82333;
 	}
@@ -280,6 +364,40 @@
 		border: 1px solid #404040;
 		border-radius: 4px;
 		overflow: hidden;
+	}
+
+	.default-tick {
+		display: flex;
+		align-items: center;
+		padding: 0 0.1rem 0 0.55rem;
+		cursor: pointer;
+	}
+
+	.default-tick input {
+		accent-color: #d4af37;
+		width: 15px;
+		height: 15px;
+		cursor: pointer;
+		margin: 0;
+	}
+
+	.visually-hidden {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		padding: 0;
+		margin: -1px;
+		overflow: hidden;
+		clip: rect(0, 0, 0, 0);
+		white-space: nowrap;
+		border: 0;
+	}
+
+	.tick-hint {
+		margin: 0 0 0.6rem;
+		font-size: 0.72rem;
+		color: #888;
+		line-height: 1.5;
 	}
 
 	.character-info {

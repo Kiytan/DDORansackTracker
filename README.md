@@ -27,6 +27,9 @@ glance tells you who still has loots left in Delera's Tomb this week.
 - **A section per character under every quest.** Individual loot pips, loots remaining,
   countdown to reset, and `−` / `+` buttons each. Click a pip to set the times looted
   directly — handy when you're catching up after a few runs.
+- **Pick who goes on which quest.** Tick a character to attach it to quests you add from
+  then on, and add or remove characters on any individual quest — no need to carry all
+  twelve alts through every entry on your list.
 - **Heroic / Epic / Legendary at a glance.** Every quest carries its level and a tier
   badge (Heroic below 20, Epic 20–29, Legendary 30+).
 - **Sort and filter.** Sort by time remaining, quest name, level, times looted, patron,

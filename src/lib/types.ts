@@ -14,6 +14,8 @@ export interface Character {
 	id: string;
 	name: string;
 	createdAt: string;
+	/** Whether newly added quests start with this character attached. */
+	includeByDefault: boolean;
 }
 
 /**
@@ -40,12 +42,23 @@ export interface CharacterData {
 	raids: { [questId: string]: RaidTimer };
 }
 
+/**
+ * A quest on the player's list, along with which characters are attached to it.
+ *
+ * Membership is explicit rather than "every character": someone with a dozen alts
+ * rarely runs all of them through the same quest.
+ */
+export interface TrackedQuest {
+	questId: string;
+	characterIds: string[];
+}
+
 /** The full persisted payload — also the unit of export/import and sharing. */
 export interface TrackerData {
 	characters: Character[];
 	data: { [characterId: string]: CharacterData };
-	/** Quest ids the player has added to their list, in the order they added them. */
-	tracked: string[];
+	/** Quests the player has added, in the order they added them. */
+	tracked: TrackedQuest[];
 }
 
 // --- Game rules -------------------------------------------------------------
@@ -255,14 +268,17 @@ export interface CharacterEntry {
 	raid: RaidState;
 }
 
-/** A tracked quest with every character's timers underneath it. */
+/** A tracked quest with its attached characters' timers underneath it. */
 export interface QuestRow {
 	quest: Quest;
 	isRaid: boolean;
+	/** One per attached character, in the order the characters were created. */
 	entries: CharacterEntry[];
-	/** Soonest reset across all characters, or MAX_SAFE_INTEGER when nothing is running. */
+	/** Characters not attached to this quest, offered as "add to quest" buttons. */
+	available: Character[];
+	/** Soonest reset across attached characters, or MAX_SAFE_INTEGER when idle. */
 	soonest: number;
-	/** Total times looted across all characters, used for sorting. */
+	/** Total times looted across attached characters, used for sorting. */
 	totalOpens: number;
 	/** Position in the player's tracked list, used for the "recently added" sort. */
 	addedIndex: number;
