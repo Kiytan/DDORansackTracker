@@ -1,0 +1,28 @@
+node_modules
+
+# Output
+.output
+.vercel
+.netlify
+.wrangler
+/.svelte-kit
+/build
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Claude Code local settings — machine-specific paths and permissions, nothing to
+# share. Drop this line if you ever want to commit shared config or skills here;
+# AGENTS.md at the repo root is the shared guidance file.
+.claude/

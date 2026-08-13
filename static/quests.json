@@ -1,0 +1,7430 @@
+[
+  {
+    "id": "the_grotto",
+    "name": "The Grotto",
+    "level": 1,
+    "baseFavor": 0,
+    "patron": "The Free Agents",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "the_storehouses_secret",
+    "name": "The Storehouse's Secret",
+    "level": 1,
+    "baseFavor": 2,
+    "patron": "The Coin Lords",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "heytons_rest",
+    "name": "Heyton's Rest",
+    "level": 1,
+    "baseFavor": 2,
+    "patron": "The Coin Lords",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "the_cannith_crystal",
+    "name": "The Cannith Crystal",
+    "level": 1,
+    "baseFavor": 2,
+    "patron": "House Deneith",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "the_collaborator",
+    "name": "The Collaborator",
+    "level": 1,
+    "baseFavor": 4,
+    "patron": "The Coin Lords",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "necromancers_doom",
+    "name": "Necromancer's Doom",
+    "level": 1,
+    "baseFavor": 2,
+    "patron": "House Jorasco",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "stopping_the_sahuagin",
+    "name": "Stopping the Sahuagin",
+    "level": 1,
+    "baseFavor": 3,
+    "patron": "The Coin Lords",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "sacrifices",
+    "name": "Sacrifices",
+    "level": 1,
+    "baseFavor": 3,
+    "patron": "The Free Agents",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "redemption_quest",
+    "name": "Redemption (quest)",
+    "level": 1,
+    "baseFavor": 3,
+    "patron": "The Coin Lords",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "hall_of_the_mark",
+    "name": "Hall of the Mark",
+    "level": 1,
+    "baseFavor": 5,
+    "patron": "The Free Agents",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "the_bugbear_bandits_level_1",
+    "name": "The Bugbear Bandits",
+    "level": 1,
+    "baseFavor": 2,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Keep on the Borderlands",
+    "baseQuestId": "the_bugbear_bandits"
+  },
+  {
+    "id": "the_bugbear_bandits_level_21",
+    "name": "The Bugbear Bandits",
+    "level": 21,
+    "baseFavor": 2,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Keep on the Borderlands",
+    "baseQuestId": "the_bugbear_bandits"
+  },
+  {
+    "id": "treasure_hunt_level_1",
+    "name": "Treasure Hunt",
+    "level": 1,
+    "baseFavor": 2,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Keep on the Borderlands",
+    "baseQuestId": "treasure_hunt"
+  },
+  {
+    "id": "treasure_hunt_level_21",
+    "name": "Treasure Hunt",
+    "level": 21,
+    "baseFavor": 2,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Keep on the Borderlands",
+    "baseQuestId": "treasure_hunt"
+  },
+  {
+    "id": "caged_beast_level_1",
+    "name": "Caged Beast",
+    "level": 1,
+    "baseFavor": 2,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Keep on the Borderlands",
+    "baseQuestId": "caged_beast"
+  },
+  {
+    "id": "caged_beast_level_21",
+    "name": "Caged Beast",
+    "level": 21,
+    "baseFavor": 2,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Keep on the Borderlands",
+    "baseQuestId": "caged_beast"
+  },
+  {
+    "id": "obstructing_the_orcs_level_1",
+    "name": "Obstructing the Orcs",
+    "level": 1,
+    "baseFavor": 2,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Keep on the Borderlands",
+    "baseQuestId": "obstructing_the_orcs"
+  },
+  {
+    "id": "obstructing_the_orcs_level_21",
+    "name": "Obstructing the Orcs",
+    "level": 21,
+    "baseFavor": 2,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Keep on the Borderlands",
+    "baseQuestId": "obstructing_the_orcs"
+  },
+  {
+    "id": "the_hobgoblin_horde_level_1",
+    "name": "The Hobgoblin Horde",
+    "level": 1,
+    "baseFavor": 3,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Keep on the Borderlands",
+    "baseQuestId": "the_hobgoblin_horde"
+  },
+  {
+    "id": "the_hobgoblin_horde_level_21",
+    "name": "The Hobgoblin Horde",
+    "level": 21,
+    "baseFavor": 3,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Keep on the Borderlands",
+    "baseQuestId": "the_hobgoblin_horde"
+  },
+  {
+    "id": "violent_delights_level_1",
+    "name": "Violent Delights",
+    "level": 1,
+    "baseFavor": 2,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Keep on the Borderlands",
+    "baseQuestId": "violent_delights"
+  },
+  {
+    "id": "violent_delights_level_21",
+    "name": "Violent Delights",
+    "level": 21,
+    "baseFavor": 2,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Keep on the Borderlands",
+    "baseQuestId": "violent_delights"
+  },
+  {
+    "id": "watch_your_step_level_1",
+    "name": "Watch Your Step",
+    "level": 1,
+    "baseFavor": 2,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Keep on the Borderlands",
+    "baseQuestId": "watch_your_step"
+  },
+  {
+    "id": "watch_your_step_level_21",
+    "name": "Watch Your Step",
+    "level": 21,
+    "baseFavor": 2,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Keep on the Borderlands",
+    "baseQuestId": "watch_your_step"
+  },
+  {
+    "id": "durks_got_a_secret",
+    "name": "Durk's Got A Secret",
+    "level": 2,
+    "baseFavor": 4,
+    "patron": "The Free Agents",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "walk_the_butchers_path",
+    "name": "Walk the Butcher's Path",
+    "level": 2,
+    "baseFavor": 4,
+    "patron": "The Free Agents",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "the_smugglers_warehouse",
+    "name": "The Smuggler's Warehouse",
+    "level": 2,
+    "baseFavor": 3,
+    "patron": "The Free Agents",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "protect_baudrys_interests",
+    "name": "Protect Baudry's Interests",
+    "level": 2,
+    "baseFavor": 2,
+    "patron": "The Free Agents",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "information_is_key",
+    "name": "Information is Key",
+    "level": 2,
+    "baseFavor": 4,
+    "patron": "House Phiarlan",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "stop_hazadills_shipment",
+    "name": "Stop Hazadill's Shipment",
+    "level": 2,
+    "baseFavor": 2,
+    "patron": "The Free Agents",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "retrieve_the_stolen_goods",
+    "name": "Retrieve the Stolen Goods",
+    "level": 2,
+    "baseFavor": 3,
+    "patron": "The Free Agents",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "garrisons_missing_pack",
+    "name": "Garrison's Missing Pack",
+    "level": 2,
+    "baseFavor": 4,
+    "patron": "The Coin Lords",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "stealthy_repossession",
+    "name": "Stealthy Repossession",
+    "level": 2,
+    "baseFavor": 3,
+    "patron": "The Free Agents",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "recovering_the_lost_tome",
+    "name": "Recovering the Lost Tome",
+    "level": 2,
+    "baseFavor": 3,
+    "patron": "The Coin Lords",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "arachnophobia",
+    "name": "Arachnophobia",
+    "level": 2,
+    "baseFavor": 2,
+    "patron": "The Coin Lords",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "the_millers_debt",
+    "name": "The Miller's Debt",
+    "level": 2,
+    "baseFavor": 2,
+    "patron": "The Coin Lords",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "haverdasher",
+    "name": "Haverdasher",
+    "level": 2,
+    "baseFavor": 2,
+    "patron": "House Kundarak",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "miserys_peak",
+    "name": "Misery's Peak",
+    "level": 2,
+    "baseFavor": 4,
+    "patron": "The Free Agents",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "bringing_the_light",
+    "name": "Bringing the Light",
+    "level": 2,
+    "baseFavor": 2,
+    "patron": "The Silver Flame",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "the_kobolds_new_ringleader",
+    "name": "The Kobolds' New Ringleader",
+    "level": 2,
+    "baseFavor": 4,
+    "patron": "The Coin Lords",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "total_chaos_level_2",
+    "name": "Total Chaos",
+    "level": 2,
+    "baseFavor": 3,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Keep on the Borderlands",
+    "baseQuestId": "total_chaos"
+  },
+  {
+    "id": "total_chaos_level_22",
+    "name": "Total Chaos",
+    "level": 22,
+    "baseFavor": 3,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Keep on the Borderlands",
+    "baseQuestId": "total_chaos"
+  },
+  {
+    "id": "redfang_the_unruled",
+    "name": "Redfang the Unruled",
+    "level": 3,
+    "baseFavor": 3,
+    "patron": "The Free Agents",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "the_swiped_signet",
+    "name": "The Swiped Signet",
+    "level": 3,
+    "baseFavor": 4,
+    "patron": "The Free Agents",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "kobold_assault",
+    "name": "Kobold Assault",
+    "level": 3,
+    "baseFavor": 3,
+    "patron": "The Coin Lords",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "home_sweet_sewer",
+    "name": "Home Sweet Sewer",
+    "level": 3,
+    "baseFavor": 2,
+    "patron": "The Coin Lords",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "the_captives",
+    "name": "The Captives",
+    "level": 3,
+    "baseFavor": 3,
+    "patron": "The Free Agents",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "where_theres_smoke",
+    "name": "Where There's Smoke...",
+    "level": 3,
+    "baseFavor": 3,
+    "patron": "The Free Agents",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "the_kobolds_den_clan_gnashtooth",
+    "name": "The Kobold's Den: Clan Gnashtooth",
+    "level": 3,
+    "baseFavor": 4,
+    "patron": "The Coin Lords",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "the_kobolds_den_rescuing_arlos",
+    "name": "The Kobold's Den: Rescuing Arlos",
+    "level": 3,
+    "baseFavor": 4,
+    "patron": "The Coin Lords",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "the_sunken_sewer",
+    "name": "The Sunken Sewer",
+    "level": 3,
+    "baseFavor": 3,
+    "patron": "The Coin Lords",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "missing_in_action",
+    "name": "Missing in Action",
+    "level": 3,
+    "baseFavor": 3,
+    "patron": "The Coin Lords",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "back_to_basics_level_3",
+    "name": "Back to Basics",
+    "level": 3,
+    "baseFavor": 3,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Sinister Secret of Saltmarsh",
+    "baseQuestId": "back_to_basics"
+  },
+  {
+    "id": "back_to_basics_level_32",
+    "name": "Back to Basics",
+    "level": 32,
+    "baseFavor": 3,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Sinister Secret of Saltmarsh",
+    "baseQuestId": "back_to_basics"
+  },
+  {
+    "id": "the_haunting_of_saltmarsh_level_3",
+    "name": "The Haunting of Saltmarsh",
+    "level": 3,
+    "baseFavor": 3,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Sinister Secret of Saltmarsh",
+    "baseQuestId": "the_haunting_of_saltmarsh"
+  },
+  {
+    "id": "the_haunting_of_saltmarsh_level_32",
+    "name": "The Haunting of Saltmarsh",
+    "level": 32,
+    "baseFavor": 3,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Sinister Secret of Saltmarsh",
+    "baseQuestId": "the_haunting_of_saltmarsh"
+  },
+  {
+    "id": "under_the_cover_of_darkness_level_3",
+    "name": "Under the Cover of Darkness",
+    "level": 3,
+    "baseFavor": 2,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Sinister Secret of Saltmarsh",
+    "baseQuestId": "under_the_cover_of_darkness"
+  },
+  {
+    "id": "under_the_cover_of_darkness_level_32",
+    "name": "Under the Cover of Darkness",
+    "level": 32,
+    "baseFavor": 2,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Sinister Secret of Saltmarsh",
+    "baseQuestId": "under_the_cover_of_darkness"
+  },
+  {
+    "id": "what_sleeps_below_level_3",
+    "name": "What Sleeps Below",
+    "level": 3,
+    "baseFavor": 3,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Sinister Secret of Saltmarsh",
+    "baseQuestId": "what_sleeps_below"
+  },
+  {
+    "id": "what_sleeps_below_level_32",
+    "name": "What Sleeps Below",
+    "level": 32,
+    "baseFavor": 3,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Sinister Secret of Saltmarsh",
+    "baseQuestId": "what_sleeps_below"
+  },
+  {
+    "id": "down_you_go_level_3",
+    "name": "Down You Go",
+    "level": 3,
+    "baseFavor": 3,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Sinister Secret of Saltmarsh",
+    "baseQuestId": "down_you_go"
+  },
+  {
+    "id": "down_you_go_level_32",
+    "name": "Down You Go",
+    "level": 32,
+    "baseFavor": 3,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Sinister Secret of Saltmarsh",
+    "baseQuestId": "down_you_go"
+  },
+  {
+    "id": "danger_at_dunwater_level_3",
+    "name": "Danger at Dunwater",
+    "level": 3,
+    "baseFavor": 4,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Sinister Secret of Saltmarsh",
+    "baseQuestId": "danger_at_dunwater"
+  },
+  {
+    "id": "danger_at_dunwater_level_32",
+    "name": "Danger at Dunwater",
+    "level": 32,
+    "baseFavor": 4,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Sinister Secret of Saltmarsh",
+    "baseQuestId": "danger_at_dunwater"
+  },
+  {
+    "id": "the_final_enemy_level_3",
+    "name": "The Final Enemy",
+    "level": 3,
+    "baseFavor": 4,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Sinister Secret of Saltmarsh",
+    "baseQuestId": "the_final_enemy"
+  },
+  {
+    "id": "the_final_enemy_level_32",
+    "name": "The Final Enemy",
+    "level": 32,
+    "baseFavor": 4,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Sinister Secret of Saltmarsh",
+    "baseQuestId": "the_final_enemy"
+  },
+  {
+    "id": "swim_at_your_own_risk_level_3",
+    "name": "Swim at Your Own Risk",
+    "level": 3,
+    "baseFavor": 2,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Sinister Secret of Saltmarsh",
+    "baseQuestId": "swim_at_your_own_risk"
+  },
+  {
+    "id": "swim_at_your_own_risk_level_32",
+    "name": "Swim at Your Own Risk",
+    "level": 32,
+    "baseFavor": 2,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Sinister Secret of Saltmarsh",
+    "baseQuestId": "swim_at_your_own_risk"
+  },
+  {
+    "id": "the_hijacked_haul_level_3",
+    "name": "The Hijacked Haul",
+    "level": 3,
+    "baseFavor": 3,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Sinister Secret of Saltmarsh",
+    "baseQuestId": "the_hijacked_haul"
+  },
+  {
+    "id": "the_hijacked_haul_level_32",
+    "name": "The Hijacked Haul",
+    "level": 32,
+    "baseFavor": 3,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Sinister Secret of Saltmarsh",
+    "baseQuestId": "the_hijacked_haul"
+  },
+  {
+    "id": "rest_for_the_night_level_3",
+    "name": "Rest for the Night",
+    "level": 3,
+    "baseFavor": 3,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Sinister Secret of Saltmarsh",
+    "baseQuestId": "rest_for_the_night"
+  },
+  {
+    "id": "rest_for_the_night_level_32",
+    "name": "Rest for the Night",
+    "level": 32,
+    "baseFavor": 3,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Sinister Secret of Saltmarsh",
+    "baseQuestId": "rest_for_the_night"
+  },
+  {
+    "id": "first_strike",
+    "name": "First Strike",
+    "level": 3,
+    "baseFavor": 3,
+    "patron": "House Phiarlan",
+    "adventurePack": "Tangleroot Gorge"
+  },
+  {
+    "id": "the_hobgoblins_captives",
+    "name": "The Hobgoblins' Captives",
+    "level": 3,
+    "baseFavor": 3,
+    "patron": "House Phiarlan",
+    "adventurePack": "Tangleroot Gorge"
+  },
+  {
+    "id": "sleeping_with_the_fishes_level_3",
+    "name": "Sleeping with the Fishes",
+    "level": 3,
+    "baseFavor": 4,
+    "patron": "The Free Agents",
+    "adventurePack": "Tavern Tales",
+    "baseQuestId": "sleeping_with_the_fishes"
+  },
+  {
+    "id": "sleeping_with_the_fishes_level_35",
+    "name": "Sleeping with the Fishes",
+    "level": 35,
+    "baseFavor": 4,
+    "patron": "The Free Agents",
+    "adventurePack": "Tavern Tales",
+    "baseQuestId": "sleeping_with_the_fishes"
+  },
+  {
+    "id": "endgame_marguerite_level_3",
+    "name": "Endgame: Marguerite",
+    "level": 3,
+    "baseFavor": 2,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Catacombs",
+    "baseQuestId": "endgame_marguerite"
+  },
+  {
+    "id": "endgame_marguerite_level_23",
+    "name": "Endgame: Marguerite",
+    "level": 23,
+    "baseFavor": 2,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Catacombs",
+    "baseQuestId": "endgame_marguerite"
+  },
+  {
+    "id": "setting_the_wards_the_patriarchs_crypt_level_3",
+    "name": "Setting the Wards: The Patriarchs' Crypt",
+    "level": 3,
+    "baseFavor": 3,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Catacombs",
+    "baseQuestId": "setting_the_wards_the_patriarchs_crypt"
+  },
+  {
+    "id": "setting_the_wards_the_patriarchs_crypt_level_23",
+    "name": "Setting the Wards: The Patriarchs' Crypt",
+    "level": 23,
+    "baseFavor": 3,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Catacombs",
+    "baseQuestId": "setting_the_wards_the_patriarchs_crypt"
+  },
+  {
+    "id": "the_friars_niece_level_3",
+    "name": "The Friar's Niece",
+    "level": 3,
+    "baseFavor": 2,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Catacombs",
+    "baseQuestId": "the_friars_niece"
+  },
+  {
+    "id": "the_friars_niece_level_23",
+    "name": "The Friar's Niece",
+    "level": 23,
+    "baseFavor": 2,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Catacombs",
+    "baseQuestId": "the_friars_niece"
+  },
+  {
+    "id": "the_old_archives_level_3",
+    "name": "The Old Archives",
+    "level": 3,
+    "baseFavor": 3,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Catacombs",
+    "baseQuestId": "the_old_archives"
+  },
+  {
+    "id": "the_old_archives_level_23",
+    "name": "The Old Archives",
+    "level": 23,
+    "baseFavor": 3,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Catacombs",
+    "baseQuestId": "the_old_archives"
+  },
+  {
+    "id": "to_find_a_witness_archbishop_dryden",
+    "name": "To Find a Witness: Archbishop Dryden",
+    "level": 3,
+    "baseFavor": 5,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Catacombs"
+  },
+  {
+    "id": "the_crypt_of_gerard_dryden_level_3",
+    "name": "The Crypt of Gerard Dryden",
+    "level": 3,
+    "baseFavor": 4,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Catacombs",
+    "baseQuestId": "the_crypt_of_gerard_dryden"
+  },
+  {
+    "id": "the_crypt_of_gerard_dryden_level_23",
+    "name": "The Crypt of Gerard Dryden",
+    "level": 23,
+    "baseFavor": 4,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Catacombs",
+    "baseQuestId": "the_crypt_of_gerard_dryden"
+  },
+  {
+    "id": "return_to_the_sanctuary_level_3",
+    "name": "Return to the Sanctuary",
+    "level": 3,
+    "baseFavor": 3,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Catacombs",
+    "baseQuestId": "return_to_the_sanctuary"
+  },
+  {
+    "id": "return_to_the_sanctuary_level_23",
+    "name": "Return to the Sanctuary",
+    "level": 23,
+    "baseFavor": 3,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Catacombs",
+    "baseQuestId": "return_to_the_sanctuary"
+  },
+  {
+    "id": "setting_the_wards_the_lower_cathedral_level_3",
+    "name": "Setting the Wards: The Lower Cathedral",
+    "level": 3,
+    "baseFavor": 3,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Catacombs",
+    "baseQuestId": "setting_the_wards_the_lower_cathedral"
+  },
+  {
+    "id": "setting_the_wards_the_lower_cathedral_level_23",
+    "name": "Setting the Wards: The Lower Cathedral",
+    "level": 23,
+    "baseFavor": 3,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Catacombs",
+    "baseQuestId": "setting_the_wards_the_lower_cathedral"
+  },
+  {
+    "id": "the_home_of_memory_level_3",
+    "name": "The Home of Memory",
+    "level": 3,
+    "baseFavor": 3,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Lost Gatekeepers",
+    "baseQuestId": "the_home_of_memory"
+  },
+  {
+    "id": "the_home_of_memory_level_32",
+    "name": "The Home of Memory",
+    "level": 32,
+    "baseFavor": 3,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Lost Gatekeepers",
+    "baseQuestId": "the_home_of_memory"
+  },
+  {
+    "id": "heart_of_the_problem_level_3",
+    "name": "Heart of the Problem",
+    "level": 3,
+    "baseFavor": 3,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Lost Gatekeepers",
+    "baseQuestId": "heart_of_the_problem"
+  },
+  {
+    "id": "heart_of_the_problem_level_32",
+    "name": "Heart of the Problem",
+    "level": 32,
+    "baseFavor": 3,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Lost Gatekeepers",
+    "baseQuestId": "heart_of_the_problem"
+  },
+  {
+    "id": "the_sacred_bounty_level_3",
+    "name": "The Sacred Bounty",
+    "level": 3,
+    "baseFavor": 2,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Lost Gatekeepers",
+    "baseQuestId": "the_sacred_bounty"
+  },
+  {
+    "id": "the_sacred_bounty_level_32",
+    "name": "The Sacred Bounty",
+    "level": 32,
+    "baseFavor": 2,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Lost Gatekeepers",
+    "baseQuestId": "the_sacred_bounty"
+  },
+  {
+    "id": "housekeeping_level_3",
+    "name": "Housekeeping",
+    "level": 3,
+    "baseFavor": 3,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Lost Gatekeepers",
+    "baseQuestId": "housekeeping"
+  },
+  {
+    "id": "housekeeping_level_32",
+    "name": "Housekeeping",
+    "level": 32,
+    "baseFavor": 3,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Lost Gatekeepers",
+    "baseQuestId": "housekeeping"
+  },
+  {
+    "id": "rosemarys_ballad_level_3",
+    "name": "Rosemary's Ballad",
+    "level": 3,
+    "baseFavor": 3,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Lost Gatekeepers",
+    "baseQuestId": "rosemarys_ballad"
+  },
+  {
+    "id": "rosemarys_ballad_level_32",
+    "name": "Rosemary's Ballad",
+    "level": 32,
+    "baseFavor": 3,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Lost Gatekeepers",
+    "baseQuestId": "rosemarys_ballad"
+  },
+  {
+    "id": "the_clovenjaw_scourge_blockade",
+    "name": "The Cloven-jaw Scourge: Blockade",
+    "level": 3,
+    "baseFavor": 4,
+    "patron": "The Coin Lords",
+    "adventurePack": "The Seal of Shan-To-Kor"
+  },
+  {
+    "id": "the_sacred_helm",
+    "name": "The Sacred Helm",
+    "level": 3,
+    "baseFavor": 4,
+    "patron": "The Coin Lords",
+    "adventurePack": "The Seal of Shan-To-Kor"
+  },
+  {
+    "id": "irestone_inlet",
+    "name": "Irestone Inlet",
+    "level": 4,
+    "baseFavor": 4,
+    "patron": "The Coin Lords",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "the_depths_of_darkness",
+    "name": "The Depths of Darkness",
+    "level": 4,
+    "baseFavor": 3,
+    "patron": "House Deneith",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "the_depths_of_despair",
+    "name": "The Depths of Despair",
+    "level": 4,
+    "baseFavor": 3,
+    "patron": "House Deneith",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "proof_is_in_the_poison",
+    "name": "Proof is in the Poison",
+    "level": 4,
+    "baseFavor": 5,
+    "patron": "The Coin Lords",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "freshen_the_air",
+    "name": "Freshen the Air",
+    "level": 4,
+    "baseFavor": 3,
+    "patron": "The Free Agents",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "rest_for_the_restless",
+    "name": "Rest for the Restless",
+    "level": 4,
+    "baseFavor": 3,
+    "patron": "House Phiarlan",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "venns_trail_clan_tunnelworm",
+    "name": "Venn's Trail: Clan Tunnelworm",
+    "level": 4,
+    "baseFavor": 4,
+    "patron": "The Coin Lords",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "venns_trail_venns_fate",
+    "name": "Venn's Trail: Venn's Fate",
+    "level": 4,
+    "baseFavor": 3,
+    "patron": "The Coin Lords",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "catastrophe_level_4",
+    "name": "Catastrophe",
+    "level": 4,
+    "baseFavor": 3,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "Free to Play",
+    "baseQuestId": "catastrophe"
+  },
+  {
+    "id": "catastrophe_level_34",
+    "name": "Catastrophe",
+    "level": 34,
+    "baseFavor": 3,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "Free to Play",
+    "baseQuestId": "catastrophe"
+  },
+  {
+    "id": "an_explosive_situation",
+    "name": "An Explosive Situation",
+    "level": 4,
+    "baseFavor": 2,
+    "patron": "The Coin Lords",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "rats_in_a_cage_level_4",
+    "name": "Rats in a Cage",
+    "level": 4,
+    "baseFavor": 3,
+    "patron": "The Harpers",
+    "adventurePack": "Fall of the Night Brigade",
+    "baseQuestId": "rats_in_a_cage"
+  },
+  {
+    "id": "rats_in_a_cage_level_34",
+    "name": "Rats in a Cage",
+    "level": 34,
+    "baseFavor": 3,
+    "patron": "The Harpers",
+    "adventurePack": "Fall of the Night Brigade",
+    "baseQuestId": "rats_in_a_cage"
+  },
+  {
+    "id": "the_wizards_labyrinth_level_4",
+    "name": "The Wizard's Labyrinth",
+    "level": 4,
+    "baseFavor": 3,
+    "patron": "The Harpers",
+    "adventurePack": "Fall of the Night Brigade",
+    "baseQuestId": "the_wizards_labyrinth"
+  },
+  {
+    "id": "the_wizards_labyrinth_level_34",
+    "name": "The Wizard's Labyrinth",
+    "level": 34,
+    "baseFavor": 3,
+    "patron": "The Harpers",
+    "adventurePack": "Fall of the Night Brigade",
+    "baseQuestId": "the_wizards_labyrinth"
+  },
+  {
+    "id": "the_knifes_edge_level_4",
+    "name": "The Knife's Edge",
+    "level": 4,
+    "baseFavor": 3,
+    "patron": "The Harpers",
+    "adventurePack": "Fall of the Night Brigade",
+    "baseQuestId": "the_knifes_edge"
+  },
+  {
+    "id": "the_knifes_edge_level_34",
+    "name": "The Knife's Edge",
+    "level": 34,
+    "baseFavor": 3,
+    "patron": "The Harpers",
+    "adventurePack": "Fall of the Night Brigade",
+    "baseQuestId": "the_knifes_edge"
+  },
+  {
+    "id": "the_darkness_and_the_light_level_4",
+    "name": "The Darkness and the Light",
+    "level": 4,
+    "baseFavor": 4,
+    "patron": "The Harpers",
+    "adventurePack": "Fall of the Night Brigade",
+    "baseQuestId": "the_darkness_and_the_light"
+  },
+  {
+    "id": "the_darkness_and_the_light_level_35",
+    "name": "The Darkness and the Light",
+    "level": 35,
+    "baseFavor": 4,
+    "patron": "The Harpers",
+    "adventurePack": "Fall of the Night Brigade",
+    "baseQuestId": "the_darkness_and_the_light"
+  },
+  {
+    "id": "yarkuchs_warplans",
+    "name": "Yarkuch's War-plans",
+    "level": 4,
+    "baseFavor": 3,
+    "patron": "House Phiarlan",
+    "adventurePack": "Tangleroot Gorge"
+  },
+  {
+    "id": "whisperdooms_spawn",
+    "name": "Whisperdoom's Spawn",
+    "level": 4,
+    "baseFavor": 3,
+    "patron": "House Phiarlan",
+    "adventurePack": "Tangleroot Gorge"
+  },
+  {
+    "id": "the_covered_culvert_level_4",
+    "name": "The Covered Culvert",
+    "level": 4,
+    "baseFavor": 3,
+    "patron": "The Free Agents",
+    "adventurePack": "Tavern Tales",
+    "baseQuestId": "the_covered_culvert"
+  },
+  {
+    "id": "the_covered_culvert_level_35",
+    "name": "The Covered Culvert",
+    "level": 35,
+    "baseFavor": 3,
+    "patron": "The Free Agents",
+    "adventurePack": "Tavern Tales",
+    "baseQuestId": "the_covered_culvert"
+  },
+  {
+    "id": "endgame_the_archbishops_fate_level_4",
+    "name": "Endgame: The Archbishop's Fate",
+    "level": 4,
+    "baseFavor": 2,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Catacombs",
+    "baseQuestId": "endgame_the_archbishops_fate"
+  },
+  {
+    "id": "endgame_the_archbishops_fate_level_23",
+    "name": "Endgame: The Archbishop's Fate",
+    "level": 23,
+    "baseFavor": 2,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Catacombs",
+    "baseQuestId": "endgame_the_archbishops_fate"
+  },
+  {
+    "id": "the_clovenjaw_scourge_the_caverns_of_shaagh",
+    "name": "The Cloven-jaw Scourge: The Caverns of Shaagh",
+    "level": 4,
+    "baseFavor": 4,
+    "patron": "The Coin Lords",
+    "adventurePack": "The Seal of Shan-To-Kor"
+  },
+  {
+    "id": "stand_your_ground",
+    "name": "Stand Your Ground",
+    "level": 4,
+    "baseFavor": 2,
+    "patron": "The Coin Lords",
+    "adventurePack": "The Sharn Syndicate"
+  },
+  {
+    "id": "the_bookbinder_rescue",
+    "name": "The Bookbinder Rescue",
+    "level": 4,
+    "baseFavor": 2,
+    "patron": "The Coin Lords",
+    "adventurePack": "The Sharn Syndicate"
+  },
+  {
+    "id": "the_stormreaver_fresco",
+    "name": "The Stormreaver Fresco",
+    "level": 4,
+    "baseFavor": 2,
+    "patron": "The Coin Lords",
+    "adventurePack": "The Sharn Syndicate"
+  },
+  {
+    "id": "repossession",
+    "name": "Repossession",
+    "level": 4,
+    "baseFavor": 2,
+    "patron": "The Coin Lords",
+    "adventurePack": "The Sharn Syndicate"
+  },
+  {
+    "id": "come_out_and_slay",
+    "name": "Come Out and Slay",
+    "level": 4,
+    "baseFavor": 2,
+    "patron": "The Coin Lords",
+    "adventurePack": "The Sharn Syndicate"
+  },
+  {
+    "id": "dirty_laundry",
+    "name": "Dirty Laundry",
+    "level": 4,
+    "baseFavor": 2,
+    "patron": "The Coin Lords",
+    "adventurePack": "The Sharn Syndicate"
+  },
+  {
+    "id": "the_depths_of_discord",
+    "name": "The Depths of Discord",
+    "level": 5,
+    "baseFavor": 3,
+    "patron": "House Deneith",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "the_depths_of_doom",
+    "name": "The Depths of Doom",
+    "level": 5,
+    "baseFavor": 3,
+    "patron": "House Deneith",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "archer_point_defense",
+    "name": "Archer Point Defense",
+    "level": 5,
+    "baseFavor": 3,
+    "patron": "The Coin Lords",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "the_chamber_of_insanity",
+    "name": "The Chamber of Insanity",
+    "level": 5,
+    "baseFavor": 3,
+    "patron": "House Kundarak",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "the_lair_of_summoning",
+    "name": "The Lair of Summoning",
+    "level": 5,
+    "baseFavor": 3,
+    "patron": "House Kundarak",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "the_mystery_of_deleras_tomb_level_5",
+    "name": "The Mystery of Delera's Tomb",
+    "level": 5,
+    "baseFavor": 4,
+    "patron": "House Jorasco",
+    "adventurePack": "Delera's Tomb",
+    "baseQuestId": "the_mystery_of_deleras_tomb"
+  },
+  {
+    "id": "the_mystery_of_deleras_tomb_level_27",
+    "name": "The Mystery of Delera's Tomb",
+    "level": 27,
+    "baseFavor": 4,
+    "patron": "House Jorasco",
+    "adventurePack": "Delera's Tomb",
+    "baseQuestId": "the_mystery_of_deleras_tomb"
+  },
+  {
+    "id": "the_endless_revels_level_5",
+    "name": "The Endless Revels",
+    "level": 5,
+    "baseFavor": 3,
+    "patron": "The Summer Court",
+    "adventurePack": "Fables of the Feywild",
+    "baseQuestId": "the_endless_revels"
+  },
+  {
+    "id": "the_endless_revels_level_32",
+    "name": "The Endless Revels",
+    "level": 32,
+    "baseFavor": 3,
+    "patron": "The Summer Court",
+    "adventurePack": "Fables of the Feywild",
+    "baseQuestId": "the_endless_revels"
+  },
+  {
+    "id": "the_legend_of_the_lost_locket_level_5",
+    "name": "The Legend of the Lost Locket",
+    "level": 5,
+    "baseFavor": 3,
+    "patron": "The Summer Court",
+    "adventurePack": "Fables of the Feywild",
+    "baseQuestId": "the_legend_of_the_lost_locket"
+  },
+  {
+    "id": "the_legend_of_the_lost_locket_level_32",
+    "name": "The Legend of the Lost Locket",
+    "level": 32,
+    "baseFavor": 3,
+    "patron": "The Summer Court",
+    "adventurePack": "Fables of the Feywild",
+    "baseQuestId": "the_legend_of_the_lost_locket"
+  },
+  {
+    "id": "make_believe_level_5",
+    "name": "Make Believe",
+    "level": 5,
+    "baseFavor": 3,
+    "patron": "The Summer Court",
+    "adventurePack": "Fables of the Feywild",
+    "baseQuestId": "make_believe"
+  },
+  {
+    "id": "make_believe_level_32",
+    "name": "Make Believe",
+    "level": 32,
+    "baseFavor": 3,
+    "patron": "The Summer Court",
+    "adventurePack": "Fables of the Feywild",
+    "baseQuestId": "make_believe"
+  },
+  {
+    "id": "wake_me_up_inside_level_5",
+    "name": "Wake Me Up Inside",
+    "level": 5,
+    "baseFavor": 3,
+    "patron": "The Summer Court",
+    "adventurePack": "Fables of the Feywild",
+    "baseQuestId": "wake_me_up_inside"
+  },
+  {
+    "id": "wake_me_up_inside_level_32",
+    "name": "Wake Me Up Inside",
+    "level": 32,
+    "baseFavor": 3,
+    "patron": "The Summer Court",
+    "adventurePack": "Fables of the Feywild",
+    "baseQuestId": "wake_me_up_inside"
+  },
+  {
+    "id": "combatting_corruption_level_5",
+    "name": "Combatting Corruption",
+    "level": 5,
+    "baseFavor": 2,
+    "patron": "The Summer Court",
+    "adventurePack": "Fables of the Feywild",
+    "baseQuestId": "combatting_corruption"
+  },
+  {
+    "id": "combatting_corruption_level_32",
+    "name": "Combatting Corruption",
+    "level": 32,
+    "baseFavor": 2,
+    "patron": "The Summer Court",
+    "adventurePack": "Fables of the Feywild",
+    "baseQuestId": "combatting_corruption"
+  },
+  {
+    "id": "a_frosty_reception_level_5",
+    "name": "A Frosty Reception",
+    "level": 5,
+    "baseFavor": 4,
+    "patron": "The Summer Court",
+    "adventurePack": "Fables of the Feywild",
+    "baseQuestId": "a_frosty_reception"
+  },
+  {
+    "id": "a_frosty_reception_level_32",
+    "name": "A Frosty Reception",
+    "level": 32,
+    "baseFavor": 4,
+    "patron": "The Summer Court",
+    "adventurePack": "Fables of the Feywild",
+    "baseQuestId": "a_frosty_reception"
+  },
+  {
+    "id": "witch_hunt_level_5",
+    "name": "Witch Hunt",
+    "level": 5,
+    "baseFavor": 3,
+    "patron": "The Summer Court",
+    "adventurePack": "Fables of the Feywild",
+    "baseQuestId": "witch_hunt"
+  },
+  {
+    "id": "witch_hunt_level_32",
+    "name": "Witch Hunt",
+    "level": 32,
+    "baseFavor": 3,
+    "patron": "The Summer Court",
+    "adventurePack": "Fables of the Feywild",
+    "baseQuestId": "witch_hunt"
+  },
+  {
+    "id": "a_small_problem_level_5",
+    "name": "A Small Problem",
+    "level": 5,
+    "baseFavor": 4,
+    "patron": "House Phiarlan",
+    "adventurePack": "Phiarlan Carnival",
+    "baseQuestId": "a_small_problem"
+  },
+  {
+    "id": "a_small_problem_level_20",
+    "name": "A Small Problem",
+    "level": 20,
+    "baseFavor": 4,
+    "patron": "House Phiarlan",
+    "adventurePack": "Phiarlan Carnival",
+    "baseQuestId": "a_small_problem"
+  },
+  {
+    "id": "the_snitch_level_5",
+    "name": "The Snitch",
+    "level": 5,
+    "baseFavor": 4,
+    "patron": "House Phiarlan",
+    "adventurePack": "Phiarlan Carnival",
+    "baseQuestId": "the_snitch"
+  },
+  {
+    "id": "the_snitch_level_20",
+    "name": "The Snitch",
+    "level": 20,
+    "baseFavor": 4,
+    "patron": "House Phiarlan",
+    "adventurePack": "Phiarlan Carnival",
+    "baseQuestId": "the_snitch"
+  },
+  {
+    "id": "under_the_big_top_level_5",
+    "name": "Under the Big Top",
+    "level": 5,
+    "baseFavor": 4,
+    "patron": "House Phiarlan",
+    "adventurePack": "Phiarlan Carnival",
+    "baseQuestId": "under_the_big_top"
+  },
+  {
+    "id": "under_the_big_top_level_20",
+    "name": "Under the Big Top",
+    "level": 20,
+    "baseFavor": 4,
+    "patron": "House Phiarlan",
+    "adventurePack": "Phiarlan Carnival",
+    "baseQuestId": "under_the_big_top"
+  },
+  {
+    "id": "partycrashers_level_5",
+    "name": "Partycrashers",
+    "level": 5,
+    "baseFavor": 4,
+    "patron": "House Phiarlan",
+    "adventurePack": "Phiarlan Carnival",
+    "baseQuestId": "partycrashers"
+  },
+  {
+    "id": "partycrashers_level_20",
+    "name": "Partycrashers",
+    "level": 20,
+    "baseFavor": 4,
+    "patron": "House Phiarlan",
+    "adventurePack": "Phiarlan Carnival",
+    "baseQuestId": "partycrashers"
+  },
+  {
+    "id": "the_deadly_package_the_stronghold_key",
+    "name": "The Deadly Package: The Stronghold Key",
+    "level": 5,
+    "baseFavor": 3,
+    "patron": "House Phiarlan",
+    "adventurePack": "Tangleroot Gorge"
+  },
+  {
+    "id": "the_deadly_package_agent_of_the_darguul",
+    "name": "The Deadly Package: Agent of the Darguul",
+    "level": 5,
+    "baseFavor": 3,
+    "patron": "House Phiarlan",
+    "adventurePack": "Tangleroot Gorge"
+  },
+  {
+    "id": "toil_and_trouble_level_5",
+    "name": "Toil and Trouble",
+    "level": 5,
+    "baseFavor": 3,
+    "patron": "The Harpers",
+    "adventurePack": "Tavern Tales",
+    "baseQuestId": "toil_and_trouble"
+  },
+  {
+    "id": "toil_and_trouble_level_28",
+    "name": "Toil and Trouble",
+    "level": 28,
+    "baseFavor": 3,
+    "patron": "The Harpers",
+    "adventurePack": "Tavern Tales",
+    "baseQuestId": "toil_and_trouble"
+  },
+  {
+    "id": "tomb_of_the_crimson_heart",
+    "name": "Tomb of the Crimson Heart",
+    "level": 5,
+    "baseFavor": 4,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Necropolis, Part 1"
+  },
+  {
+    "id": "tomb_of_the_sanguine_heart",
+    "name": "Tomb of the Sanguine Heart",
+    "level": 5,
+    "baseFavor": 4,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Necropolis, Part 1"
+  },
+  {
+    "id": "tomb_of_the_burning_heart",
+    "name": "Tomb of the Burning Heart",
+    "level": 5,
+    "baseFavor": 3,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Necropolis, Part 1"
+  },
+  {
+    "id": "tomb_of_the_immortal_heart",
+    "name": "Tomb of the Immortal Heart",
+    "level": 5,
+    "baseFavor": 4,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Necropolis, Part 1"
+  },
+  {
+    "id": "halls_of_shantokor",
+    "name": "Halls of Shan-To-Kor",
+    "level": 5,
+    "baseFavor": 4,
+    "patron": "The Coin Lords",
+    "adventurePack": "The Seal of Shan-To-Kor"
+  },
+  {
+    "id": "guard_duty",
+    "name": "Guard Duty",
+    "level": 5,
+    "baseFavor": 3,
+    "patron": "The Free Agents",
+    "adventurePack": "Three-Barrel Cove"
+  },
+  {
+    "id": "brood_of_flame",
+    "name": "Brood of Flame",
+    "level": 5,
+    "baseFavor": 3,
+    "patron": "The Free Agents",
+    "adventurePack": "Three-Barrel Cove"
+  },
+  {
+    "id": "the_legend_of_twotoed_tobias",
+    "name": "The Legend of Two-Toed Tobias",
+    "level": 5,
+    "baseFavor": 4,
+    "patron": "The Free Agents",
+    "adventurePack": "Three-Barrel Cove"
+  },
+  {
+    "id": "prove_your_worth",
+    "name": "Prove Your Worth",
+    "level": 5,
+    "baseFavor": 4,
+    "patron": "The Free Agents",
+    "adventurePack": "Three-Barrel Cove",
+    "baseQuestId": "prove_your_worth"
+  },
+  {
+    "id": "ghost_of_a_chance",
+    "name": "Ghost of a Chance",
+    "level": 5,
+    "baseFavor": 4,
+    "patron": "The Free Agents",
+    "adventurePack": "Three-Barrel Cove",
+    "baseQuestId": "ghost_of_a_chance"
+  },
+  {
+    "id": "the_stones_run_red",
+    "name": "The Stones Run Red",
+    "level": 5,
+    "baseFavor": 4,
+    "patron": "The Free Agents",
+    "adventurePack": "Three-Barrel Cove"
+  },
+  {
+    "id": "gladewatch_outpost_defense",
+    "name": "Gladewatch Outpost Defense",
+    "level": 6,
+    "baseFavor": 4,
+    "patron": "House Deneith",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "the_bounty_hunter",
+    "name": "The Bounty Hunter",
+    "level": 6,
+    "baseFavor": 5,
+    "patron": "House Deneith",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "mirras_sleepless_nights",
+    "name": "Mirra's Sleepless Nights",
+    "level": 6,
+    "baseFavor": 4,
+    "patron": "House Jorasco",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "the_forgotten_caverns",
+    "name": "The Forgotten Caverns",
+    "level": 6,
+    "baseFavor": 4,
+    "patron": "House Kundarak",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "caged_trolls",
+    "name": "Caged Trolls",
+    "level": 6,
+    "baseFavor": 4,
+    "patron": "House Phiarlan",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "purge_the_heretics",
+    "name": "Purge the Heretics",
+    "level": 6,
+    "baseFavor": 4,
+    "patron": "House Phiarlan",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "redwillows_ruins",
+    "name": "Redwillow's Ruins",
+    "level": 6,
+    "baseFavor": 5,
+    "patron": "House Jorasco",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "dead_predators",
+    "name": "Dead Predators",
+    "level": 6,
+    "baseFavor": 4,
+    "patron": "House Jorasco",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "the_promise_of_fire_level_6",
+    "name": "The Promise of Fire",
+    "level": 6,
+    "baseFavor": 4,
+    "patron": "Morgrave University",
+    "adventurePack": "Free to Play",
+    "baseQuestId": "the_promise_of_fire"
+  },
+  {
+    "id": "the_promise_of_fire_level_27",
+    "name": "The Promise of Fire",
+    "level": 27,
+    "baseFavor": 4,
+    "patron": "Morgrave University",
+    "adventurePack": "Free to Play",
+    "baseQuestId": "the_promise_of_fire"
+  },
+  {
+    "id": "dread_sea_scrolls_level_6",
+    "name": "Dread Sea Scrolls",
+    "level": 6,
+    "baseFavor": 4,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Free to Play",
+    "baseQuestId": "dread_sea_scrolls"
+  },
+  {
+    "id": "dread_sea_scrolls_level_32",
+    "name": "Dread Sea Scrolls",
+    "level": 32,
+    "baseFavor": 4,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Free to Play",
+    "baseQuestId": "dread_sea_scrolls"
+  },
+  {
+    "id": "ruined_halls",
+    "name": "Ruined Halls",
+    "level": 6,
+    "baseFavor": 4,
+    "patron": "House Kundarak",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "valaks_mausoleum",
+    "name": "Valak's Mausoleum",
+    "level": 6,
+    "baseFavor": 4,
+    "patron": "House Jorasco",
+    "adventurePack": "Delera's Tomb"
+  },
+  {
+    "id": "return_to_deleras_tomb_quest_level_6",
+    "name": "Return to Delera's Tomb (quest)",
+    "level": 6,
+    "baseFavor": 3,
+    "patron": "House Jorasco",
+    "adventurePack": "Delera's Tomb",
+    "baseQuestId": "return_to_deleras_tomb_quest"
+  },
+  {
+    "id": "return_to_deleras_tomb_quest_level_27",
+    "name": "Return to Delera's Tomb (quest)",
+    "level": 27,
+    "baseFavor": 3,
+    "patron": "House Jorasco",
+    "adventurePack": "Delera's Tomb",
+    "baseQuestId": "return_to_deleras_tomb_quest"
+  },
+  {
+    "id": "the_chronoscope_level_6",
+    "name": "The Chronoscope",
+    "level": 6,
+    "baseFavor": 5,
+    "patron": "The Coin Lords",
+    "adventurePack": "Devil Assault",
+    "baseQuestId": "the_chronoscope"
+  },
+  {
+    "id": "the_chronoscope_level_21",
+    "name": "The Chronoscope",
+    "level": 21,
+    "baseFavor": 5,
+    "patron": "The Coin Lords",
+    "adventurePack": "Devil Assault",
+    "baseQuestId": "the_chronoscope"
+  },
+  {
+    "id": "devil_assault_quest_level_6",
+    "name": "Devil Assault (quest)",
+    "level": 6,
+    "baseFavor": 5,
+    "patron": "The Coin Lords",
+    "adventurePack": "Devil Assault",
+    "baseQuestId": "devil_assault_quest"
+  },
+  {
+    "id": "devil_assault_quest_level_21",
+    "name": "Devil Assault (quest)",
+    "level": 21,
+    "baseFavor": 5,
+    "patron": "The Coin Lords",
+    "adventurePack": "Devil Assault",
+    "baseQuestId": "devil_assault_quest"
+  },
+  {
+    "id": "quid_pro_quo_level_6",
+    "name": "Quid Pro Quo",
+    "level": 6,
+    "baseFavor": 4,
+    "patron": "The Summer Court",
+    "adventurePack": "Fables of the Feywild",
+    "baseQuestId": "quid_pro_quo"
+  },
+  {
+    "id": "quid_pro_quo_level_32",
+    "name": "Quid Pro Quo",
+    "level": 32,
+    "baseFavor": 4,
+    "patron": "The Summer Court",
+    "adventurePack": "Fables of the Feywild",
+    "baseQuestId": "quid_pro_quo"
+  },
+  {
+    "id": "needle_in_a_fey_stack_level_6",
+    "name": "Needle in a Fey Stack",
+    "level": 6,
+    "baseFavor": 5,
+    "patron": "The Summer Court",
+    "adventurePack": "Fables of the Feywild",
+    "baseQuestId": "needle_in_a_fey_stack"
+  },
+  {
+    "id": "needle_in_a_fey_stack_level_32",
+    "name": "Needle in a Fey Stack",
+    "level": 32,
+    "baseFavor": 5,
+    "patron": "The Summer Court",
+    "adventurePack": "Fables of the Feywild",
+    "baseQuestId": "needle_in_a_fey_stack"
+  },
+  {
+    "id": "the_knight_who_cried_windmill_level_6",
+    "name": "The Knight Who Cried Windmill",
+    "level": 6,
+    "baseFavor": 3,
+    "patron": "The Summer Court",
+    "adventurePack": "Fables of the Feywild",
+    "baseQuestId": "the_knight_who_cried_windmill"
+  },
+  {
+    "id": "the_knight_who_cried_windmill_level_32",
+    "name": "The Knight Who Cried Windmill",
+    "level": 32,
+    "baseFavor": 3,
+    "patron": "The Summer Court",
+    "adventurePack": "Fables of the Feywild",
+    "baseQuestId": "the_knight_who_cried_windmill"
+  },
+  {
+    "id": "the_thornwright_level_6",
+    "name": "The Thornwright",
+    "level": 6,
+    "baseFavor": 3,
+    "patron": "The Summer Court",
+    "adventurePack": "Fables of the Feywild",
+    "baseQuestId": "the_thornwright"
+  },
+  {
+    "id": "the_thornwright_level_32",
+    "name": "The Thornwright",
+    "level": 32,
+    "baseFavor": 3,
+    "patron": "The Summer Court",
+    "adventurePack": "Fables of the Feywild",
+    "baseQuestId": "the_thornwright"
+  },
+  {
+    "id": "immortality_lessons_level_6",
+    "name": "Immortality Lessons",
+    "level": 6,
+    "baseFavor": 5,
+    "patron": "The Summer Court",
+    "adventurePack": "Fables of the Feywild",
+    "baseQuestId": "immortality_lessons"
+  },
+  {
+    "id": "immortality_lessons_level_32",
+    "name": "Immortality Lessons",
+    "level": 32,
+    "baseFavor": 5,
+    "patron": "The Summer Court",
+    "adventurePack": "Fables of the Feywild",
+    "baseQuestId": "immortality_lessons"
+  },
+  {
+    "id": "the_icemount_curse_level_6",
+    "name": "The Icemount Curse",
+    "level": 6,
+    "baseFavor": 5,
+    "patron": "The Summer Court",
+    "adventurePack": "Fables of the Feywild",
+    "baseQuestId": "the_icemount_curse"
+  },
+  {
+    "id": "the_icemount_curse_level_32",
+    "name": "The Icemount Curse",
+    "level": 32,
+    "baseFavor": 5,
+    "patron": "The Summer Court",
+    "adventurePack": "Fables of the Feywild",
+    "baseQuestId": "the_icemount_curse"
+  },
+  {
+    "id": "the_iron_mines_freeing_achka",
+    "name": "The Iron Mines: Freeing Achka",
+    "level": 6,
+    "baseFavor": 3,
+    "patron": "House Deneith",
+    "adventurePack": "Sorrowdusk Isle"
+  },
+  {
+    "id": "the_iron_mines_justice_for_grust",
+    "name": "The Iron Mines: Justice for Grust",
+    "level": 6,
+    "baseFavor": 4,
+    "patron": "House Deneith",
+    "adventurePack": "Sorrowdusk Isle"
+  },
+  {
+    "id": "doom_of_the_witchdoctor_the_way_to_zulkash",
+    "name": "Doom of the Witch-doctor: The Way to Zulkash",
+    "level": 6,
+    "baseFavor": 4,
+    "patron": "House Phiarlan",
+    "adventurePack": "Tangleroot Gorge"
+  },
+  {
+    "id": "doom_of_the_witchdoctor_zulkash_herald_of_woe",
+    "name": "Doom of the Witch-doctor: Zulkash, Herald of Woe",
+    "level": 6,
+    "baseFavor": 4,
+    "patron": "House Phiarlan",
+    "adventurePack": "Tangleroot Gorge"
+  },
+  {
+    "id": "the_bloody_crypt",
+    "name": "The Bloody Crypt",
+    "level": 6,
+    "baseFavor": 7,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Necropolis, Part 1"
+  },
+  {
+    "id": "the_troglodytes_get",
+    "name": "The Troglodytes' Get",
+    "level": 6,
+    "baseFavor": 4,
+    "patron": "The Free Agents",
+    "adventurePack": "Three-Barrel Cove"
+  },
+  {
+    "id": "another_mans_treasure_level_6",
+    "name": "Another Man's Treasure",
+    "level": 6,
+    "baseFavor": 5,
+    "patron": "The Twelve",
+    "adventurePack": "White Plume Mountain and Other Tales",
+    "baseQuestId": "another_mans_treasure"
+  },
+  {
+    "id": "another_mans_treasure_level_21",
+    "name": "Another Man's Treasure",
+    "level": 21,
+    "baseFavor": 5,
+    "patron": "The Twelve",
+    "adventurePack": "White Plume Mountain and Other Tales",
+    "baseQuestId": "another_mans_treasure"
+  },
+  {
+    "id": "kind_of_a_big_deal_level_6",
+    "name": "Kind of a Big Deal",
+    "level": 6,
+    "baseFavor": 4,
+    "patron": "The Twelve",
+    "adventurePack": "White Plume Mountain and Other Tales",
+    "baseQuestId": "kind_of_a_big_deal"
+  },
+  {
+    "id": "kind_of_a_big_deal_level_21",
+    "name": "Kind of a Big Deal",
+    "level": 21,
+    "baseFavor": 4,
+    "patron": "The Twelve",
+    "adventurePack": "White Plume Mountain and Other Tales",
+    "baseQuestId": "kind_of_a_big_deal"
+  },
+  {
+    "id": "the_price_of_freedom_level_6",
+    "name": "The Price of Freedom",
+    "level": 6,
+    "baseFavor": 5,
+    "patron": "The Twelve",
+    "adventurePack": "White Plume Mountain and Other Tales",
+    "baseQuestId": "the_price_of_freedom"
+  },
+  {
+    "id": "the_price_of_freedom_level_25",
+    "name": "The Price of Freedom",
+    "level": 25,
+    "baseFavor": 5,
+    "patron": "The Twelve",
+    "adventurePack": "White Plume Mountain and Other Tales",
+    "baseQuestId": "the_price_of_freedom"
+  },
+  {
+    "id": "memory_lapse_level_6",
+    "name": "Memory Lapse",
+    "level": 6,
+    "baseFavor": 4,
+    "patron": "The Twelve",
+    "adventurePack": "White Plume Mountain and Other Tales",
+    "baseQuestId": "memory_lapse"
+  },
+  {
+    "id": "memory_lapse_level_23",
+    "name": "Memory Lapse",
+    "level": 23,
+    "baseFavor": 4,
+    "patron": "The Twelve",
+    "adventurePack": "White Plume Mountain and Other Tales",
+    "baseQuestId": "memory_lapse"
+  },
+  {
+    "id": "the_tear_of_dhakaan",
+    "name": "The Tear of Dhakaan",
+    "level": 7,
+    "baseFavor": 7,
+    "patron": "House Kundarak",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "the_graverobber",
+    "name": "The Graverobber",
+    "level": 7,
+    "baseFavor": 5,
+    "patron": "House Jorasco",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "the_pit",
+    "name": "The Pit",
+    "level": 7,
+    "baseFavor": 9,
+    "patron": "House Deneith",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "taming_the_flames",
+    "name": "Taming the Flames",
+    "level": 7,
+    "baseFavor": 5,
+    "patron": "House Kundarak",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "gwylans_stand",
+    "name": "Gwylan's Stand",
+    "level": 7,
+    "baseFavor": 6,
+    "patron": "House Phiarlan",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "the_missing_party_level_7",
+    "name": "The Missing Party",
+    "level": 7,
+    "baseFavor": 6,
+    "patron": "House Jorasco",
+    "adventurePack": "Delera's Tomb",
+    "baseQuestId": "the_missing_party"
+  },
+  {
+    "id": "the_missing_party_level_27",
+    "name": "The Missing Party",
+    "level": 27,
+    "baseFavor": 6,
+    "patron": "House Jorasco",
+    "adventurePack": "Delera's Tomb",
+    "baseQuestId": "the_missing_party"
+  },
+  {
+    "id": "free_delera_level_7",
+    "name": "Free Delera",
+    "level": 7,
+    "baseFavor": 5,
+    "patron": "House Jorasco",
+    "adventurePack": "Delera's Tomb",
+    "baseQuestId": "free_delera"
+  },
+  {
+    "id": "free_delera_level_27",
+    "name": "Free Delera",
+    "level": 27,
+    "baseFavor": 5,
+    "patron": "House Jorasco",
+    "adventurePack": "Delera's Tomb",
+    "baseQuestId": "free_delera"
+  },
+  {
+    "id": "one_dame_thing_after_another_level_7",
+    "name": "One Dame Thing After Another",
+    "level": 7,
+    "baseFavor": 4,
+    "patron": "The Summer Court",
+    "adventurePack": "Hunter and Hunted",
+    "baseQuestId": "one_dame_thing_after_another"
+  },
+  {
+    "id": "one_dame_thing_after_another_level_32",
+    "name": "One Dame Thing After Another",
+    "level": 32,
+    "baseFavor": 4,
+    "patron": "The Summer Court",
+    "adventurePack": "Hunter and Hunted",
+    "baseQuestId": "one_dame_thing_after_another"
+  },
+  {
+    "id": "through_the_tulgey_wood_level_7",
+    "name": "Through the Tulgey Wood",
+    "level": 7,
+    "baseFavor": 5,
+    "patron": "The Summer Court",
+    "adventurePack": "Hunter and Hunted",
+    "baseQuestId": "through_the_tulgey_wood"
+  },
+  {
+    "id": "through_the_tulgey_wood_level_32",
+    "name": "Through the Tulgey Wood",
+    "level": 32,
+    "baseFavor": 5,
+    "patron": "The Summer Court",
+    "adventurePack": "Hunter and Hunted",
+    "baseQuestId": "through_the_tulgey_wood"
+  },
+  {
+    "id": "storm_the_beaches_level_7",
+    "name": "Storm the Beaches",
+    "level": 7,
+    "baseFavor": 4,
+    "patron": "House Deneith",
+    "adventurePack": "Sentinels of Stormreach",
+    "baseQuestId": "storm_the_beaches"
+  },
+  {
+    "id": "storm_the_beaches_level_20",
+    "name": "Storm the Beaches",
+    "level": 20,
+    "baseFavor": 4,
+    "patron": "House Deneith",
+    "adventurePack": "Sentinels of Stormreach",
+    "baseQuestId": "storm_the_beaches"
+  },
+  {
+    "id": "bargain_of_blood_level_7",
+    "name": "Bargain of Blood",
+    "level": 7,
+    "baseFavor": 4,
+    "patron": "House Deneith",
+    "adventurePack": "Sentinels of Stormreach",
+    "baseQuestId": "bargain_of_blood"
+  },
+  {
+    "id": "bargain_of_blood_level_20",
+    "name": "Bargain of Blood",
+    "level": 20,
+    "baseFavor": 4,
+    "patron": "House Deneith",
+    "adventurePack": "Sentinels of Stormreach",
+    "baseQuestId": "bargain_of_blood"
+  },
+  {
+    "id": "the_tide_turns_level_7",
+    "name": "The Tide Turns",
+    "level": 7,
+    "baseFavor": 5,
+    "patron": "House Deneith",
+    "adventurePack": "Sentinels of Stormreach",
+    "baseQuestId": "the_tide_turns"
+  },
+  {
+    "id": "the_tide_turns_level_20",
+    "name": "The Tide Turns",
+    "level": 20,
+    "baseFavor": 5,
+    "patron": "House Deneith",
+    "adventurePack": "Sentinels of Stormreach",
+    "baseQuestId": "the_tide_turns"
+  },
+  {
+    "id": "the_black_loch_level_7",
+    "name": "The Black Loch",
+    "level": 7,
+    "baseFavor": 4,
+    "patron": "House Deneith",
+    "adventurePack": "Sentinels of Stormreach",
+    "baseQuestId": "the_black_loch"
+  },
+  {
+    "id": "the_black_loch_level_20",
+    "name": "The Black Loch",
+    "level": 20,
+    "baseFavor": 4,
+    "patron": "House Deneith",
+    "adventurePack": "Sentinels of Stormreach",
+    "baseQuestId": "the_black_loch"
+  },
+  {
+    "id": "the_grey_moons_den_extermination",
+    "name": "The Grey Moon's Den: Extermination",
+    "level": 7,
+    "baseFavor": 4,
+    "patron": "House Deneith",
+    "adventurePack": "Sorrowdusk Isle"
+  },
+  {
+    "id": "the_grey_moons_den_the_trollish_scourge",
+    "name": "The Grey Moon's Den: The Trollish Scourge",
+    "level": 7,
+    "baseFavor": 4,
+    "patron": "House Deneith",
+    "adventurePack": "Sorrowdusk Isle"
+  },
+  {
+    "id": "the_last_move_the_way_to_yarkuch",
+    "name": "The Last Move: The Way to Yarkuch",
+    "level": 7,
+    "baseFavor": 3,
+    "patron": "House Phiarlan",
+    "adventurePack": "Tangleroot Gorge"
+  },
+  {
+    "id": "the_last_move_yarkuchs_last_stand",
+    "name": "The Last Move: Yarkuch's Last Stand",
+    "level": 7,
+    "baseFavor": 4,
+    "patron": "House Phiarlan",
+    "adventurePack": "Tangleroot Gorge"
+  },
+  {
+    "id": "captive_of_the_hidden_god_level_7",
+    "name": "Captive of the Hidden God",
+    "level": 7,
+    "baseFavor": 4,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Isle of Dread",
+    "baseQuestId": "captive_of_the_hidden_god"
+  },
+  {
+    "id": "captive_of_the_hidden_god_level_33",
+    "name": "Captive of the Hidden God",
+    "level": 33,
+    "baseFavor": 4,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Isle of Dread",
+    "baseQuestId": "captive_of_the_hidden_god"
+  },
+  {
+    "id": "the_curse_and_the_captive_crustacean_level_7",
+    "name": "The Curse and the Captive Crustacean",
+    "level": 7,
+    "baseFavor": 4,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Isle of Dread",
+    "baseQuestId": "the_curse_and_the_captive_crustacean"
+  },
+  {
+    "id": "the_curse_and_the_captive_crustacean_level_33",
+    "name": "The Curse and the Captive Crustacean",
+    "level": 33,
+    "baseFavor": 4,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Isle of Dread",
+    "baseQuestId": "the_curse_and_the_captive_crustacean"
+  },
+  {
+    "id": "bullywugs_and_booby_traps_level_7",
+    "name": "Bullywugs and Booby Traps",
+    "level": 7,
+    "baseFavor": 5,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Isle of Dread",
+    "baseQuestId": "bullywugs_and_booby_traps"
+  },
+  {
+    "id": "bullywugs_and_booby_traps_level_33",
+    "name": "Bullywugs and Booby Traps",
+    "level": 33,
+    "baseFavor": 5,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Isle of Dread",
+    "baseQuestId": "bullywugs_and_booby_traps"
+  },
+  {
+    "id": "plundering_pirates_point_level_7",
+    "name": "Plundering Pirates' Point",
+    "level": 7,
+    "baseFavor": 4,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Isle of Dread",
+    "baseQuestId": "plundering_pirates_point"
+  },
+  {
+    "id": "plundering_pirates_point_level_33",
+    "name": "Plundering Pirates' Point",
+    "level": 33,
+    "baseFavor": 4,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Isle of Dread",
+    "baseQuestId": "plundering_pirates_point"
+  },
+  {
+    "id": "spiders_and_flies_level_7",
+    "name": "Spiders and Flies",
+    "level": 7,
+    "baseFavor": 4,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Isle of Dread",
+    "baseQuestId": "spiders_and_flies"
+  },
+  {
+    "id": "spiders_and_flies_level_33",
+    "name": "Spiders and Flies",
+    "level": 33,
+    "baseFavor": 4,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Isle of Dread",
+    "baseQuestId": "spiders_and_flies"
+  },
+  {
+    "id": "the_stone_crypt_chronicle_level_7",
+    "name": "The Stone Crypt Chronicle",
+    "level": 7,
+    "baseFavor": 5,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Isle of Dread",
+    "baseQuestId": "the_stone_crypt_chronicle"
+  },
+  {
+    "id": "the_stone_crypt_chronicle_level_33",
+    "name": "The Stone Crypt Chronicle",
+    "level": 33,
+    "baseFavor": 5,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Isle of Dread",
+    "baseQuestId": "the_stone_crypt_chronicle"
+  },
+  {
+    "id": "the_trouble_with_tar_pits_level_7",
+    "name": "The Trouble with Tar Pits",
+    "level": 7,
+    "baseFavor": 4,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Isle of Dread",
+    "baseQuestId": "the_trouble_with_tar_pits"
+  },
+  {
+    "id": "the_trouble_with_tar_pits_level_33",
+    "name": "The Trouble with Tar Pits",
+    "level": 33,
+    "baseFavor": 4,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Isle of Dread",
+    "baseQuestId": "the_trouble_with_tar_pits"
+  },
+  {
+    "id": "trials_of_the_triceratops_level_7",
+    "name": "Trials of the Triceratops",
+    "level": 7,
+    "baseFavor": 4,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Isle of Dread",
+    "baseQuestId": "trials_of_the_triceratops"
+  },
+  {
+    "id": "trials_of_the_triceratops_level_33",
+    "name": "Trials of the Triceratops",
+    "level": 33,
+    "baseFavor": 4,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Isle of Dread",
+    "baseQuestId": "trials_of_the_triceratops"
+  },
+  {
+    "id": "whispers_of_return_level_7",
+    "name": "Whispers of Return",
+    "level": 7,
+    "baseFavor": 4,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Isle of Dread",
+    "baseQuestId": "whispers_of_return"
+  },
+  {
+    "id": "whispers_of_return_level_33",
+    "name": "Whispers of Return",
+    "level": 33,
+    "baseFavor": 4,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Isle of Dread",
+    "baseQuestId": "whispers_of_return"
+  },
+  {
+    "id": "wild_thing_level_7",
+    "name": "Wild Thing",
+    "level": 7,
+    "baseFavor": 3,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Isle of Dread",
+    "baseQuestId": "wild_thing"
+  },
+  {
+    "id": "wild_thing_level_33",
+    "name": "Wild Thing",
+    "level": 33,
+    "baseFavor": 3,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Isle of Dread",
+    "baseQuestId": "wild_thing"
+  },
+  {
+    "id": "all_hail_the_king_level_7",
+    "name": "All Hail the King",
+    "level": 7,
+    "baseFavor": 4,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Isle of Dread",
+    "baseQuestId": "all_hail_the_king"
+  },
+  {
+    "id": "all_hail_the_king_level_33",
+    "name": "All Hail the King",
+    "level": 33,
+    "baseFavor": 4,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Isle of Dread",
+    "baseQuestId": "all_hail_the_king"
+  },
+  {
+    "id": "the_scoundrels_run",
+    "name": "The Scoundrel's Run",
+    "level": 7,
+    "baseFavor": 4,
+    "patron": "The Free Agents",
+    "adventurePack": "Three-Barrel Cove"
+  },
+  {
+    "id": "old_grey_garl",
+    "name": "Old Grey Garl",
+    "level": 7,
+    "baseFavor": 5,
+    "patron": "The Free Agents",
+    "adventurePack": "Three-Barrel Cove"
+  },
+  {
+    "id": "the_xorian_cipher",
+    "name": "The Xorian Cipher",
+    "level": 8,
+    "baseFavor": 7,
+    "patron": "House Jorasco",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "the_path_to_madness",
+    "name": "The Path to Madness",
+    "level": 8,
+    "baseFavor": 3,
+    "patron": "House Jorasco",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "stormcleave_outpost",
+    "name": "Stormcleave Outpost",
+    "level": 8,
+    "baseFavor": 6,
+    "patron": "House Deneith",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "the_faithful_departed",
+    "name": "The Faithful Departed",
+    "level": 8,
+    "baseFavor": 4,
+    "patron": "House Phiarlan",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "haunted_library",
+    "name": "Haunted Library",
+    "level": 8,
+    "baseFavor": 5,
+    "patron": "House Jorasco",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "stromvaulds_mine",
+    "name": "Stromvauld's Mine",
+    "level": 8,
+    "baseFavor": 5,
+    "patron": "House Kundarak",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "caverns_of_korromar",
+    "name": "Caverns of Korromar",
+    "level": 8,
+    "baseFavor": 5,
+    "patron": "House Kundarak",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "slave_pits_of_the_undercity_level_8",
+    "name": "Slave Pits of the Undercity",
+    "level": 8,
+    "baseFavor": 5,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Against the Slave Lords",
+    "baseQuestId": "slave_pits_of_the_undercity"
+  },
+  {
+    "id": "slave_pits_of_the_undercity_level_31",
+    "name": "Slave Pits of the Undercity",
+    "level": 31,
+    "baseFavor": 5,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Against the Slave Lords",
+    "baseQuestId": "slave_pits_of_the_undercity"
+  },
+  {
+    "id": "secret_of_the_slavers_stockade_level_8",
+    "name": "Secret of the Slavers' Stockade",
+    "level": 8,
+    "baseFavor": 6,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Against the Slave Lords",
+    "baseQuestId": "secret_of_the_slavers_stockade"
+  },
+  {
+    "id": "secret_of_the_slavers_stockade_level_31",
+    "name": "Secret of the Slavers' Stockade",
+    "level": 31,
+    "baseFavor": 6,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Against the Slave Lords",
+    "baseQuestId": "secret_of_the_slavers_stockade"
+  },
+  {
+    "id": "assault_on_the_aerie_of_the_slave_lords_level_8",
+    "name": "Assault on the Aerie of the Slave Lords",
+    "level": 8,
+    "baseFavor": 5,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Against the Slave Lords",
+    "baseQuestId": "assault_on_the_aerie_of_the_slave_lords"
+  },
+  {
+    "id": "assault_on_the_aerie_of_the_slave_lords_level_31",
+    "name": "Assault on the Aerie of the Slave Lords",
+    "level": 31,
+    "baseFavor": 5,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Against the Slave Lords",
+    "baseQuestId": "assault_on_the_aerie_of_the_slave_lords"
+  },
+  {
+    "id": "thrall_of_the_necromancer_level_8",
+    "name": "Thrall of the Necromancer",
+    "level": 8,
+    "baseFavor": 6,
+    "patron": "House Jorasco",
+    "adventurePack": "Delera's Tomb",
+    "baseQuestId": "thrall_of_the_necromancer"
+  },
+  {
+    "id": "thrall_of_the_necromancer_level_27",
+    "name": "Thrall of the Necromancer",
+    "level": 27,
+    "baseFavor": 6,
+    "patron": "House Jorasco",
+    "adventurePack": "Delera's Tomb",
+    "baseQuestId": "thrall_of_the_necromancer"
+  },
+  {
+    "id": "in_need_of_supplies",
+    "name": "In Need of Supplies",
+    "level": 8,
+    "baseFavor": 3,
+    "patron": "House Phiarlan",
+    "adventurePack": "Ruins of Threnal"
+  },
+  {
+    "id": "the_rescue",
+    "name": "The Rescue",
+    "level": 8,
+    "baseFavor": 5,
+    "patron": "House Phiarlan",
+    "adventurePack": "Ruins of Threnal"
+  },
+  {
+    "id": "spies_in_the_house_level_8",
+    "name": "Spies in the House",
+    "level": 8,
+    "baseFavor": 5,
+    "patron": "House Deneith",
+    "adventurePack": "Sentinels of Stormreach",
+    "baseQuestId": "spies_in_the_house"
+  },
+  {
+    "id": "spies_in_the_house_level_21",
+    "name": "Spies in the House",
+    "level": 21,
+    "baseFavor": 5,
+    "patron": "House Deneith",
+    "adventurePack": "Sentinels of Stormreach",
+    "baseQuestId": "spies_in_the_house"
+  },
+  {
+    "id": "the_temple_outpost_captives_of_the_cult",
+    "name": "The Temple Outpost: Captives of the Cult",
+    "level": 8,
+    "baseFavor": 4,
+    "patron": "House Deneith",
+    "adventurePack": "Sorrowdusk Isle"
+  },
+  {
+    "id": "the_temple_outpost_the_libram_of_the_six",
+    "name": "The Temple Outpost: The Libram of the Six",
+    "level": 8,
+    "baseFavor": 4,
+    "patron": "House Deneith",
+    "adventurePack": "Sorrowdusk Isle"
+  },
+  {
+    "id": "the_body_snatchers_level_8",
+    "name": "The Body Snatchers",
+    "level": 8,
+    "baseFavor": 4,
+    "patron": "Keepers of Lamordia",
+    "adventurePack": "The Chill of Ravenloft",
+    "baseQuestId": "the_body_snatchers"
+  },
+  {
+    "id": "the_body_snatchers_level_36",
+    "name": "The Body Snatchers",
+    "level": 36,
+    "baseFavor": 4,
+    "patron": "Keepers of Lamordia",
+    "adventurePack": "The Chill of Ravenloft",
+    "baseQuestId": "the_body_snatchers"
+  },
+  {
+    "id": "the_proper_authorities_level_8",
+    "name": "The Proper Authorities",
+    "level": 8,
+    "baseFavor": 4,
+    "patron": "Keepers of Lamordia",
+    "adventurePack": "The Chill of Ravenloft",
+    "baseQuestId": "the_proper_authorities"
+  },
+  {
+    "id": "the_proper_authorities_level_36",
+    "name": "The Proper Authorities",
+    "level": 36,
+    "baseFavor": 4,
+    "patron": "Keepers of Lamordia",
+    "adventurePack": "The Chill of Ravenloft",
+    "baseQuestId": "the_proper_authorities"
+  },
+  {
+    "id": "ends_and_means_level_8",
+    "name": "Ends and Means",
+    "level": 8,
+    "baseFavor": 4,
+    "patron": "Keepers of Lamordia",
+    "adventurePack": "The Chill of Ravenloft",
+    "baseQuestId": "ends_and_means"
+  },
+  {
+    "id": "ends_and_means_level_36",
+    "name": "Ends and Means",
+    "level": 36,
+    "baseFavor": 4,
+    "patron": "Keepers of Lamordia",
+    "adventurePack": "The Chill of Ravenloft",
+    "baseQuestId": "ends_and_means"
+  },
+  {
+    "id": "a_light_in_the_attic_level_8",
+    "name": "A Light in the Attic",
+    "level": 8,
+    "baseFavor": 4,
+    "patron": "Keepers of Lamordia",
+    "adventurePack": "The Chill of Ravenloft",
+    "baseQuestId": "a_light_in_the_attic"
+  },
+  {
+    "id": "a_light_in_the_attic_level_36",
+    "name": "A Light in the Attic",
+    "level": 36,
+    "baseFavor": 4,
+    "patron": "Keepers of Lamordia",
+    "adventurePack": "The Chill of Ravenloft",
+    "baseQuestId": "a_light_in_the_attic"
+  },
+  {
+    "id": "cold_snap_level_8",
+    "name": "Cold Snap",
+    "level": 8,
+    "baseFavor": 4,
+    "patron": "Keepers of Lamordia",
+    "adventurePack": "The Chill of Ravenloft",
+    "baseQuestId": "cold_snap"
+  },
+  {
+    "id": "cold_snap_level_36",
+    "name": "Cold Snap",
+    "level": 36,
+    "baseFavor": 4,
+    "patron": "Keepers of Lamordia",
+    "adventurePack": "The Chill of Ravenloft",
+    "baseQuestId": "cold_snap"
+  },
+  {
+    "id": "beneath_the_city_streets_level_8",
+    "name": "Beneath the City Streets",
+    "level": 8,
+    "baseFavor": 5,
+    "patron": "Keepers of Lamordia",
+    "adventurePack": "The Chill of Ravenloft",
+    "baseQuestId": "beneath_the_city_streets"
+  },
+  {
+    "id": "beneath_the_city_streets_level_36",
+    "name": "Beneath the City Streets",
+    "level": 36,
+    "baseFavor": 5,
+    "patron": "Keepers of Lamordia",
+    "adventurePack": "The Chill of Ravenloft",
+    "baseQuestId": "beneath_the_city_streets"
+  },
+  {
+    "id": "locked_away_part_one_level_8",
+    "name": "Locked Away (Part One)",
+    "level": 8,
+    "baseFavor": 4,
+    "patron": "Keepers of Lamordia",
+    "adventurePack": "The Chill of Ravenloft",
+    "baseQuestId": "locked_away_part_one"
+  },
+  {
+    "id": "locked_away_part_one_level_36",
+    "name": "Locked Away (Part One)",
+    "level": 36,
+    "baseFavor": 4,
+    "patron": "Keepers of Lamordia",
+    "adventurePack": "The Chill of Ravenloft",
+    "baseQuestId": "locked_away_part_one"
+  },
+  {
+    "id": "snowfall_and_sunlight_level_8",
+    "name": "Snowfall and Sunlight",
+    "level": 8,
+    "baseFavor": 5,
+    "patron": "Keepers of Lamordia",
+    "adventurePack": "The Chill of Ravenloft",
+    "baseQuestId": "snowfall_and_sunlight"
+  },
+  {
+    "id": "snowfall_and_sunlight_level_36",
+    "name": "Snowfall and Sunlight",
+    "level": 36,
+    "baseFavor": 5,
+    "patron": "Keepers of Lamordia",
+    "adventurePack": "The Chill of Ravenloft",
+    "baseQuestId": "snowfall_and_sunlight"
+  },
+  {
+    "id": "locked_away_part_two_level_8",
+    "name": "Locked Away (Part Two)",
+    "level": 8,
+    "baseFavor": 4,
+    "patron": "Keepers of Lamordia",
+    "adventurePack": "The Chill of Ravenloft",
+    "baseQuestId": "locked_away_part_two"
+  },
+  {
+    "id": "locked_away_part_two_level_36",
+    "name": "Locked Away (Part Two)",
+    "level": 36,
+    "baseFavor": 4,
+    "patron": "Keepers of Lamordia",
+    "adventurePack": "The Chill of Ravenloft",
+    "baseQuestId": "locked_away_part_two"
+  },
+  {
+    "id": "a_miner_sacrifice_level_8",
+    "name": "A Miner Sacrifice",
+    "level": 8,
+    "baseFavor": 4,
+    "patron": "Keepers of Lamordia",
+    "adventurePack": "The Chill of Ravenloft",
+    "baseQuestId": "a_miner_sacrifice"
+  },
+  {
+    "id": "a_miner_sacrifice_level_36",
+    "name": "A Miner Sacrifice",
+    "level": 36,
+    "baseFavor": 4,
+    "patron": "Keepers of Lamordia",
+    "adventurePack": "The Chill of Ravenloft",
+    "baseQuestId": "a_miner_sacrifice"
+  },
+  {
+    "id": "the_wish_level_8",
+    "name": "The Wish",
+    "level": 8,
+    "baseFavor": 4,
+    "patron": "Keepers of Lamordia",
+    "adventurePack": "The Chill of Ravenloft",
+    "baseQuestId": "the_wish"
+  },
+  {
+    "id": "the_wish_level_36",
+    "name": "The Wish",
+    "level": 36,
+    "baseFavor": 4,
+    "patron": "Keepers of Lamordia",
+    "adventurePack": "The Chill of Ravenloft",
+    "baseQuestId": "the_wish"
+  },
+  {
+    "id": "special_delivery_level_8",
+    "name": "Special Delivery",
+    "level": 8,
+    "baseFavor": 4,
+    "patron": "Keepers of Lamordia",
+    "adventurePack": "The Chill of Ravenloft",
+    "baseQuestId": "special_delivery"
+  },
+  {
+    "id": "special_delivery_level_36",
+    "name": "Special Delivery",
+    "level": 36,
+    "baseFavor": 4,
+    "patron": "Keepers of Lamordia",
+    "adventurePack": "The Chill of Ravenloft",
+    "baseQuestId": "special_delivery"
+  },
+  {
+    "id": "zoo_creeper_level_8",
+    "name": "Zoo Creeper",
+    "level": 8,
+    "baseFavor": 4,
+    "patron": "Keepers of Lamordia",
+    "adventurePack": "The Chill of Ravenloft",
+    "baseQuestId": "zoo_creeper"
+  },
+  {
+    "id": "zoo_creeper_level_36",
+    "name": "Zoo Creeper",
+    "level": 36,
+    "baseFavor": 4,
+    "patron": "Keepers of Lamordia",
+    "adventurePack": "The Chill of Ravenloft",
+    "baseQuestId": "zoo_creeper"
+  },
+  {
+    "id": "body_and_mind_level_8",
+    "name": "Body and Mind",
+    "level": 8,
+    "baseFavor": 5,
+    "patron": "Keepers of Lamordia",
+    "adventurePack": "Free to Play",
+    "baseQuestId": "body_and_mind"
+  },
+  {
+    "id": "body_and_mind_level_36",
+    "name": "Body and Mind",
+    "level": 36,
+    "baseFavor": 5,
+    "patron": "Keepers of Lamordia",
+    "adventurePack": "Free to Play",
+    "baseQuestId": "body_and_mind"
+  },
+  {
+    "id": "relentless",
+    "name": "Relentless",
+    "level": 36,
+    "baseFavor": 12,
+    "patron": "Keepers of Lamordia",
+    "adventurePack": "The Chill of Ravenloft"
+  },
+  {
+    "id": "fall_of_the_forbidden_temple_level_8",
+    "name": "Fall of the Forbidden Temple",
+    "level": 8,
+    "baseFavor": 5,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Isle of Dread",
+    "baseQuestId": "fall_of_the_forbidden_temple"
+  },
+  {
+    "id": "fall_of_the_forbidden_temple_level_34",
+    "name": "Fall of the Forbidden Temple",
+    "level": 34,
+    "baseFavor": 5,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Isle of Dread",
+    "baseQuestId": "fall_of_the_forbidden_temple"
+  },
+  {
+    "id": "tomb_of_the_shadow_guard",
+    "name": "Tomb of the Shadow Guard",
+    "level": 8,
+    "baseFavor": 5,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Necropolis, Part 2"
+  },
+  {
+    "id": "tomb_of_the_shadow_king",
+    "name": "Tomb of the Shadow King",
+    "level": 8,
+    "baseFavor": 5,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Necropolis, Part 2"
+  },
+  {
+    "id": "tomb_of_the_shadow_knight",
+    "name": "Tomb of the Shadow Knight",
+    "level": 8,
+    "baseFavor": 5,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Necropolis, Part 2"
+  },
+  {
+    "id": "tomb_of_the_shadow_lord",
+    "name": "Tomb of the Shadow Lord",
+    "level": 8,
+    "baseFavor": 5,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Necropolis, Part 2"
+  },
+  {
+    "id": "toee_first_level_and_earth_temple_level_8",
+    "name": "ToEE: First Level and Earth Temple",
+    "level": 8,
+    "baseFavor": 5,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Temple of Elemental Evil",
+    "baseQuestId": "toee_first_level_and_earth_temple"
+  },
+  {
+    "id": "toee_first_level_and_earth_temple_level_34",
+    "name": "ToEE: First Level and Earth Temple",
+    "level": 34,
+    "baseFavor": 5,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Temple of Elemental Evil",
+    "baseQuestId": "toee_first_level_and_earth_temple"
+  },
+  {
+    "id": "toee_water_node_level_8",
+    "name": "ToEE: Water Node",
+    "level": 8,
+    "baseFavor": 5,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Temple of Elemental Evil",
+    "baseQuestId": "toee_water_node"
+  },
+  {
+    "id": "toee_water_node_level_34",
+    "name": "ToEE: Water Node",
+    "level": 34,
+    "baseFavor": 5,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Temple of Elemental Evil",
+    "baseQuestId": "toee_water_node"
+  },
+  {
+    "id": "toee_lower_temple_complex_level_8",
+    "name": "ToEE: Lower Temple Complex",
+    "level": 8,
+    "baseFavor": 6,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Temple of Elemental Evil",
+    "baseQuestId": "toee_lower_temple_complex"
+  },
+  {
+    "id": "toee_lower_temple_complex_level_34",
+    "name": "ToEE: Lower Temple Complex",
+    "level": 34,
+    "baseFavor": 6,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Temple of Elemental Evil",
+    "baseQuestId": "toee_lower_temple_complex"
+  },
+  {
+    "id": "toee_fire_node_level_8",
+    "name": "ToEE: Fire Node",
+    "level": 8,
+    "baseFavor": 5,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Temple of Elemental Evil",
+    "baseQuestId": "toee_fire_node"
+  },
+  {
+    "id": "toee_fire_node_level_34",
+    "name": "ToEE: Fire Node",
+    "level": 34,
+    "baseFavor": 5,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Temple of Elemental Evil",
+    "baseQuestId": "toee_fire_node"
+  },
+  {
+    "id": "toee_earth_node_level_8",
+    "name": "ToEE: Earth Node",
+    "level": 8,
+    "baseFavor": 5,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Temple of Elemental Evil",
+    "baseQuestId": "toee_earth_node"
+  },
+  {
+    "id": "toee_earth_node_level_34",
+    "name": "ToEE: Earth Node",
+    "level": 34,
+    "baseFavor": 5,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Temple of Elemental Evil",
+    "baseQuestId": "toee_earth_node"
+  },
+  {
+    "id": "toee_depths_of_the_temple_level_8",
+    "name": "ToEE: Depths of the Temple",
+    "level": 8,
+    "baseFavor": 4,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Temple of Elemental Evil",
+    "baseQuestId": "toee_depths_of_the_temple"
+  },
+  {
+    "id": "toee_depths_of_the_temple_level_34",
+    "name": "ToEE: Depths of the Temple",
+    "level": 34,
+    "baseFavor": 4,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Temple of Elemental Evil",
+    "baseQuestId": "toee_depths_of_the_temple"
+  },
+  {
+    "id": "toee_air_node_level_8",
+    "name": "ToEE: Air Node",
+    "level": 8,
+    "baseFavor": 5,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Temple of Elemental Evil",
+    "baseQuestId": "toee_air_node"
+  },
+  {
+    "id": "toee_air_node_level_34",
+    "name": "ToEE: Air Node",
+    "level": 34,
+    "baseFavor": 5,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Temple of Elemental Evil",
+    "baseQuestId": "toee_air_node"
+  },
+  {
+    "id": "the_prisoner_level_8",
+    "name": "The Prisoner",
+    "level": 8,
+    "baseFavor": 5,
+    "patron": "House Kundarak",
+    "adventurePack": "Vault of Night",
+    "baseQuestId": "the_prisoner"
+  },
+  {
+    "id": "the_prisoner_level_21",
+    "name": "The Prisoner",
+    "level": 21,
+    "baseFavor": 5,
+    "patron": "House Kundarak",
+    "adventurePack": "Vault of Night",
+    "baseQuestId": "the_prisoner"
+  },
+  {
+    "id": "tharashk_arena_level_8",
+    "name": "Tharashk Arena",
+    "level": 8,
+    "baseFavor": 5,
+    "patron": "House Kundarak",
+    "adventurePack": "Vault of Night",
+    "baseQuestId": "tharashk_arena"
+  },
+  {
+    "id": "tharashk_arena_level_21",
+    "name": "Tharashk Arena",
+    "level": 21,
+    "baseFavor": 5,
+    "patron": "House Kundarak",
+    "adventurePack": "Vault of Night",
+    "baseQuestId": "tharashk_arena"
+  },
+  {
+    "id": "the_church_and_the_cult",
+    "name": "The Church and the Cult",
+    "level": 9,
+    "baseFavor": 5,
+    "patron": "The Silver Flame",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "the_keepers_sanctuary",
+    "name": "The Keeper's Sanctuary",
+    "level": 9,
+    "baseFavor": 4,
+    "patron": "House Phiarlan",
+    "adventurePack": "Delera's Tomb"
+  },
+  {
+    "id": "the_library_of_threnal",
+    "name": "The Library of Threnal",
+    "level": 9,
+    "baseFavor": 3,
+    "patron": "House Phiarlan",
+    "adventurePack": "Ruins of Threnal"
+  },
+  {
+    "id": "the_giant_lieutenants",
+    "name": "The Giant Lieutenants",
+    "level": 9,
+    "baseFavor": 5,
+    "patron": "The Free Agents",
+    "adventurePack": "Ruins of Threnal"
+  },
+  {
+    "id": "the_giants_lair",
+    "name": "The Giants' Lair",
+    "level": 9,
+    "baseFavor": 5,
+    "patron": "The Free Agents",
+    "adventurePack": "Ruins of Threnal"
+  },
+  {
+    "id": "the_missing_expedition",
+    "name": "The Missing Expedition",
+    "level": 9,
+    "baseFavor": 4,
+    "patron": "House Phiarlan",
+    "adventurePack": "Ruins of Threnal"
+  },
+  {
+    "id": "entering_the_gate_chamber",
+    "name": "Entering the Gate Chamber",
+    "level": 9,
+    "baseFavor": 5,
+    "patron": "House Phiarlan",
+    "adventurePack": "Ruins of Threnal"
+  },
+  {
+    "id": "the_threnal_arena",
+    "name": "The Threnal Arena",
+    "level": 9,
+    "baseFavor": 5,
+    "patron": "The Free Agents",
+    "adventurePack": "Ruins of Threnal"
+  },
+  {
+    "id": "the_fane_of_the_six_cleansing_the_temple",
+    "name": "The Fane of the Six: Cleansing the Temple",
+    "level": 9,
+    "baseFavor": 4,
+    "patron": "House Deneith",
+    "adventurePack": "Sorrowdusk Isle"
+  },
+  {
+    "id": "the_fane_of_the_six_fall_of_the_prelate",
+    "name": "The Fane of the Six: Fall of the Prelate",
+    "level": 9,
+    "baseFavor": 4,
+    "patron": "House Deneith",
+    "adventurePack": "Sorrowdusk Isle"
+  },
+  {
+    "id": "the_shadow_crypt",
+    "name": "The Shadow Crypt",
+    "level": 9,
+    "baseFavor": 7,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Necropolis, Part 2"
+  },
+  {
+    "id": "the_claw_of_vulkoor_level_9",
+    "name": "The Claw of Vulkoor",
+    "level": 9,
+    "baseFavor": 4,
+    "patron": "House Kundarak",
+    "adventurePack": "The Red Fens",
+    "baseQuestId": "the_claw_of_vulkoor"
+  },
+  {
+    "id": "the_claw_of_vulkoor_level_21",
+    "name": "The Claw of Vulkoor",
+    "level": 21,
+    "baseFavor": 4,
+    "patron": "House Kundarak",
+    "adventurePack": "The Red Fens",
+    "baseQuestId": "the_claw_of_vulkoor"
+  },
+  {
+    "id": "fathom_the_depths_level_9",
+    "name": "Fathom the Depths",
+    "level": 9,
+    "baseFavor": 5,
+    "patron": "House Kundarak",
+    "adventurePack": "The Red Fens",
+    "baseQuestId": "fathom_the_depths"
+  },
+  {
+    "id": "fathom_the_depths_level_21",
+    "name": "Fathom the Depths",
+    "level": 21,
+    "baseFavor": 5,
+    "patron": "House Kundarak",
+    "adventurePack": "The Red Fens",
+    "baseQuestId": "fathom_the_depths"
+  },
+  {
+    "id": "into_the_deep_level_9",
+    "name": "Into the Deep",
+    "level": 9,
+    "baseFavor": 5,
+    "patron": "House Kundarak",
+    "adventurePack": "The Red Fens",
+    "baseQuestId": "into_the_deep"
+  },
+  {
+    "id": "into_the_deep_level_21",
+    "name": "Into the Deep",
+    "level": 21,
+    "baseFavor": 5,
+    "patron": "House Kundarak",
+    "adventurePack": "The Red Fens",
+    "baseQuestId": "into_the_deep"
+  },
+  {
+    "id": "the_last_stand_level_9",
+    "name": "The Last Stand",
+    "level": 9,
+    "baseFavor": 4,
+    "patron": "House Kundarak",
+    "adventurePack": "The Red Fens",
+    "baseQuestId": "the_last_stand"
+  },
+  {
+    "id": "the_last_stand_level_21",
+    "name": "The Last Stand",
+    "level": 21,
+    "baseFavor": 4,
+    "patron": "House Kundarak",
+    "adventurePack": "The Red Fens",
+    "baseQuestId": "the_last_stand"
+  },
+  {
+    "id": "gateway_to_khyber",
+    "name": "Gateway to Khyber",
+    "level": 9,
+    "baseFavor": 3,
+    "patron": "House Kundarak",
+    "adventurePack": "Vault of Night"
+  },
+  {
+    "id": "haywire_foundry_level_9",
+    "name": "Haywire Foundry",
+    "level": 9,
+    "baseFavor": 6,
+    "patron": "House Kundarak",
+    "adventurePack": "Vault of Night",
+    "baseQuestId": "haywire_foundry"
+  },
+  {
+    "id": "haywire_foundry_level_22",
+    "name": "Haywire Foundry",
+    "level": 22,
+    "baseFavor": 6,
+    "patron": "House Kundarak",
+    "adventurePack": "Vault of Night",
+    "baseQuestId": "haywire_foundry"
+  },
+  {
+    "id": "the_jungle_of_khyber_level_9",
+    "name": "The Jungle of Khyber",
+    "level": 9,
+    "baseFavor": 9,
+    "patron": "House Kundarak",
+    "adventurePack": "Vault of Night",
+    "baseQuestId": "the_jungle_of_khyber"
+  },
+  {
+    "id": "the_jungle_of_khyber_level_22",
+    "name": "The Jungle of Khyber",
+    "level": 22,
+    "baseFavor": 9,
+    "patron": "House Kundarak",
+    "adventurePack": "Vault of Night",
+    "baseQuestId": "the_jungle_of_khyber"
+  },
+  {
+    "id": "white_plume_mountain_level_9",
+    "name": "White Plume Mountain",
+    "level": 9,
+    "baseFavor": 5,
+    "patron": "The Gatekeepers",
+    "adventurePack": "White Plume Mountain and Other Tales",
+    "baseQuestId": "white_plume_mountain"
+  },
+  {
+    "id": "white_plume_mountain_level_32",
+    "name": "White Plume Mountain",
+    "level": 32,
+    "baseFavor": 5,
+    "patron": "The Gatekeepers",
+    "adventurePack": "White Plume Mountain and Other Tales",
+    "baseQuestId": "white_plume_mountain"
+  },
+  {
+    "id": "hiding_in_plain_sight",
+    "name": "Hiding in Plain Sight",
+    "level": 10,
+    "baseFavor": 5,
+    "patron": "The Free Agents",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "reclamation",
+    "name": "Reclamation",
+    "level": 10,
+    "baseFavor": 5,
+    "patron": "House Kundarak",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "sykros_jewel",
+    "name": "Sykros' Jewel",
+    "level": 10,
+    "baseFavor": 5,
+    "patron": "House Kundarak",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "tempests_spine",
+    "name": "Tempest's Spine",
+    "level": 10,
+    "baseFavor": 6,
+    "patron": "House Jorasco",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "the_chamber_of_rahmat",
+    "name": "The Chamber of Rahmat",
+    "level": 10,
+    "baseFavor": 5,
+    "patron": "The Free Agents",
+    "adventurePack": "Demon Sands"
+  },
+  {
+    "id": "the_newcomers_level_10",
+    "name": "The Newcomers",
+    "level": 10,
+    "baseFavor": 5,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "Dragonblood Prophecy",
+    "baseQuestId": "the_newcomers"
+  },
+  {
+    "id": "the_newcomers_level_31",
+    "name": "The Newcomers",
+    "level": 31,
+    "baseFavor": 5,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "Dragonblood Prophecy",
+    "baseQuestId": "the_newcomers"
+  },
+  {
+    "id": "black_and_blue_level_10",
+    "name": "Black and Blue",
+    "level": 10,
+    "baseFavor": 5,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "Dragonblood Prophecy",
+    "baseQuestId": "black_and_blue"
+  },
+  {
+    "id": "black_and_blue_level_31",
+    "name": "Black and Blue",
+    "level": 31,
+    "baseFavor": 5,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "Dragonblood Prophecy",
+    "baseQuestId": "black_and_blue"
+  },
+  {
+    "id": "into_the_mists_level_10",
+    "name": "Into the Mists",
+    "level": 10,
+    "baseFavor": 3,
+    "patron": "Keepers of Barovia",
+    "adventurePack": "Mists of Ravenloft",
+    "baseQuestId": "into_the_mists"
+  },
+  {
+    "id": "into_the_mists_level_31",
+    "name": "Into the Mists",
+    "level": 31,
+    "baseFavor": 3,
+    "patron": "Keepers of Barovia",
+    "adventurePack": "Mists of Ravenloft",
+    "baseQuestId": "into_the_mists"
+  },
+  {
+    "id": "freshbaked_dreams_level_10",
+    "name": "Fresh-baked Dreams",
+    "level": 10,
+    "baseFavor": 4,
+    "patron": "Keepers of Barovia",
+    "adventurePack": "Mists of Ravenloft",
+    "baseQuestId": "freshbaked_dreams"
+  },
+  {
+    "id": "freshbaked_dreams_level_31",
+    "name": "Fresh-baked Dreams",
+    "level": 31,
+    "baseFavor": 4,
+    "patron": "Keepers of Barovia",
+    "adventurePack": "Mists of Ravenloft",
+    "baseQuestId": "freshbaked_dreams"
+  },
+  {
+    "id": "death_house_level_10",
+    "name": "Death House",
+    "level": 10,
+    "baseFavor": 4,
+    "patron": "Keepers of Barovia",
+    "adventurePack": "Mists of Ravenloft",
+    "baseQuestId": "death_house"
+  },
+  {
+    "id": "death_house_level_31",
+    "name": "Death House",
+    "level": 31,
+    "baseFavor": 4,
+    "patron": "Keepers of Barovia",
+    "adventurePack": "Mists of Ravenloft",
+    "baseQuestId": "death_house"
+  },
+  {
+    "id": "an_invitation_to_dinner_level_10",
+    "name": "An Invitation to Dinner",
+    "level": 10,
+    "baseFavor": 6,
+    "patron": "Keepers of Barovia",
+    "adventurePack": "Mists of Ravenloft",
+    "baseQuestId": "an_invitation_to_dinner"
+  },
+  {
+    "id": "an_invitation_to_dinner_level_32",
+    "name": "An Invitation to Dinner",
+    "level": 32,
+    "baseFavor": 6,
+    "patron": "Keepers of Barovia",
+    "adventurePack": "Mists of Ravenloft",
+    "baseQuestId": "an_invitation_to_dinner"
+  },
+  {
+    "id": "the_giants_supplies",
+    "name": "The Giants' Supplies",
+    "level": 10,
+    "baseFavor": 5,
+    "patron": "The Free Agents",
+    "adventurePack": "Ruins of Threnal"
+  },
+  {
+    "id": "secure_the_area",
+    "name": "Secure the Area",
+    "level": 10,
+    "baseFavor": 4,
+    "patron": "House Phiarlan",
+    "adventurePack": "Ruins of Threnal"
+  },
+  {
+    "id": "hold_for_reinforcements",
+    "name": "Hold for Reinforcements",
+    "level": 10,
+    "baseFavor": 3,
+    "patron": "House Phiarlan",
+    "adventurePack": "Ruins of Threnal"
+  },
+  {
+    "id": "the_gate_chamber",
+    "name": "The Gate Chamber",
+    "level": 10,
+    "baseFavor": 3,
+    "patron": "House Phiarlan",
+    "adventurePack": "Ruins of Threnal"
+  },
+  {
+    "id": "escort_the_expedition",
+    "name": "Escort the Expedition",
+    "level": 10,
+    "baseFavor": 6,
+    "patron": "House Phiarlan",
+    "adventurePack": "Ruins of Threnal"
+  },
+  {
+    "id": "the_sanctum_quench_the_flames",
+    "name": "The Sanctum: Quench the Flames",
+    "level": 10,
+    "baseFavor": 4,
+    "patron": "House Deneith",
+    "adventurePack": "Sorrowdusk Isle"
+  },
+  {
+    "id": "the_sanctum_church_of_the_fury",
+    "name": "The Sanctum: Church of the Fury",
+    "level": 10,
+    "baseFavor": 4,
+    "patron": "House Deneith",
+    "adventurePack": "Sorrowdusk Isle"
+  },
+  {
+    "id": "slavers_of_the_shrieking_mines",
+    "name": "Slavers of the Shrieking Mines",
+    "level": 10,
+    "baseFavor": 6,
+    "patron": "The Free Agents",
+    "adventurePack": "The Restless Isles"
+  },
+  {
+    "id": "bring_me_the_head_of_gholafan",
+    "name": "Bring Me the Head of Ghola-Fan!",
+    "level": 10,
+    "baseFavor": 6,
+    "patron": "The Free Agents",
+    "adventurePack": "The Restless Isles"
+  },
+  {
+    "id": "the_vault_of_night_level_10",
+    "name": "The Vault of Night",
+    "level": 10,
+    "baseFavor": 9,
+    "patron": "House Kundarak",
+    "adventurePack": "Vault of Night",
+    "baseQuestId": "the_vault_of_night"
+  },
+  {
+    "id": "the_vault_of_night_level_22",
+    "name": "The Vault of Night",
+    "level": 22,
+    "baseFavor": 9,
+    "patron": "House Kundarak",
+    "adventurePack": "Vault of Night",
+    "baseQuestId": "the_vault_of_night"
+  },
+  {
+    "id": "plane_of_night_level_10",
+    "name": "Plane of Night",
+    "level": 10,
+    "baseFavor": 5,
+    "patron": "House Kundarak",
+    "adventurePack": "Vault of Night",
+    "baseQuestId": "plane_of_night"
+  },
+  {
+    "id": "plane_of_night_level_22",
+    "name": "Plane of Night",
+    "level": 22,
+    "baseFavor": 5,
+    "patron": "House Kundarak",
+    "adventurePack": "Vault of Night",
+    "baseQuestId": "plane_of_night"
+  },
+  {
+    "id": "the_enemy_within",
+    "name": "The Enemy Within",
+    "level": 11,
+    "baseFavor": 8,
+    "patron": "House Jorasco",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "dreams_of_insanity",
+    "name": "Dreams of Insanity",
+    "level": 11,
+    "baseFavor": 6,
+    "patron": "House Jorasco",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "made_to_order",
+    "name": "Made to Order",
+    "level": 11,
+    "baseFavor": 6,
+    "patron": "House Kundarak",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "the_spawn_of_whisperdoom",
+    "name": "The Spawn of Whisperdoom",
+    "level": 11,
+    "baseFavor": 6,
+    "patron": "House Phiarlan",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "and_the_dead_shall_rise",
+    "name": "And the Dead Shall Rise...",
+    "level": 11,
+    "baseFavor": 6,
+    "patron": "House Jorasco",
+    "adventurePack": "Delera's Tomb"
+  },
+  {
+    "id": "from_beyond_the_grave",
+    "name": "From Beyond the Grave",
+    "level": 11,
+    "baseFavor": 5,
+    "patron": "House Jorasco",
+    "adventurePack": "Delera's Tomb"
+  },
+  {
+    "id": "desert_caravan",
+    "name": "Desert Caravan",
+    "level": 11,
+    "baseFavor": 5,
+    "patron": "House Phiarlan",
+    "adventurePack": "Demon Sands"
+  },
+  {
+    "id": "purge_the_fallen_shrine",
+    "name": "Purge the Fallen Shrine",
+    "level": 11,
+    "baseFavor": 6,
+    "patron": "The Free Agents",
+    "adventurePack": "Demon Sands"
+  },
+  {
+    "id": "the_chamber_of_kourush",
+    "name": "The Chamber of Kourush",
+    "level": 11,
+    "baseFavor": 6,
+    "patron": "The Free Agents",
+    "adventurePack": "Demon Sands"
+  },
+  {
+    "id": "maraud_the_mines",
+    "name": "Maraud the Mines",
+    "level": 11,
+    "baseFavor": 6,
+    "patron": "The Free Agents",
+    "adventurePack": "Demon Sands"
+  },
+  {
+    "id": "raid_the_vulkoorim",
+    "name": "Raid the Vulkoorim",
+    "level": 11,
+    "baseFavor": 6,
+    "patron": "The Free Agents",
+    "adventurePack": "Demon Sands"
+  },
+  {
+    "id": "an_offering_of_blood_level_11",
+    "name": "An Offering of Blood",
+    "level": 11,
+    "baseFavor": 8,
+    "patron": "The Free Agents",
+    "adventurePack": "Demon Sands",
+    "baseQuestId": "an_offering_of_blood"
+  },
+  {
+    "id": "an_offering_of_blood_level_21",
+    "name": "An Offering of Blood",
+    "level": 21,
+    "baseFavor": 8,
+    "patron": "The Free Agents",
+    "adventurePack": "Demon Sands",
+    "baseQuestId": "an_offering_of_blood"
+  },
+  {
+    "id": "oath_of_vengeance_level_11",
+    "name": "Oath of Vengeance",
+    "level": 11,
+    "baseFavor": 6,
+    "patron": "Keepers of Barovia",
+    "adventurePack": "Mists of Ravenloft",
+    "baseQuestId": "oath_of_vengeance"
+  },
+  {
+    "id": "oath_of_vengeance_level_31",
+    "name": "Oath of Vengeance",
+    "level": 31,
+    "baseFavor": 6,
+    "patron": "Keepers of Barovia",
+    "adventurePack": "Mists of Ravenloft",
+    "baseQuestId": "oath_of_vengeance"
+  },
+  {
+    "id": "a_raven_at_the_door_level_11",
+    "name": "A Raven at the Door",
+    "level": 11,
+    "baseFavor": 6,
+    "patron": "Keepers of Barovia",
+    "adventurePack": "Mists of Ravenloft",
+    "baseQuestId": "a_raven_at_the_door"
+  },
+  {
+    "id": "a_raven_at_the_door_level_31",
+    "name": "A Raven at the Door",
+    "level": 31,
+    "baseFavor": 6,
+    "patron": "Keepers of Barovia",
+    "adventurePack": "Mists of Ravenloft",
+    "baseQuestId": "a_raven_at_the_door"
+  },
+  {
+    "id": "mad_tea_party_level_11",
+    "name": "Mad Tea Party",
+    "level": 11,
+    "baseFavor": 6,
+    "patron": "Keepers of Barovia",
+    "adventurePack": "Mists of Ravenloft",
+    "baseQuestId": "mad_tea_party"
+  },
+  {
+    "id": "mad_tea_party_level_31",
+    "name": "Mad Tea Party",
+    "level": 31,
+    "baseFavor": 6,
+    "patron": "Keepers of Barovia",
+    "adventurePack": "Mists of Ravenloft",
+    "baseQuestId": "mad_tea_party"
+  },
+  {
+    "id": "sealed_in_amber_level_11",
+    "name": "Sealed in Amber",
+    "level": 11,
+    "baseFavor": 6,
+    "patron": "Keepers of Barovia",
+    "adventurePack": "Mists of Ravenloft",
+    "baseQuestId": "sealed_in_amber"
+  },
+  {
+    "id": "sealed_in_amber_level_31",
+    "name": "Sealed in Amber",
+    "level": 31,
+    "baseFavor": 6,
+    "patron": "Keepers of Barovia",
+    "adventurePack": "Mists of Ravenloft",
+    "baseQuestId": "sealed_in_amber"
+  },
+  {
+    "id": "tomb_of_the_blighted",
+    "name": "Tomb of the Blighted",
+    "level": 11,
+    "baseFavor": 6,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Necropolis, Part 3"
+  },
+  {
+    "id": "tomb_of_the_forbidden",
+    "name": "Tomb of the Forbidden",
+    "level": 11,
+    "baseFavor": 6,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Necropolis, Part 3"
+  },
+  {
+    "id": "tomb_of_the_tormented",
+    "name": "Tomb of the Tormented",
+    "level": 11,
+    "baseFavor": 6,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Necropolis, Part 3"
+  },
+  {
+    "id": "tomb_of_the_unhallowed",
+    "name": "Tomb of the Unhallowed",
+    "level": 11,
+    "baseFavor": 6,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Necropolis, Part 3"
+  },
+  {
+    "id": "the_twilight_forge",
+    "name": "The Twilight Forge",
+    "level": 11,
+    "baseFavor": 10,
+    "patron": "The Free Agents",
+    "adventurePack": "The Restless Isles"
+  },
+  {
+    "id": "a_relic_of_a_sovereign_past",
+    "name": "A Relic of a Sovereign Past",
+    "level": 12,
+    "baseFavor": 7,
+    "patron": "House Deneith",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "diplomatic_impunity_level_12",
+    "name": "Diplomatic Impunity",
+    "level": 12,
+    "baseFavor": 6,
+    "patron": "The Coin Lords",
+    "adventurePack": "Free to Play",
+    "baseQuestId": "diplomatic_impunity"
+  },
+  {
+    "id": "diplomatic_impunity_level_34",
+    "name": "Diplomatic Impunity",
+    "level": 34,
+    "baseFavor": 6,
+    "patron": "The Coin Lords",
+    "adventurePack": "Free to Play",
+    "baseQuestId": "diplomatic_impunity"
+  },
+  {
+    "id": "eyes_of_stone_level_12",
+    "name": "Eyes of Stone",
+    "level": 12,
+    "baseFavor": 6,
+    "patron": "The Coin Lords",
+    "adventurePack": "Free to Play",
+    "baseQuestId": "eyes_of_stone"
+  },
+  {
+    "id": "eyes_of_stone_level_34",
+    "name": "Eyes of Stone",
+    "level": 34,
+    "baseFavor": 6,
+    "patron": "The Coin Lords",
+    "adventurePack": "Free to Play",
+    "baseQuestId": "eyes_of_stone"
+  },
+  {
+    "id": "frame_work_level_12",
+    "name": "Frame Work",
+    "level": 12,
+    "baseFavor": 5,
+    "patron": "The Coin Lords",
+    "adventurePack": "Free to Play",
+    "baseQuestId": "frame_work"
+  },
+  {
+    "id": "frame_work_level_34",
+    "name": "Frame Work",
+    "level": 34,
+    "baseFavor": 5,
+    "patron": "The Coin Lords",
+    "adventurePack": "Free to Play",
+    "baseQuestId": "frame_work"
+  },
+  {
+    "id": "invaders",
+    "name": "Invaders!",
+    "level": 12,
+    "baseFavor": 7,
+    "patron": "The Coin Lords",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "against_the_demon_queen_quest_level_12",
+    "name": "Against the Demon Queen (quest)",
+    "level": 12,
+    "baseFavor": 8,
+    "patron": "The Free Agents",
+    "adventurePack": "Demon Sands",
+    "baseQuestId": "against_the_demon_queen_quest"
+  },
+  {
+    "id": "against_the_demon_queen_quest_level_22",
+    "name": "Against the Demon Queen (quest)",
+    "level": 22,
+    "baseFavor": 8,
+    "patron": "The Free Agents",
+    "adventurePack": "Demon Sands",
+    "baseQuestId": "against_the_demon_queen_quest"
+  },
+  {
+    "id": "the_chamber_of_raiyum_level_12",
+    "name": "The Chamber of Raiyum",
+    "level": 12,
+    "baseFavor": 8,
+    "patron": "The Free Agents",
+    "adventurePack": "Demon Sands",
+    "baseQuestId": "the_chamber_of_raiyum"
+  },
+  {
+    "id": "the_chamber_of_raiyum_level_22",
+    "name": "The Chamber of Raiyum",
+    "level": 22,
+    "baseFavor": 8,
+    "patron": "The Free Agents",
+    "adventurePack": "Demon Sands",
+    "baseQuestId": "the_chamber_of_raiyum"
+  },
+  {
+    "id": "chains_of_flame_level_12",
+    "name": "Chains of Flame",
+    "level": 12,
+    "baseFavor": 7,
+    "patron": "The Free Agents",
+    "adventurePack": "Demon Sands",
+    "baseQuestId": "chains_of_flame"
+  },
+  {
+    "id": "chains_of_flame_level_22",
+    "name": "Chains of Flame",
+    "level": 22,
+    "baseFavor": 7,
+    "patron": "The Free Agents",
+    "adventurePack": "Demon Sands",
+    "baseQuestId": "chains_of_flame"
+  },
+  {
+    "id": "zawabis_revenge_level_12",
+    "name": "Zawabi's Revenge",
+    "level": 12,
+    "baseFavor": 6,
+    "patron": "The Free Agents",
+    "adventurePack": "Demon Sands",
+    "baseQuestId": "zawabis_revenge"
+  },
+  {
+    "id": "zawabis_revenge_level_22",
+    "name": "Zawabi's Revenge",
+    "level": 22,
+    "baseFavor": 6,
+    "patron": "The Free Agents",
+    "adventurePack": "Demon Sands",
+    "baseQuestId": "zawabis_revenge"
+  },
+  {
+    "id": "wrath_of_the_earth_level_12",
+    "name": "Wrath of the Earth",
+    "level": 12,
+    "baseFavor": 5,
+    "patron": "Keepers of Barovia",
+    "adventurePack": "Mists of Ravenloft",
+    "baseQuestId": "wrath_of_the_earth"
+  },
+  {
+    "id": "wrath_of_the_earth_level_32",
+    "name": "Wrath of the Earth",
+    "level": 32,
+    "baseFavor": 5,
+    "patron": "Keepers of Barovia",
+    "adventurePack": "Mists of Ravenloft",
+    "baseQuestId": "wrath_of_the_earth"
+  },
+  {
+    "id": "sunrise_level_12",
+    "name": "Sunrise",
+    "level": 12,
+    "baseFavor": 6,
+    "patron": "Keepers of Barovia",
+    "adventurePack": "Mists of Ravenloft",
+    "baseQuestId": "sunrise"
+  },
+  {
+    "id": "sunrise_level_31",
+    "name": "Sunrise",
+    "level": 31,
+    "baseFavor": 6,
+    "patron": "Keepers of Barovia",
+    "adventurePack": "Mists of Ravenloft",
+    "baseQuestId": "sunrise"
+  },
+  {
+    "id": "the_final_vintage_level_12",
+    "name": "The Final Vintage",
+    "level": 12,
+    "baseFavor": 4,
+    "patron": "Keepers of Barovia",
+    "adventurePack": "Mists of Ravenloft",
+    "baseQuestId": "the_final_vintage"
+  },
+  {
+    "id": "the_final_vintage_level_31",
+    "name": "The Final Vintage",
+    "level": 31,
+    "baseFavor": 4,
+    "patron": "Keepers of Barovia",
+    "adventurePack": "Mists of Ravenloft",
+    "baseQuestId": "the_final_vintage"
+  },
+  {
+    "id": "ravens_bane_level_12",
+    "name": "Ravens' Bane",
+    "level": 12,
+    "baseFavor": 5,
+    "patron": "Keepers of Barovia",
+    "adventurePack": "Mists of Ravenloft",
+    "baseQuestId": "ravens_bane"
+  },
+  {
+    "id": "ravens_bane_level_31",
+    "name": "Ravens' Bane",
+    "level": 31,
+    "baseFavor": 5,
+    "patron": "Keepers of Barovia",
+    "adventurePack": "Mists of Ravenloft",
+    "baseQuestId": "ravens_bane"
+  },
+  {
+    "id": "an_element_of_chaos_level_12",
+    "name": "An Element of Chaos",
+    "level": 12,
+    "baseFavor": 5,
+    "patron": "Morgrave University",
+    "adventurePack": "Peril of the Planar Eyes",
+    "baseQuestId": "an_element_of_chaos"
+  },
+  {
+    "id": "an_element_of_chaos_level_32",
+    "name": "An Element of Chaos",
+    "level": 32,
+    "baseFavor": 5,
+    "patron": "Morgrave University",
+    "adventurePack": "Peril of the Planar Eyes",
+    "baseQuestId": "an_element_of_chaos"
+  },
+  {
+    "id": "eye_know_whodunnit_level_12",
+    "name": "Eye Know Whodunnit",
+    "level": 12,
+    "baseFavor": 6,
+    "patron": "Morgrave University",
+    "adventurePack": "Peril of the Planar Eyes",
+    "baseQuestId": "eye_know_whodunnit"
+  },
+  {
+    "id": "eye_know_whodunnit_level_32",
+    "name": "Eye Know Whodunnit",
+    "level": 32,
+    "baseFavor": 6,
+    "patron": "Morgrave University",
+    "adventurePack": "Peril of the Planar Eyes",
+    "baseQuestId": "eye_know_whodunnit"
+  },
+  {
+    "id": "seizing_the_dawn_level_12",
+    "name": "Seizing the Dawn",
+    "level": 12,
+    "baseFavor": 5,
+    "patron": "Morgrave University",
+    "adventurePack": "Peril of the Planar Eyes",
+    "baseQuestId": "seizing_the_dawn"
+  },
+  {
+    "id": "seizing_the_dawn_level_32",
+    "name": "Seizing the Dawn",
+    "level": 32,
+    "baseFavor": 5,
+    "patron": "Morgrave University",
+    "adventurePack": "Peril of the Planar Eyes",
+    "baseQuestId": "seizing_the_dawn"
+  },
+  {
+    "id": "beautiful_nightmares_level_12",
+    "name": "Beautiful Nightmares",
+    "level": 12,
+    "baseFavor": 6,
+    "patron": "Morgrave University",
+    "adventurePack": "Peril of the Planar Eyes",
+    "baseQuestId": "beautiful_nightmares"
+  },
+  {
+    "id": "beautiful_nightmares_level_32",
+    "name": "Beautiful Nightmares",
+    "level": 32,
+    "baseFavor": 6,
+    "patron": "Morgrave University",
+    "adventurePack": "Peril of the Planar Eyes",
+    "baseQuestId": "beautiful_nightmares"
+  },
+  {
+    "id": "the_cursed_crypt",
+    "name": "The Cursed Crypt",
+    "level": 12,
+    "baseFavor": 7,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Necropolis, Part 3"
+  },
+  {
+    "id": "the_titan_awakes",
+    "name": "The Titan Awakes",
+    "level": 12,
+    "baseFavor": 6,
+    "patron": "The Free Agents",
+    "adventurePack": "The Restless Isles"
+  },
+  {
+    "id": "mired_in_kobolds",
+    "name": "Mired in Kobolds",
+    "level": 13,
+    "baseFavor": 5,
+    "patron": "The Free Agents",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "dinosaur_crisis_level_13",
+    "name": "Dinosaur Crisis",
+    "level": 13,
+    "baseFavor": 5,
+    "patron": "The Free Agents",
+    "adventurePack": "Free to Play",
+    "baseQuestId": "dinosaur_crisis"
+  },
+  {
+    "id": "dinosaur_crisis_level_28",
+    "name": "Dinosaur Crisis",
+    "level": 28,
+    "baseFavor": 5,
+    "patron": "The Free Agents",
+    "adventurePack": "Free to Play",
+    "baseQuestId": "dinosaur_crisis"
+  },
+  {
+    "id": "blockade_buster_level_13",
+    "name": "Blockade Buster",
+    "level": 13,
+    "baseFavor": 5,
+    "patron": "The Coin Lords",
+    "adventurePack": "Attack on Stormreach",
+    "baseQuestId": "blockade_buster"
+  },
+  {
+    "id": "blockade_buster_level_34",
+    "name": "Blockade Buster",
+    "level": 34,
+    "baseFavor": 5,
+    "patron": "The Coin Lords",
+    "adventurePack": "Attack on Stormreach",
+    "baseQuestId": "blockade_buster"
+  },
+  {
+    "id": "undermine_level_13",
+    "name": "Undermine",
+    "level": 13,
+    "baseFavor": 6,
+    "patron": "The Coin Lords",
+    "adventurePack": "Attack on Stormreach",
+    "baseQuestId": "undermine"
+  },
+  {
+    "id": "undermine_level_34",
+    "name": "Undermine",
+    "level": 34,
+    "baseFavor": 6,
+    "patron": "The Coin Lords",
+    "adventurePack": "Attack on Stormreach",
+    "baseQuestId": "undermine"
+  },
+  {
+    "id": "assault_on_summerfield_level_13",
+    "name": "Assault on Summerfield",
+    "level": 13,
+    "baseFavor": 5,
+    "patron": "The Coin Lords",
+    "adventurePack": "Attack on Stormreach",
+    "baseQuestId": "assault_on_summerfield"
+  },
+  {
+    "id": "assault_on_summerfield_level_34",
+    "name": "Assault on Summerfield",
+    "level": 34,
+    "baseFavor": 5,
+    "patron": "The Coin Lords",
+    "adventurePack": "Attack on Stormreach",
+    "baseQuestId": "assault_on_summerfield"
+  },
+  {
+    "id": "siegebreaker_level_13",
+    "name": "Siegebreaker",
+    "level": 13,
+    "baseFavor": 6,
+    "patron": "The Coin Lords",
+    "adventurePack": "Attack on Stormreach",
+    "baseQuestId": "siegebreaker"
+  },
+  {
+    "id": "siegebreaker_level_34",
+    "name": "Siegebreaker",
+    "level": 34,
+    "baseFavor": 6,
+    "patron": "The Coin Lords",
+    "adventurePack": "Attack on Stormreach",
+    "baseQuestId": "siegebreaker"
+  },
+  {
+    "id": "ettercap_incursion_level_13",
+    "name": "Ettercap Incursion",
+    "level": 13,
+    "baseFavor": 5,
+    "patron": "Cormanthor Elves",
+    "adventurePack": "Magic of Myth Drannor",
+    "baseQuestId": "ettercap_incursion"
+  },
+  {
+    "id": "ettercap_incursion_level_35",
+    "name": "Ettercap Incursion",
+    "level": 35,
+    "baseFavor": 5,
+    "patron": "Cormanthor Elves",
+    "adventurePack": "Magic of Myth Drannor",
+    "baseQuestId": "ettercap_incursion"
+  },
+  {
+    "id": "seeds_of_decay_level_13",
+    "name": "Seeds of Decay",
+    "level": 13,
+    "baseFavor": 5,
+    "patron": "Cormanthor Elves",
+    "adventurePack": "Magic of Myth Drannor",
+    "baseQuestId": "seeds_of_decay"
+  },
+  {
+    "id": "seeds_of_decay_level_35",
+    "name": "Seeds of Decay",
+    "level": 35,
+    "baseFavor": 5,
+    "patron": "Cormanthor Elves",
+    "adventurePack": "Magic of Myth Drannor",
+    "baseQuestId": "seeds_of_decay"
+  },
+  {
+    "id": "the_safehold_level_13",
+    "name": "The Safehold",
+    "level": 13,
+    "baseFavor": 5,
+    "patron": "Cormanthor Elves",
+    "adventurePack": "Magic of Myth Drannor",
+    "baseQuestId": "the_safehold"
+  },
+  {
+    "id": "the_safehold_level_35",
+    "name": "The Safehold",
+    "level": 35,
+    "baseFavor": 5,
+    "patron": "Cormanthor Elves",
+    "adventurePack": "Magic of Myth Drannor",
+    "baseQuestId": "the_safehold"
+  },
+  {
+    "id": "death_hosts_this_banquet_level_13",
+    "name": "Death Hosts This Banquet",
+    "level": 13,
+    "baseFavor": 5,
+    "patron": "Cormanthor Elves",
+    "adventurePack": "Magic of Myth Drannor",
+    "baseQuestId": "death_hosts_this_banquet"
+  },
+  {
+    "id": "death_hosts_this_banquet_level_35",
+    "name": "Death Hosts This Banquet",
+    "level": 35,
+    "baseFavor": 5,
+    "patron": "Cormanthor Elves",
+    "adventurePack": "Magic of Myth Drannor",
+    "baseQuestId": "death_hosts_this_banquet"
+  },
+  {
+    "id": "oghmas_song_level_13",
+    "name": "Oghma's Song",
+    "level": 13,
+    "baseFavor": 5,
+    "patron": "Cormanthor Elves",
+    "adventurePack": "Magic of Myth Drannor",
+    "baseQuestId": "oghmas_song"
+  },
+  {
+    "id": "oghmas_song_level_35",
+    "name": "Oghma's Song",
+    "level": 35,
+    "baseFavor": 5,
+    "patron": "Cormanthor Elves",
+    "adventurePack": "Magic of Myth Drannor",
+    "baseQuestId": "oghmas_song"
+  },
+  {
+    "id": "secrets_of_the_red_wizards_level_13",
+    "name": "Secrets of the Red Wizards",
+    "level": 13,
+    "baseFavor": 6,
+    "patron": "Cormanthor Elves",
+    "adventurePack": "Magic of Myth Drannor",
+    "baseQuestId": "secrets_of_the_red_wizards"
+  },
+  {
+    "id": "secrets_of_the_red_wizards_level_35",
+    "name": "Secrets of the Red Wizards",
+    "level": 35,
+    "baseFavor": 6,
+    "patron": "Cormanthor Elves",
+    "adventurePack": "Magic of Myth Drannor",
+    "baseQuestId": "secrets_of_the_red_wizards"
+  },
+  {
+    "id": "portal_to_below_level_13",
+    "name": "Portal to Below",
+    "level": 13,
+    "baseFavor": 5,
+    "patron": "Cormanthor Elves",
+    "adventurePack": "Magic of Myth Drannor",
+    "baseQuestId": "portal_to_below"
+  },
+  {
+    "id": "portal_to_below_level_35",
+    "name": "Portal to Below",
+    "level": 35,
+    "baseFavor": 5,
+    "patron": "Cormanthor Elves",
+    "adventurePack": "Magic of Myth Drannor",
+    "baseQuestId": "portal_to_below"
+  },
+  {
+    "id": "book_burning_level_13",
+    "name": "Book Burning",
+    "level": 13,
+    "baseFavor": 4,
+    "patron": "Cormanthor Elves",
+    "adventurePack": "Magic of Myth Drannor",
+    "baseQuestId": "book_burning"
+  },
+  {
+    "id": "book_burning_level_35",
+    "name": "Book Burning",
+    "level": 35,
+    "baseFavor": 4,
+    "patron": "Cormanthor Elves",
+    "adventurePack": "Magic of Myth Drannor",
+    "baseQuestId": "book_burning"
+  },
+  {
+    "id": "times_long_past_level_13",
+    "name": "Times Long Past",
+    "level": 13,
+    "baseFavor": 7,
+    "patron": "Cormanthor Elves",
+    "adventurePack": "Magic of Myth Drannor",
+    "baseQuestId": "times_long_past"
+  },
+  {
+    "id": "times_long_past_level_35",
+    "name": "Times Long Past",
+    "level": 35,
+    "baseFavor": 7,
+    "patron": "Cormanthor Elves",
+    "adventurePack": "Magic of Myth Drannor",
+    "baseQuestId": "times_long_past"
+  },
+  {
+    "id": "the_key_to_the_mythal_level_13",
+    "name": "The Key to the Mythal",
+    "level": 13,
+    "baseFavor": 7,
+    "patron": "Cormanthor Elves",
+    "adventurePack": "Magic of Myth Drannor",
+    "baseQuestId": "the_key_to_the_mythal"
+  },
+  {
+    "id": "the_key_to_the_mythal_level_35",
+    "name": "The Key to the Mythal",
+    "level": 35,
+    "baseFavor": 7,
+    "patron": "Cormanthor Elves",
+    "adventurePack": "Magic of Myth Drannor",
+    "baseQuestId": "the_key_to_the_mythal"
+  },
+  {
+    "id": "the_zulkirs_plan_level_13",
+    "name": "The Zulkir's Plan",
+    "level": 13,
+    "baseFavor": 6,
+    "patron": "Cormanthor Elves",
+    "adventurePack": "Magic of Myth Drannor",
+    "baseQuestId": "the_zulkirs_plan"
+  },
+  {
+    "id": "the_zulkirs_plan_level_35",
+    "name": "The Zulkir's Plan",
+    "level": 35,
+    "baseFavor": 6,
+    "patron": "Cormanthor Elves",
+    "adventurePack": "Magic of Myth Drannor",
+    "baseQuestId": "the_zulkirs_plan"
+  },
+  {
+    "id": "voices_of_the_dead_level_13",
+    "name": "Voices of the Dead",
+    "level": 13,
+    "baseFavor": 5,
+    "patron": "Cormanthor Elves",
+    "adventurePack": "Magic of Myth Drannor",
+    "baseQuestId": "voices_of_the_dead"
+  },
+  {
+    "id": "voices_of_the_dead_level_35",
+    "name": "Voices of the Dead",
+    "level": 35,
+    "baseFavor": 5,
+    "patron": "Cormanthor Elves",
+    "adventurePack": "Magic of Myth Drannor",
+    "baseQuestId": "voices_of_the_dead"
+  },
+  {
+    "id": "the_house_of_gems_level_13",
+    "name": "The House of Gems",
+    "level": 13,
+    "baseFavor": 5,
+    "patron": "Cormanthor Elves",
+    "adventurePack": "Magic of Myth Drannor",
+    "baseQuestId": "the_house_of_gems"
+  },
+  {
+    "id": "the_house_of_gems_level_35",
+    "name": "The House of Gems",
+    "level": 35,
+    "baseFavor": 5,
+    "patron": "Cormanthor Elves",
+    "adventurePack": "Magic of Myth Drannor",
+    "baseQuestId": "the_house_of_gems"
+  },
+  {
+    "id": "a_cry_for_help_level_13",
+    "name": "A Cry for Help",
+    "level": 13,
+    "baseFavor": 7,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "Ruins of Gianthold",
+    "baseQuestId": "a_cry_for_help"
+  },
+  {
+    "id": "a_cry_for_help_level_24",
+    "name": "A Cry for Help",
+    "level": 24,
+    "baseFavor": 7,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "Ruins of Gianthold",
+    "baseQuestId": "a_cry_for_help"
+  },
+  {
+    "id": "feast_or_famine_level_13",
+    "name": "Feast or Famine",
+    "level": 13,
+    "baseFavor": 6,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "Ruins of Gianthold",
+    "baseQuestId": "feast_or_famine"
+  },
+  {
+    "id": "feast_or_famine_level_24",
+    "name": "Feast or Famine",
+    "level": 24,
+    "baseFavor": 6,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "Ruins of Gianthold",
+    "baseQuestId": "feast_or_famine"
+  },
+  {
+    "id": "foundation_of_discord_level_13",
+    "name": "Foundation of Discord",
+    "level": 13,
+    "baseFavor": 6,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "Ruins of Gianthold",
+    "baseQuestId": "foundation_of_discord"
+  },
+  {
+    "id": "foundation_of_discord_level_24",
+    "name": "Foundation of Discord",
+    "level": 24,
+    "baseFavor": 6,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "Ruins of Gianthold",
+    "baseQuestId": "foundation_of_discord"
+  },
+  {
+    "id": "the_maze_of_madness_level_13",
+    "name": "The Maze of Madness",
+    "level": 13,
+    "baseFavor": 6,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "Ruins of Gianthold",
+    "baseQuestId": "the_maze_of_madness"
+  },
+  {
+    "id": "the_maze_of_madness_level_24",
+    "name": "The Maze of Madness",
+    "level": 24,
+    "baseFavor": 6,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "Ruins of Gianthold",
+    "baseQuestId": "the_maze_of_madness"
+  },
+  {
+    "id": "trial_by_fire_level_13",
+    "name": "Trial by Fire",
+    "level": 13,
+    "baseFavor": 6,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "Ruins of Gianthold",
+    "baseQuestId": "trial_by_fire"
+  },
+  {
+    "id": "trial_by_fire_level_24",
+    "name": "Trial by Fire",
+    "level": 24,
+    "baseFavor": 6,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "Ruins of Gianthold",
+    "baseQuestId": "trial_by_fire"
+  },
+  {
+    "id": "the_archons_trial_level_13",
+    "name": "The Archons' Trial",
+    "level": 13,
+    "baseFavor": 6,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Trials of the Archons",
+    "baseQuestId": "the_archons_trial"
+  },
+  {
+    "id": "the_archons_trial_level_30",
+    "name": "The Archons' Trial",
+    "level": 30,
+    "baseFavor": 6,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Trials of the Archons",
+    "baseQuestId": "the_archons_trial"
+  },
+  {
+    "id": "demon_assault_level_13",
+    "name": "Demon Assault",
+    "level": 13,
+    "baseFavor": 6,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Trials of the Archons",
+    "baseQuestId": "demon_assault"
+  },
+  {
+    "id": "demon_assault_level_30",
+    "name": "Demon Assault",
+    "level": 30,
+    "baseFavor": 6,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Trials of the Archons",
+    "baseQuestId": "demon_assault"
+  },
+  {
+    "id": "the_devils_details_level_13",
+    "name": "The Devil's Details",
+    "level": 13,
+    "baseFavor": 6,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Trials of the Archons",
+    "baseQuestId": "the_devils_details"
+  },
+  {
+    "id": "the_devils_details_level_30",
+    "name": "The Devil's Details",
+    "level": 30,
+    "baseFavor": 6,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Trials of the Archons",
+    "baseQuestId": "the_devils_details"
+  },
+  {
+    "id": "tower_of_frost_level_14",
+    "name": "Tower of Frost",
+    "level": 14,
+    "baseFavor": 6,
+    "patron": "The Free Agents",
+    "adventurePack": "Free to Play",
+    "baseQuestId": "tower_of_frost"
+  },
+  {
+    "id": "tower_of_frost_level_28",
+    "name": "Tower of Frost",
+    "level": 28,
+    "baseFavor": 6,
+    "patron": "The Free Agents",
+    "adventurePack": "Free to Play",
+    "baseQuestId": "tower_of_frost"
+  },
+  {
+    "id": "night_falls_on_stormreach_level_14",
+    "name": "Night Falls on Stormreach",
+    "level": 14,
+    "baseFavor": 5,
+    "patron": "House Jorasco",
+    "adventurePack": "Disciples of Rage",
+    "baseQuestId": "night_falls_on_stormreach"
+  },
+  {
+    "id": "night_falls_on_stormreach_level_31",
+    "name": "Night Falls on Stormreach",
+    "level": 31,
+    "baseFavor": 5,
+    "patron": "House Jorasco",
+    "adventurePack": "Disciples of Rage",
+    "baseQuestId": "night_falls_on_stormreach"
+  },
+  {
+    "id": "quarantine_level_14",
+    "name": "Quarantine",
+    "level": 14,
+    "baseFavor": 5,
+    "patron": "House Jorasco",
+    "adventurePack": "Disciples of Rage",
+    "baseQuestId": "quarantine"
+  },
+  {
+    "id": "quarantine_level_31",
+    "name": "Quarantine",
+    "level": 31,
+    "baseFavor": 5,
+    "patron": "House Jorasco",
+    "adventurePack": "Disciples of Rage",
+    "baseQuestId": "quarantine"
+  },
+  {
+    "id": "the_madness_of_crowds_level_14",
+    "name": "The Madness of Crowds",
+    "level": 14,
+    "baseFavor": 5,
+    "patron": "House Jorasco",
+    "adventurePack": "Disciples of Rage",
+    "baseQuestId": "the_madness_of_crowds"
+  },
+  {
+    "id": "the_madness_of_crowds_level_31",
+    "name": "The Madness of Crowds",
+    "level": 31,
+    "baseFavor": 5,
+    "patron": "House Jorasco",
+    "adventurePack": "Disciples of Rage",
+    "baseQuestId": "the_madness_of_crowds"
+  },
+  {
+    "id": "toxic_treatment_level_14",
+    "name": "Toxic Treatment",
+    "level": 14,
+    "baseFavor": 6,
+    "patron": "House Jorasco",
+    "adventurePack": "Disciples of Rage",
+    "baseQuestId": "toxic_treatment"
+  },
+  {
+    "id": "toxic_treatment_level_31",
+    "name": "Toxic Treatment",
+    "level": 31,
+    "baseFavor": 6,
+    "patron": "House Jorasco",
+    "adventurePack": "Disciples of Rage",
+    "baseQuestId": "toxic_treatment"
+  },
+  {
+    "id": "the_age_of_rage_level_14",
+    "name": "The Age of Rage",
+    "level": 14,
+    "baseFavor": 5,
+    "patron": "House Jorasco",
+    "adventurePack": "Disciples of Rage",
+    "baseQuestId": "the_age_of_rage"
+  },
+  {
+    "id": "the_age_of_rage_level_31",
+    "name": "The Age of Rage",
+    "level": 31,
+    "baseFavor": 5,
+    "patron": "House Jorasco",
+    "adventurePack": "Disciples of Rage",
+    "baseQuestId": "the_age_of_rage"
+  },
+  {
+    "id": "the_prison_of_the_planes",
+    "name": "The Prison of the Planes",
+    "level": 14,
+    "baseFavor": 6,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "Ruins of Gianthold"
+  },
+  {
+    "id": "the_reavers_fate",
+    "name": "The Reaver's Fate",
+    "level": 14,
+    "baseFavor": 6,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "Ruins of Gianthold"
+  },
+  {
+    "id": "a_cabal_for_one",
+    "name": "A Cabal for One",
+    "level": 14,
+    "baseFavor": 6,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "Ruins of Gianthold"
+  },
+  {
+    "id": "madstone_crater",
+    "name": "Madstone Crater",
+    "level": 14,
+    "baseFavor": 8,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "Ruins of Gianthold"
+  },
+  {
+    "id": "the_crucible_level_14",
+    "name": "The Crucible",
+    "level": 14,
+    "baseFavor": 8,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "Ruins of Gianthold",
+    "baseQuestId": "the_crucible"
+  },
+  {
+    "id": "the_crucible_level_24",
+    "name": "The Crucible",
+    "level": 24,
+    "baseFavor": 8,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "Ruins of Gianthold",
+    "baseQuestId": "the_crucible"
+  },
+  {
+    "id": "gianthold_tor",
+    "name": "Gianthold Tor",
+    "level": 14,
+    "baseFavor": 7,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "Ruins of Gianthold"
+  },
+  {
+    "id": "tavern_brawl_level_14",
+    "name": "Tavern Brawl",
+    "level": 14,
+    "baseFavor": 4,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Devil's Gambit",
+    "baseQuestId": "tavern_brawl"
+  },
+  {
+    "id": "tavern_brawl_level_30",
+    "name": "Tavern Brawl",
+    "level": 30,
+    "baseFavor": 4,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Devil's Gambit",
+    "baseQuestId": "tavern_brawl"
+  },
+  {
+    "id": "grim_and_barett_level_14",
+    "name": "Grim and Barett",
+    "level": 14,
+    "baseFavor": 6,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Devil's Gambit",
+    "baseQuestId": "grim_and_barett"
+  },
+  {
+    "id": "grim_and_barett_level_30",
+    "name": "Grim and Barett",
+    "level": 30,
+    "baseFavor": 6,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Devil's Gambit",
+    "baseQuestId": "grim_and_barett"
+  },
+  {
+    "id": "subversion_level_14",
+    "name": "Subversion",
+    "level": 14,
+    "baseFavor": 6,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Devil's Gambit",
+    "baseQuestId": "subversion"
+  },
+  {
+    "id": "subversion_level_30",
+    "name": "Subversion",
+    "level": 30,
+    "baseFavor": 6,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Devil's Gambit",
+    "baseQuestId": "subversion"
+  },
+  {
+    "id": "multitude_of_menace_level_14",
+    "name": "Multitude of Menace",
+    "level": 14,
+    "baseFavor": 6,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Devil's Gambit",
+    "baseQuestId": "multitude_of_menace"
+  },
+  {
+    "id": "multitude_of_menace_level_30",
+    "name": "Multitude of Menace",
+    "level": 30,
+    "baseFavor": 6,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Devil's Gambit",
+    "baseQuestId": "multitude_of_menace"
+  },
+  {
+    "id": "desecrated_temple_of_vol",
+    "name": "Desecrated Temple of Vol",
+    "level": 14,
+    "baseFavor": 6,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Necropolis, Part 4",
+    "baseQuestId": "desecrated_temple_of_vol"
+  },
+  {
+    "id": "flesh_makers_laboratory",
+    "name": "Flesh Maker's Laboratory",
+    "level": 14,
+    "baseFavor": 6,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Necropolis, Part 4",
+    "baseQuestId": "flesh_makers_laboratory"
+  },
+  {
+    "id": "ghosts_of_perdition",
+    "name": "Ghosts of Perdition",
+    "level": 14,
+    "baseFavor": 6,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Necropolis, Part 4",
+    "baseQuestId": "ghosts_of_perdition"
+  },
+  {
+    "id": "inferno_of_the_damned",
+    "name": "Inferno of the Damned",
+    "level": 14,
+    "baseFavor": 6,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Necropolis, Part 4",
+    "baseQuestId": "inferno_of_the_damned"
+  },
+  {
+    "id": "delirium",
+    "name": "Delirium",
+    "level": 15,
+    "baseFavor": 5,
+    "patron": "The Free Agents",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "acid_wit",
+    "name": "Acid Wit",
+    "level": 15,
+    "baseFavor": 6,
+    "patron": "The Twelve",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "escape_plan",
+    "name": "Escape Plan",
+    "level": 15,
+    "baseFavor": 5,
+    "patron": "Purple Dragon Knights",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "disciples_of_shar",
+    "name": "Disciples of Shar",
+    "level": 15,
+    "baseFavor": 6,
+    "patron": "Purple Dragon Knights",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "search_and_rescue_level_15",
+    "name": "Search and Rescue",
+    "level": 15,
+    "baseFavor": 6,
+    "patron": "The Harpers",
+    "adventurePack": "Free to Play",
+    "baseQuestId": "search_and_rescue"
+  },
+  {
+    "id": "search_and_rescue_level_31",
+    "name": "Search and Rescue",
+    "level": 31,
+    "baseFavor": 6,
+    "patron": "The Harpers",
+    "adventurePack": "Free to Play",
+    "baseQuestId": "search_and_rescue"
+  },
+  {
+    "id": "lost_at_sea_level_15",
+    "name": "Lost at Sea",
+    "level": 15,
+    "baseFavor": 5,
+    "patron": "The Free Agents",
+    "adventurePack": "Free to Play",
+    "baseQuestId": "lost_at_sea"
+  },
+  {
+    "id": "lost_at_sea_level_32",
+    "name": "Lost at Sea",
+    "level": 32,
+    "baseFavor": 5,
+    "patron": "The Free Agents",
+    "adventurePack": "Free to Play",
+    "baseQuestId": "lost_at_sea"
+  },
+  {
+    "id": "missing",
+    "name": "Missing",
+    "level": 15,
+    "baseFavor": 6,
+    "patron": "The Free Agents",
+    "adventurePack": "Harbinger of Madness"
+  },
+  {
+    "id": "fear_factory",
+    "name": "Fear Factory",
+    "level": 15,
+    "baseFavor": 5,
+    "patron": "The Free Agents",
+    "adventurePack": "Harbinger of Madness"
+  },
+  {
+    "id": "sinister_storage",
+    "name": "Sinister Storage",
+    "level": 15,
+    "baseFavor": 5,
+    "patron": "The Free Agents",
+    "adventurePack": "Harbinger of Madness"
+  },
+  {
+    "id": "in_the_flesh",
+    "name": "In The Flesh",
+    "level": 15,
+    "baseFavor": 6,
+    "patron": "The Free Agents",
+    "adventurePack": "Harbinger of Madness"
+  },
+  {
+    "id": "just_business_level_15",
+    "name": "Just Business",
+    "level": 15,
+    "baseFavor": 5,
+    "patron": "Sharn City Council",
+    "adventurePack": "Masterminds of Sharn",
+    "baseQuestId": "just_business"
+  },
+  {
+    "id": "just_business_level_32",
+    "name": "Just Business",
+    "level": 32,
+    "baseFavor": 5,
+    "patron": "Sharn City Council",
+    "adventurePack": "Masterminds of Sharn",
+    "baseQuestId": "just_business"
+  },
+  {
+    "id": "ruinous_schemes_level_15",
+    "name": "Ruinous Schemes",
+    "level": 15,
+    "baseFavor": 4,
+    "patron": "Sharn City Council",
+    "adventurePack": "Masterminds of Sharn",
+    "baseQuestId": "ruinous_schemes"
+  },
+  {
+    "id": "ruinous_schemes_level_32",
+    "name": "Ruinous Schemes",
+    "level": 32,
+    "baseFavor": 4,
+    "patron": "Sharn City Council",
+    "adventurePack": "Masterminds of Sharn",
+    "baseQuestId": "ruinous_schemes"
+  },
+  {
+    "id": "smash_and_burn_level_15",
+    "name": "Smash and Burn",
+    "level": 15,
+    "baseFavor": 5,
+    "patron": "Sharn City Council",
+    "adventurePack": "Masterminds of Sharn",
+    "baseQuestId": "smash_and_burn"
+  },
+  {
+    "id": "smash_and_burn_level_32",
+    "name": "Smash and Burn",
+    "level": 32,
+    "baseFavor": 5,
+    "patron": "Sharn City Council",
+    "adventurePack": "Masterminds of Sharn",
+    "baseQuestId": "smash_and_burn"
+  },
+  {
+    "id": "a_sharn_welcome_level_15",
+    "name": "A Sharn Welcome",
+    "level": 15,
+    "baseFavor": 5,
+    "patron": "Sharn City Council",
+    "adventurePack": "Masterminds of Sharn",
+    "baseQuestId": "a_sharn_welcome"
+  },
+  {
+    "id": "a_sharn_welcome_level_32",
+    "name": "A Sharn Welcome",
+    "level": 32,
+    "baseFavor": 5,
+    "patron": "Sharn City Council",
+    "adventurePack": "Masterminds of Sharn",
+    "baseQuestId": "a_sharn_welcome"
+  },
+  {
+    "id": "best_laid_plans_level_15",
+    "name": "Best Laid Plans",
+    "level": 15,
+    "baseFavor": 5,
+    "patron": "Sharn City Council",
+    "adventurePack": "Masterminds of Sharn",
+    "baseQuestId": "best_laid_plans"
+  },
+  {
+    "id": "best_laid_plans_level_32",
+    "name": "Best Laid Plans",
+    "level": 32,
+    "baseFavor": 5,
+    "patron": "Sharn City Council",
+    "adventurePack": "Masterminds of Sharn",
+    "baseQuestId": "best_laid_plans"
+  },
+  {
+    "id": "red_rain_level_15",
+    "name": "Red Rain",
+    "level": 15,
+    "baseFavor": 5,
+    "patron": "Sharn City Council",
+    "adventurePack": "Masterminds of Sharn",
+    "baseQuestId": "red_rain"
+  },
+  {
+    "id": "red_rain_level_32",
+    "name": "Red Rain",
+    "level": 32,
+    "baseFavor": 5,
+    "patron": "Sharn City Council",
+    "adventurePack": "Masterminds of Sharn",
+    "baseQuestId": "red_rain"
+  },
+  {
+    "id": "the_wraithcallers_level_15",
+    "name": "The Wraithcallers",
+    "level": 15,
+    "baseFavor": 4,
+    "patron": "Sharn City Council",
+    "adventurePack": "Masterminds of Sharn",
+    "baseQuestId": "the_wraithcallers"
+  },
+  {
+    "id": "the_wraithcallers_level_32",
+    "name": "The Wraithcallers",
+    "level": 32,
+    "baseFavor": 4,
+    "patron": "Sharn City Council",
+    "adventurePack": "Masterminds of Sharn",
+    "baseQuestId": "the_wraithcallers"
+  },
+  {
+    "id": "thralls_of_the_fungus_lord_level_15",
+    "name": "Thralls of the Fungus Lord",
+    "level": 15,
+    "baseFavor": 5,
+    "patron": "Sharn City Council",
+    "adventurePack": "Masterminds of Sharn",
+    "baseQuestId": "thralls_of_the_fungus_lord"
+  },
+  {
+    "id": "thralls_of_the_fungus_lord_level_32",
+    "name": "Thralls of the Fungus Lord",
+    "level": 32,
+    "baseFavor": 5,
+    "patron": "Sharn City Council",
+    "adventurePack": "Masterminds of Sharn",
+    "baseQuestId": "thralls_of_the_fungus_lord"
+  },
+  {
+    "id": "the_same_old_song_level_15",
+    "name": "The Same Old Song",
+    "level": 15,
+    "baseFavor": 5,
+    "patron": "Sharn City Council",
+    "adventurePack": "Masterminds of Sharn",
+    "baseQuestId": "the_same_old_song"
+  },
+  {
+    "id": "the_same_old_song_level_32",
+    "name": "The Same Old Song",
+    "level": 32,
+    "baseFavor": 5,
+    "patron": "Sharn City Council",
+    "adventurePack": "Masterminds of Sharn",
+    "baseQuestId": "the_same_old_song"
+  },
+  {
+    "id": "shadow_of_a_doubt",
+    "name": "Shadow of a Doubt",
+    "level": 15,
+    "baseFavor": 6,
+    "patron": "Purple Dragon Knights",
+    "adventurePack": "Shadowfell Conspiracy"
+  },
+  {
+    "id": "graveyard_shift_level_15",
+    "name": "Graveyard Shift",
+    "level": 15,
+    "baseFavor": 5,
+    "patron": "The Harpers",
+    "adventurePack": "The Mines of Tethyamar",
+    "baseQuestId": "graveyard_shift"
+  },
+  {
+    "id": "graveyard_shift_level_31",
+    "name": "Graveyard Shift",
+    "level": 31,
+    "baseFavor": 5,
+    "patron": "The Harpers",
+    "adventurePack": "The Mines of Tethyamar",
+    "baseQuestId": "graveyard_shift"
+  },
+  {
+    "id": "records_of_the_past_level_15",
+    "name": "Records of the Past",
+    "level": 15,
+    "baseFavor": 5,
+    "patron": "The Harpers",
+    "adventurePack": "The Mines of Tethyamar",
+    "baseQuestId": "records_of_the_past"
+  },
+  {
+    "id": "records_of_the_past_level_31",
+    "name": "Records of the Past",
+    "level": 31,
+    "baseFavor": 5,
+    "patron": "The Harpers",
+    "adventurePack": "The Mines of Tethyamar",
+    "baseQuestId": "records_of_the_past"
+  },
+  {
+    "id": "third_times_a_charm_level_15",
+    "name": "Third Time's a Charm",
+    "level": 15,
+    "baseFavor": 5,
+    "patron": "The Harpers",
+    "adventurePack": "The Mines of Tethyamar",
+    "baseQuestId": "third_times_a_charm"
+  },
+  {
+    "id": "third_times_a_charm_level_31",
+    "name": "Third Time's a Charm",
+    "level": 31,
+    "baseFavor": 5,
+    "patron": "The Harpers",
+    "adventurePack": "The Mines of Tethyamar",
+    "baseQuestId": "third_times_a_charm"
+  },
+  {
+    "id": "strike_back_level_15",
+    "name": "Strike Back",
+    "level": 15,
+    "baseFavor": 5,
+    "patron": "The Harpers",
+    "adventurePack": "The Mines of Tethyamar",
+    "baseQuestId": "strike_back"
+  },
+  {
+    "id": "strike_back_level_31",
+    "name": "Strike Back",
+    "level": 31,
+    "baseFavor": 5,
+    "patron": "The Harpers",
+    "adventurePack": "The Mines of Tethyamar",
+    "baseQuestId": "strike_back"
+  },
+  {
+    "id": "desire_in_the_dark_level_15",
+    "name": "Desire in the Dark",
+    "level": 15,
+    "baseFavor": 5,
+    "patron": "The Harpers",
+    "adventurePack": "The Mines of Tethyamar",
+    "baseQuestId": "desire_in_the_dark"
+  },
+  {
+    "id": "desire_in_the_dark_level_31",
+    "name": "Desire in the Dark",
+    "level": 31,
+    "baseFavor": 5,
+    "patron": "The Harpers",
+    "adventurePack": "The Mines of Tethyamar",
+    "baseQuestId": "desire_in_the_dark"
+  },
+  {
+    "id": "litany_of_the_dead",
+    "name": "Litany of the Dead",
+    "level": 15,
+    "baseFavor": 6,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Necropolis, Part 4"
+  },
+  {
+    "id": "to_curse_the_sky_level_15",
+    "name": "To Curse the Sky",
+    "level": 15,
+    "baseFavor": 6,
+    "patron": "House Deneith",
+    "adventurePack": "The Vale of Twilight",
+    "baseQuestId": "to_curse_the_sky"
+  },
+  {
+    "id": "to_curse_the_sky_level_31",
+    "name": "To Curse the Sky",
+    "level": 31,
+    "baseFavor": 6,
+    "patron": "House Deneith",
+    "adventurePack": "The Vale of Twilight",
+    "baseQuestId": "to_curse_the_sky"
+  },
+  {
+    "id": "creeping_death_level_15",
+    "name": "Creeping Death",
+    "level": 15,
+    "baseFavor": 6,
+    "patron": "The Twelve",
+    "adventurePack": "The Vale of Twilight",
+    "baseQuestId": "creeping_death"
+  },
+  {
+    "id": "creeping_death_level_31",
+    "name": "Creeping Death",
+    "level": 31,
+    "baseFavor": 6,
+    "patron": "The Twelve",
+    "adventurePack": "The Vale of Twilight",
+    "baseQuestId": "creeping_death"
+  },
+  {
+    "id": "the_lords_of_dust_level_16",
+    "name": "The Lords of Dust",
+    "level": 16,
+    "baseFavor": 7,
+    "patron": "The Silver Flame",
+    "adventurePack": "Free to Play",
+    "baseQuestId": "the_lords_of_dust"
+  },
+  {
+    "id": "the_lords_of_dust_level_21",
+    "name": "The Lords of Dust",
+    "level": 21,
+    "baseFavor": 7,
+    "patron": "The Silver Flame",
+    "adventurePack": "Free to Play",
+    "baseQuestId": "the_lords_of_dust"
+  },
+  {
+    "id": "the_spinner_of_shadows_level_16",
+    "name": "The Spinner of Shadows",
+    "level": 16,
+    "baseFavor": 7,
+    "patron": "The Silver Flame",
+    "adventurePack": "Free to Play",
+    "baseQuestId": "the_spinner_of_shadows"
+  },
+  {
+    "id": "the_spinner_of_shadows_level_21",
+    "name": "The Spinner of Shadows",
+    "level": 21,
+    "baseFavor": 7,
+    "patron": "The Silver Flame",
+    "adventurePack": "Free to Play",
+    "baseQuestId": "the_spinner_of_shadows"
+  },
+  {
+    "id": "servants_of_the_overlord_level_16",
+    "name": "Servants of the Overlord",
+    "level": 16,
+    "baseFavor": 7,
+    "patron": "The Silver Flame",
+    "adventurePack": "Free to Play",
+    "baseQuestId": "servants_of_the_overlord"
+  },
+  {
+    "id": "servants_of_the_overlord_level_21",
+    "name": "Servants of the Overlord",
+    "level": 21,
+    "baseFavor": 7,
+    "patron": "The Silver Flame",
+    "adventurePack": "Free to Play",
+    "baseQuestId": "servants_of_the_overlord"
+  },
+  {
+    "id": "the_mask_of_deception_level_16",
+    "name": "The Mask of Deception",
+    "level": 16,
+    "baseFavor": 6,
+    "patron": "The Harpers",
+    "adventurePack": "Free to Play",
+    "baseQuestId": "the_mask_of_deception"
+  },
+  {
+    "id": "the_mask_of_deception_level_30",
+    "name": "The Mask of Deception",
+    "level": 30,
+    "baseFavor": 6,
+    "patron": "The Harpers",
+    "adventurePack": "Free to Play",
+    "baseQuestId": "the_mask_of_deception"
+  },
+  {
+    "id": "beyond_the_rift_level_16",
+    "name": "Beyond the Rift",
+    "level": 16,
+    "baseFavor": 7,
+    "patron": "The Silver Flame",
+    "adventurePack": "Free to Play",
+    "baseQuestId": "beyond_the_rift"
+  },
+  {
+    "id": "beyond_the_rift_level_21",
+    "name": "Beyond the Rift",
+    "level": 21,
+    "baseFavor": 7,
+    "patron": "The Silver Flame",
+    "adventurePack": "Free to Play",
+    "baseQuestId": "beyond_the_rift"
+  },
+  {
+    "id": "army_of_eternal_night_level_16",
+    "name": "Army of Eternal Night",
+    "level": 16,
+    "baseFavor": 6,
+    "patron": "Morgrave University",
+    "adventurePack": "Grip of the Hidden Hand",
+    "baseQuestId": "army_of_eternal_night"
+  },
+  {
+    "id": "army_of_eternal_night_level_33",
+    "name": "Army of Eternal Night",
+    "level": 33,
+    "baseFavor": 6,
+    "patron": "Morgrave University",
+    "adventurePack": "Grip of the Hidden Hand",
+    "baseQuestId": "army_of_eternal_night"
+  },
+  {
+    "id": "order_in_the_court_level_16",
+    "name": "Order in the Court!",
+    "level": 16,
+    "baseFavor": 6,
+    "patron": "Morgrave University",
+    "adventurePack": "Grip of the Hidden Hand",
+    "baseQuestId": "order_in_the_court"
+  },
+  {
+    "id": "order_in_the_court_level_33",
+    "name": "Order in the Court!",
+    "level": 33,
+    "baseFavor": 6,
+    "patron": "Morgrave University",
+    "adventurePack": "Grip of the Hidden Hand",
+    "baseQuestId": "order_in_the_court"
+  },
+  {
+    "id": "growing_pains_level_16",
+    "name": "Growing Pains",
+    "level": 16,
+    "baseFavor": 6,
+    "patron": "Morgrave University",
+    "adventurePack": "Grip of the Hidden Hand",
+    "baseQuestId": "growing_pains"
+  },
+  {
+    "id": "growing_pains_level_33",
+    "name": "Growing Pains",
+    "level": 33,
+    "baseFavor": 6,
+    "patron": "Morgrave University",
+    "adventurePack": "Grip of the Hidden Hand",
+    "baseQuestId": "growing_pains"
+  },
+  {
+    "id": "the_hand_and_the_eyes_level_16",
+    "name": "The Hand and the Eyes",
+    "level": 16,
+    "baseFavor": 7,
+    "patron": "Morgrave University",
+    "adventurePack": "Grip of the Hidden Hand",
+    "baseQuestId": "the_hand_and_the_eyes"
+  },
+  {
+    "id": "the_hand_and_the_eyes_level_33",
+    "name": "The Hand and the Eyes",
+    "level": 33,
+    "baseFavor": 7,
+    "patron": "Morgrave University",
+    "adventurePack": "Grip of the Hidden Hand",
+    "baseQuestId": "the_hand_and_the_eyes"
+  },
+  {
+    "id": "three_paths_to_battle_level_16",
+    "name": "Three Paths to Battle",
+    "level": 16,
+    "baseFavor": 7,
+    "patron": "Morgrave University",
+    "adventurePack": "Grip of the Hidden Hand",
+    "baseQuestId": "three_paths_to_battle"
+  },
+  {
+    "id": "three_paths_to_battle_level_33",
+    "name": "Three Paths to Battle",
+    "level": 33,
+    "baseFavor": 7,
+    "patron": "Morgrave University",
+    "adventurePack": "Grip of the Hidden Hand",
+    "baseQuestId": "three_paths_to_battle"
+  },
+  {
+    "id": "no_refunds_level_16",
+    "name": "No Refunds",
+    "level": 16,
+    "baseFavor": 6,
+    "patron": "Sharn City Council",
+    "adventurePack": "Masterminds of Sharn",
+    "baseQuestId": "no_refunds"
+  },
+  {
+    "id": "no_refunds_level_32",
+    "name": "No Refunds",
+    "level": 32,
+    "baseFavor": 6,
+    "patron": "Sharn City Council",
+    "adventurePack": "Masterminds of Sharn",
+    "baseQuestId": "no_refunds"
+  },
+  {
+    "id": "house_of_pain_level_16",
+    "name": "House of Pain",
+    "level": 16,
+    "baseFavor": 7,
+    "patron": "Sharn City Council",
+    "adventurePack": "Masterminds of Sharn",
+    "baseQuestId": "house_of_pain"
+  },
+  {
+    "id": "house_of_pain_level_32",
+    "name": "House of Pain",
+    "level": 32,
+    "baseFavor": 7,
+    "patron": "Sharn City Council",
+    "adventurePack": "Masterminds of Sharn",
+    "baseQuestId": "house_of_pain"
+  },
+  {
+    "id": "blown_deadline_level_16",
+    "name": "Blown Deadline",
+    "level": 16,
+    "baseFavor": 6,
+    "patron": "Sharn City Council",
+    "adventurePack": "Masterminds of Sharn",
+    "baseQuestId": "blown_deadline"
+  },
+  {
+    "id": "blown_deadline_level_32",
+    "name": "Blown Deadline",
+    "level": 32,
+    "baseFavor": 6,
+    "patron": "Sharn City Council",
+    "adventurePack": "Masterminds of Sharn",
+    "baseQuestId": "blown_deadline"
+  },
+  {
+    "id": "reach_for_the_sky_level_16",
+    "name": "Reach for the Sky",
+    "level": 16,
+    "baseFavor": 7,
+    "patron": "Sharn City Council",
+    "adventurePack": "Masterminds of Sharn",
+    "baseQuestId": "reach_for_the_sky"
+  },
+  {
+    "id": "reach_for_the_sky_level_32",
+    "name": "Reach for the Sky",
+    "level": 32,
+    "baseFavor": 7,
+    "patron": "Sharn City Council",
+    "adventurePack": "Masterminds of Sharn",
+    "baseQuestId": "reach_for_the_sky"
+  },
+  {
+    "id": "scavenger_hunt_level_16",
+    "name": "Scavenger Hunt",
+    "level": 16,
+    "baseFavor": 5,
+    "patron": "Sharn City Council",
+    "adventurePack": "Masterminds of Sharn",
+    "baseQuestId": "scavenger_hunt"
+  },
+  {
+    "id": "scavenger_hunt_level_32",
+    "name": "Scavenger Hunt",
+    "level": 32,
+    "baseFavor": 5,
+    "patron": "Sharn City Council",
+    "adventurePack": "Masterminds of Sharn",
+    "baseQuestId": "scavenger_hunt"
+  },
+  {
+    "id": "the_magma_must_flow_level_16",
+    "name": "The Magma Must Flow",
+    "level": 16,
+    "baseFavor": 5,
+    "patron": "Sharn City Council",
+    "adventurePack": "Masterminds of Sharn",
+    "baseQuestId": "the_magma_must_flow"
+  },
+  {
+    "id": "the_magma_must_flow_level_32",
+    "name": "The Magma Must Flow",
+    "level": 32,
+    "baseFavor": 5,
+    "patron": "Sharn City Council",
+    "adventurePack": "Masterminds of Sharn",
+    "baseQuestId": "the_magma_must_flow"
+  },
+  {
+    "id": "security_detail_level_16",
+    "name": "Security Detail",
+    "level": 16,
+    "baseFavor": 5,
+    "patron": "Sharn City Council",
+    "adventurePack": "Masterminds of Sharn",
+    "baseQuestId": "security_detail"
+  },
+  {
+    "id": "security_detail_level_32",
+    "name": "Security Detail",
+    "level": 32,
+    "baseFavor": 5,
+    "patron": "Sharn City Council",
+    "adventurePack": "Masterminds of Sharn",
+    "baseQuestId": "security_detail"
+  },
+  {
+    "id": "roll_call_level_16",
+    "name": "Roll Call",
+    "level": 16,
+    "baseFavor": 5,
+    "patron": "Sharn City Council",
+    "adventurePack": "Masterminds of Sharn",
+    "baseQuestId": "roll_call"
+  },
+  {
+    "id": "roll_call_level_32",
+    "name": "Roll Call",
+    "level": 32,
+    "baseFavor": 5,
+    "patron": "Sharn City Council",
+    "adventurePack": "Masterminds of Sharn",
+    "baseQuestId": "roll_call"
+  },
+  {
+    "id": "a_lesson_in_deception_level_16",
+    "name": "A Lesson in Deception",
+    "level": 16,
+    "baseFavor": 7,
+    "patron": "Purple Dragon Knights",
+    "adventurePack": "Shadowfell Conspiracy",
+    "baseQuestId": "a_lesson_in_deception"
+  },
+  {
+    "id": "a_lesson_in_deception_level_26",
+    "name": "A Lesson in Deception",
+    "level": 26,
+    "baseFavor": 7,
+    "patron": "Purple Dragon Knights",
+    "adventurePack": "Shadowfell Conspiracy",
+    "baseQuestId": "a_lesson_in_deception"
+  },
+  {
+    "id": "army_of_shadow_level_16",
+    "name": "Army of Shadow",
+    "level": 16,
+    "baseFavor": 7,
+    "patron": "Purple Dragon Knights",
+    "adventurePack": "Shadowfell Conspiracy",
+    "baseQuestId": "army_of_shadow"
+  },
+  {
+    "id": "army_of_shadow_level_26",
+    "name": "Army of Shadow",
+    "level": 26,
+    "baseFavor": 7,
+    "patron": "Purple Dragon Knights",
+    "adventurePack": "Shadowfell Conspiracy",
+    "baseQuestId": "army_of_shadow"
+  },
+  {
+    "id": "friends_in_low_places_level_16",
+    "name": "Friends in Low Places",
+    "level": 16,
+    "baseFavor": 7,
+    "patron": "Purple Dragon Knights",
+    "adventurePack": "Shadowfell Conspiracy",
+    "baseQuestId": "friends_in_low_places"
+  },
+  {
+    "id": "friends_in_low_places_level_26",
+    "name": "Friends in Low Places",
+    "level": 26,
+    "baseFavor": 7,
+    "patron": "Purple Dragon Knights",
+    "adventurePack": "Shadowfell Conspiracy",
+    "baseQuestId": "friends_in_low_places"
+  },
+  {
+    "id": "the_thrill_of_the_hunt_level_16",
+    "name": "The Thrill of the Hunt",
+    "level": 16,
+    "baseFavor": 6,
+    "patron": "Purple Dragon Knights",
+    "adventurePack": "Shadowfell Conspiracy",
+    "baseQuestId": "the_thrill_of_the_hunt"
+  },
+  {
+    "id": "the_thrill_of_the_hunt_level_26",
+    "name": "The Thrill of the Hunt",
+    "level": 26,
+    "baseFavor": 6,
+    "patron": "Purple Dragon Knights",
+    "adventurePack": "Shadowfell Conspiracy",
+    "baseQuestId": "the_thrill_of_the_hunt"
+  },
+  {
+    "id": "through_a_mirror_darkly_level_16",
+    "name": "Through a Mirror Darkly",
+    "level": 16,
+    "baseFavor": 7,
+    "patron": "Purple Dragon Knights",
+    "adventurePack": "Shadowfell Conspiracy",
+    "baseQuestId": "through_a_mirror_darkly"
+  },
+  {
+    "id": "through_a_mirror_darkly_level_26",
+    "name": "Through a Mirror Darkly",
+    "level": 26,
+    "baseFavor": 7,
+    "patron": "Purple Dragon Knights",
+    "adventurePack": "Shadowfell Conspiracy",
+    "baseQuestId": "through_a_mirror_darkly"
+  },
+  {
+    "id": "let_sleeping_dust_lie",
+    "name": "Let Sleeping Dust Lie",
+    "level": 16,
+    "baseFavor": 8,
+    "patron": "The Twelve",
+    "adventurePack": "The Vale of Twilight"
+  },
+  {
+    "id": "ritual_sacrifice",
+    "name": "Ritual Sacrifice",
+    "level": 16,
+    "baseFavor": 8,
+    "patron": "The Twelve",
+    "adventurePack": "The Vale of Twilight"
+  },
+  {
+    "id": "running_with_the_devils",
+    "name": "Running with the Devils",
+    "level": 16,
+    "baseFavor": 8,
+    "patron": "The Twelve",
+    "adventurePack": "The Vale of Twilight"
+  },
+  {
+    "id": "rainbow_in_the_dark",
+    "name": "Rainbow in the Dark",
+    "level": 16,
+    "baseFavor": 8,
+    "patron": "The Twelve",
+    "adventurePack": "The Vale of Twilight"
+  },
+  {
+    "id": "the_coalescence_chamber",
+    "name": "The Coalescence Chamber",
+    "level": 16,
+    "baseFavor": 8,
+    "patron": "The Twelve",
+    "adventurePack": "The Vale of Twilight"
+  },
+  {
+    "id": "good_intentions_level_17",
+    "name": "Good Intentions",
+    "level": 17,
+    "baseFavor": 7,
+    "patron": "The Free Agents",
+    "adventurePack": "Free to Play",
+    "baseQuestId": "good_intentions"
+  },
+  {
+    "id": "good_intentions_level_31",
+    "name": "Good Intentions",
+    "level": 31,
+    "baseFavor": 7,
+    "patron": "The Free Agents",
+    "adventurePack": "Free to Play",
+    "baseQuestId": "good_intentions"
+  },
+  {
+    "id": "the_lord_of_stone",
+    "name": "The Lord of Stone",
+    "level": 17,
+    "baseFavor": 6,
+    "patron": "The Twelve",
+    "adventurePack": "Reign of Madness"
+  },
+  {
+    "id": "acute_delirium",
+    "name": "Acute Delirium",
+    "level": 17,
+    "baseFavor": 7,
+    "patron": "The Twelve",
+    "adventurePack": "Reign of Madness"
+  },
+  {
+    "id": "the_lord_of_eyes",
+    "name": "The Lord of Eyes",
+    "level": 17,
+    "baseFavor": 7,
+    "patron": "The Twelve",
+    "adventurePack": "Reign of Madness"
+  },
+  {
+    "id": "the_sane_asylum",
+    "name": "The Sane Asylum",
+    "level": 17,
+    "baseFavor": 7,
+    "patron": "The Twelve",
+    "adventurePack": "Reign of Madness"
+  },
+  {
+    "id": "outbreak_level_17",
+    "name": "Outbreak",
+    "level": 17,
+    "baseFavor": 6,
+    "patron": "The Harpers",
+    "adventurePack": "The Druid's Deep",
+    "baseQuestId": "outbreak"
+  },
+  {
+    "id": "outbreak_level_23",
+    "name": "Outbreak",
+    "level": 23,
+    "baseFavor": 6,
+    "patron": "The Harpers",
+    "adventurePack": "The Druid's Deep",
+    "baseQuestId": "outbreak"
+  },
+  {
+    "id": "thorn_and_paw_level_17",
+    "name": "Thorn and Paw",
+    "level": 17,
+    "baseFavor": 6,
+    "patron": "The Harpers",
+    "adventurePack": "The Druid's Deep",
+    "baseQuestId": "thorn_and_paw"
+  },
+  {
+    "id": "thorn_and_paw_level_23",
+    "name": "Thorn and Paw",
+    "level": 23,
+    "baseFavor": 6,
+    "patron": "The Harpers",
+    "adventurePack": "The Druid's Deep",
+    "baseQuestId": "thorn_and_paw"
+  },
+  {
+    "id": "overgrowth_level_17",
+    "name": "Overgrowth",
+    "level": 17,
+    "baseFavor": 6,
+    "patron": "The Harpers",
+    "adventurePack": "The Druid's Deep",
+    "baseQuestId": "overgrowth"
+  },
+  {
+    "id": "overgrowth_level_23",
+    "name": "Overgrowth",
+    "level": 23,
+    "baseFavor": 6,
+    "patron": "The Harpers",
+    "adventurePack": "The Druid's Deep",
+    "baseQuestId": "overgrowth"
+  },
+  {
+    "id": "the_druids_curse_level_17",
+    "name": "The Druid's Curse",
+    "level": 17,
+    "baseFavor": 7,
+    "patron": "The Harpers",
+    "adventurePack": "The Druid's Deep",
+    "baseQuestId": "the_druids_curse"
+  },
+  {
+    "id": "the_druids_curse_level_23",
+    "name": "The Druid's Curse",
+    "level": 23,
+    "baseFavor": 7,
+    "patron": "The Harpers",
+    "adventurePack": "The Druid's Deep",
+    "baseQuestId": "the_druids_curse"
+  },
+  {
+    "id": "ascension_chamber",
+    "name": "Ascension Chamber",
+    "level": 17,
+    "baseFavor": 7,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Necropolis, Part 4"
+  },
+  {
+    "id": "enter_the_kobold",
+    "name": "Enter the Kobold",
+    "level": 17,
+    "baseFavor": 8,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "The Reaver's Reach"
+  },
+  {
+    "id": "stealer_of_souls",
+    "name": "Stealer of Souls",
+    "level": 17,
+    "baseFavor": 8,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "The Reaver's Reach"
+  },
+  {
+    "id": "monastery_of_the_scorpion",
+    "name": "Monastery of the Scorpion",
+    "level": 17,
+    "baseFavor": 8,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "The Reaver's Reach"
+  },
+  {
+    "id": "prey_on_the_hunter",
+    "name": "Prey on the Hunter",
+    "level": 17,
+    "baseFavor": 8,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "The Reaver's Reach"
+  },
+  {
+    "id": "safety_in_numbers_level_17",
+    "name": "Safety in Numbers",
+    "level": 17,
+    "baseFavor": 6,
+    "patron": "Sharn City Council",
+    "adventurePack": "The Soul Splitter",
+    "baseQuestId": "safety_in_numbers"
+  },
+  {
+    "id": "safety_in_numbers_level_32",
+    "name": "Safety in Numbers",
+    "level": 32,
+    "baseFavor": 6,
+    "patron": "Sharn City Council",
+    "adventurePack": "The Soul Splitter",
+    "baseQuestId": "safety_in_numbers"
+  },
+  {
+    "id": "finding_dorris_level_17",
+    "name": "Finding Dorris",
+    "level": 17,
+    "baseFavor": 7,
+    "patron": "Sharn City Council",
+    "adventurePack": "The Soul Splitter",
+    "baseQuestId": "finding_dorris"
+  },
+  {
+    "id": "finding_dorris_level_32",
+    "name": "Finding Dorris",
+    "level": 32,
+    "baseFavor": 7,
+    "patron": "Sharn City Council",
+    "adventurePack": "The Soul Splitter",
+    "baseQuestId": "finding_dorris"
+  },
+  {
+    "id": "the_underlane_assignment_level_17",
+    "name": "The Underlane Assignment",
+    "level": 17,
+    "baseFavor": 6,
+    "patron": "Sharn City Council",
+    "adventurePack": "The Soul Splitter",
+    "baseQuestId": "the_underlane_assignment"
+  },
+  {
+    "id": "the_underlane_assignment_level_32",
+    "name": "The Underlane Assignment",
+    "level": 32,
+    "baseFavor": 6,
+    "patron": "Sharn City Council",
+    "adventurePack": "The Soul Splitter",
+    "baseQuestId": "the_underlane_assignment"
+  },
+  {
+    "id": "members_only_level_17",
+    "name": "Members Only",
+    "level": 17,
+    "baseFavor": 6,
+    "patron": "Sharn City Council",
+    "adventurePack": "The Soul Splitter",
+    "baseQuestId": "members_only"
+  },
+  {
+    "id": "members_only_level_32",
+    "name": "Members Only",
+    "level": 32,
+    "baseFavor": 6,
+    "patron": "Sharn City Council",
+    "adventurePack": "The Soul Splitter",
+    "baseQuestId": "members_only"
+  },
+  {
+    "id": "the_offshore_account_level_17",
+    "name": "The Offshore Account",
+    "level": 17,
+    "baseFavor": 6,
+    "patron": "Sharn City Council",
+    "adventurePack": "The Soul Splitter",
+    "baseQuestId": "the_offshore_account"
+  },
+  {
+    "id": "the_offshore_account_level_32",
+    "name": "The Offshore Account",
+    "level": 32,
+    "baseFavor": 6,
+    "patron": "Sharn City Council",
+    "adventurePack": "The Soul Splitter",
+    "baseQuestId": "the_offshore_account"
+  },
+  {
+    "id": "soul_survivor_level_17",
+    "name": "Soul Survivor",
+    "level": 17,
+    "baseFavor": 7,
+    "patron": "Sharn City Council",
+    "adventurePack": "The Soul Splitter",
+    "baseQuestId": "soul_survivor"
+  },
+  {
+    "id": "soul_survivor_level_32",
+    "name": "Soul Survivor",
+    "level": 32,
+    "baseFavor": 7,
+    "patron": "Sharn City Council",
+    "adventurePack": "The Soul Splitter",
+    "baseQuestId": "soul_survivor"
+  },
+  {
+    "id": "the_shroud",
+    "name": "The Shroud",
+    "level": 17,
+    "baseFavor": 11,
+    "patron": "The Twelve",
+    "adventurePack": "The Vale of Twilight"
+  },
+  {
+    "id": "in_the_demons_den",
+    "name": "In the Demon's Den",
+    "level": 18,
+    "baseFavor": 6,
+    "patron": "The Silver Flame",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "kill_ten_rats_level_18",
+    "name": "Kill Ten Rats",
+    "level": 18,
+    "baseFavor": 6,
+    "patron": "Morgrave University",
+    "adventurePack": "Free to Play",
+    "baseQuestId": "kill_ten_rats"
+  },
+  {
+    "id": "kill_ten_rats_level_34",
+    "name": "Kill Ten Rats",
+    "level": 34,
+    "baseFavor": 6,
+    "patron": "Morgrave University",
+    "adventurePack": "Free to Play",
+    "baseQuestId": "kill_ten_rats"
+  },
+  {
+    "id": "fashion_madness_level_18",
+    "name": "Fashion Madness",
+    "level": 18,
+    "baseFavor": 7,
+    "patron": "The Twelve",
+    "adventurePack": "Heart of Madness",
+    "baseQuestId": "fashion_madness"
+  },
+  {
+    "id": "fashion_madness_level_26",
+    "name": "Fashion Madness",
+    "level": 26,
+    "baseFavor": 7,
+    "patron": "The Twelve",
+    "adventurePack": "Heart of Madness",
+    "baseQuestId": "fashion_madness"
+  },
+  {
+    "id": "terminal_delirium_level_18",
+    "name": "Terminal Delirium",
+    "level": 18,
+    "baseFavor": 7,
+    "patron": "The Twelve",
+    "adventurePack": "Heart of Madness",
+    "baseQuestId": "terminal_delirium"
+  },
+  {
+    "id": "terminal_delirium_level_26",
+    "name": "Terminal Delirium",
+    "level": 26,
+    "baseFavor": 7,
+    "patron": "The Twelve",
+    "adventurePack": "Heart of Madness",
+    "baseQuestId": "terminal_delirium"
+  },
+  {
+    "id": "palace_of_stone_level_18",
+    "name": "Palace of Stone",
+    "level": 18,
+    "baseFavor": 7,
+    "patron": "The Twelve",
+    "adventurePack": "Heart of Madness",
+    "baseQuestId": "palace_of_stone"
+  },
+  {
+    "id": "palace_of_stone_level_26",
+    "name": "Palace of Stone",
+    "level": 26,
+    "baseFavor": 7,
+    "patron": "The Twelve",
+    "adventurePack": "Heart of Madness",
+    "baseQuestId": "palace_of_stone"
+  },
+  {
+    "id": "freds_first_date_level_18",
+    "name": "Fred's First Date",
+    "level": 18,
+    "baseFavor": 6,
+    "patron": "Morgrave University",
+    "adventurePack": "Slice of Life",
+    "baseQuestId": "freds_first_date"
+  },
+  {
+    "id": "freds_first_date_level_34",
+    "name": "Fred's First Date",
+    "level": 34,
+    "baseFavor": 6,
+    "patron": "Morgrave University",
+    "adventurePack": "Slice of Life",
+    "baseQuestId": "freds_first_date"
+  },
+  {
+    "id": "this_old_haunt_level_18",
+    "name": "This Old Haunt",
+    "level": 18,
+    "baseFavor": 6,
+    "patron": "Morgrave University",
+    "adventurePack": "Slice of Life",
+    "baseQuestId": "this_old_haunt"
+  },
+  {
+    "id": "this_old_haunt_level_34",
+    "name": "This Old Haunt",
+    "level": 34,
+    "baseFavor": 6,
+    "patron": "Morgrave University",
+    "adventurePack": "Slice of Life",
+    "baseQuestId": "this_old_haunt"
+  },
+  {
+    "id": "too_many_cooks_level_18",
+    "name": "Too Many Cooks",
+    "level": 18,
+    "baseFavor": 6,
+    "patron": "Morgrave University",
+    "adventurePack": "Slice of Life",
+    "baseQuestId": "too_many_cooks"
+  },
+  {
+    "id": "too_many_cooks_level_34",
+    "name": "Too Many Cooks",
+    "level": 34,
+    "baseFavor": 6,
+    "patron": "Morgrave University",
+    "adventurePack": "Slice of Life",
+    "baseQuestId": "too_many_cooks"
+  },
+  {
+    "id": "a_stay_at_the_inn_level_18",
+    "name": "A Stay at the Inn",
+    "level": 18,
+    "baseFavor": 6,
+    "patron": "The Harpers",
+    "adventurePack": "The High Road of Shadows",
+    "baseQuestId": "a_stay_at_the_inn"
+  },
+  {
+    "id": "a_stay_at_the_inn_level_24",
+    "name": "A Stay at the Inn",
+    "level": 24,
+    "baseFavor": 6,
+    "patron": "The Harpers",
+    "adventurePack": "The High Road of Shadows",
+    "baseQuestId": "a_stay_at_the_inn"
+  },
+  {
+    "id": "detour_level_18",
+    "name": "Detour",
+    "level": 18,
+    "baseFavor": 7,
+    "patron": "The Harpers",
+    "adventurePack": "The High Road of Shadows",
+    "baseQuestId": "detour"
+  },
+  {
+    "id": "detour_level_24",
+    "name": "Detour",
+    "level": 24,
+    "baseFavor": 7,
+    "patron": "The Harpers",
+    "adventurePack": "The High Road of Shadows",
+    "baseQuestId": "detour"
+  },
+  {
+    "id": "rest_stop_level_18",
+    "name": "Rest Stop",
+    "level": 18,
+    "baseFavor": 6,
+    "patron": "The Harpers",
+    "adventurePack": "The High Road of Shadows",
+    "baseQuestId": "rest_stop"
+  },
+  {
+    "id": "rest_stop_level_24",
+    "name": "Rest Stop",
+    "level": 24,
+    "baseFavor": 6,
+    "patron": "The Harpers",
+    "adventurePack": "The High Road of Shadows",
+    "baseQuestId": "rest_stop"
+  },
+  {
+    "id": "lost_in_the_swamp_level_18",
+    "name": "Lost in the Swamp",
+    "level": 18,
+    "baseFavor": 6,
+    "patron": "The Harpers",
+    "adventurePack": "The High Road of Shadows",
+    "baseQuestId": "lost_in_the_swamp"
+  },
+  {
+    "id": "lost_in_the_swamp_level_24",
+    "name": "Lost in the Swamp",
+    "level": 24,
+    "baseFavor": 6,
+    "patron": "The Harpers",
+    "adventurePack": "The High Road of Shadows",
+    "baseQuestId": "lost_in_the_swamp"
+  },
+  {
+    "id": "the_end_of_the_road_level_18",
+    "name": "The End of the Road",
+    "level": 18,
+    "baseFavor": 7,
+    "patron": "The Harpers",
+    "adventurePack": "The High Road of Shadows",
+    "baseQuestId": "the_end_of_the_road"
+  },
+  {
+    "id": "the_end_of_the_road_level_24",
+    "name": "The End of the Road",
+    "level": 24,
+    "baseFavor": 7,
+    "patron": "The Harpers",
+    "adventurePack": "The High Road of Shadows",
+    "baseQuestId": "the_end_of_the_road"
+  },
+  {
+    "id": "dream_conspiracy",
+    "name": "Dream Conspiracy",
+    "level": 18,
+    "baseFavor": 6,
+    "patron": "The Coin Lords",
+    "adventurePack": "The Path of Inspiration"
+  },
+  {
+    "id": "finding_the_path",
+    "name": "Finding the Path",
+    "level": 18,
+    "baseFavor": 6,
+    "patron": "The Coin Lords",
+    "adventurePack": "The Path of Inspiration"
+  },
+  {
+    "id": "the_shipwrecked_spy",
+    "name": "The Shipwrecked Spy",
+    "level": 18,
+    "baseFavor": 6,
+    "patron": "The Coin Lords",
+    "adventurePack": "The Path of Inspiration"
+  },
+  {
+    "id": "i_dream_of_jeets",
+    "name": "I Dream of Jeets",
+    "level": 18,
+    "baseFavor": 6,
+    "patron": "The Coin Lords",
+    "adventurePack": "The Path of Inspiration"
+  },
+  {
+    "id": "the_mindsunder",
+    "name": "The Mindsunder",
+    "level": 18,
+    "baseFavor": 6,
+    "patron": "The Coin Lords",
+    "adventurePack": "The Path of Inspiration"
+  },
+  {
+    "id": "hound_of_xoriat",
+    "name": "Hound of Xoriat",
+    "level": 18,
+    "baseFavor": 9,
+    "patron": "The Twelve",
+    "adventurePack": "The Vale of Twilight"
+  },
+  {
+    "id": "a_vision_of_destruction",
+    "name": "A Vision of Destruction",
+    "level": 18,
+    "baseFavor": 9,
+    "patron": "The Twelve",
+    "adventurePack": "The Vale of Twilight"
+  },
+  {
+    "id": "enemy_of_my_enemy_level_18",
+    "name": "Enemy of My Enemy",
+    "level": 18,
+    "baseFavor": 6,
+    "patron": "Morgrave University",
+    "adventurePack": "Vecna Unleashed",
+    "baseQuestId": "enemy_of_my_enemy"
+  },
+  {
+    "id": "enemy_of_my_enemy_level_34",
+    "name": "Enemy of My Enemy",
+    "level": 34,
+    "baseFavor": 6,
+    "patron": "Morgrave University",
+    "adventurePack": "Vecna Unleashed",
+    "baseQuestId": "enemy_of_my_enemy"
+  },
+  {
+    "id": "the_bark_and_the_blade_level_18",
+    "name": "The Bark and the Blade",
+    "level": 18,
+    "baseFavor": 7,
+    "patron": "Morgrave University",
+    "adventurePack": "Vecna Unleashed",
+    "baseQuestId": "the_bark_and_the_blade"
+  },
+  {
+    "id": "the_bark_and_the_blade_level_34",
+    "name": "The Bark and the Blade",
+    "level": 34,
+    "baseFavor": 7,
+    "patron": "Morgrave University",
+    "adventurePack": "Vecna Unleashed",
+    "baseQuestId": "the_bark_and_the_blade"
+  },
+  {
+    "id": "paper_trail_level_18",
+    "name": "Paper Trail",
+    "level": 18,
+    "baseFavor": 6,
+    "patron": "Morgrave University",
+    "adventurePack": "Vecna Unleashed",
+    "baseQuestId": "paper_trail"
+  },
+  {
+    "id": "paper_trail_level_34",
+    "name": "Paper Trail",
+    "level": 34,
+    "baseFavor": 6,
+    "patron": "Morgrave University",
+    "adventurePack": "Vecna Unleashed",
+    "baseQuestId": "paper_trail"
+  },
+  {
+    "id": "party_101_level_18",
+    "name": "Party 101",
+    "level": 18,
+    "baseFavor": 5,
+    "patron": "Morgrave University",
+    "adventurePack": "Vecna Unleashed",
+    "baseQuestId": "party_101"
+  },
+  {
+    "id": "party_101_level_34",
+    "name": "Party 101",
+    "level": 34,
+    "baseFavor": 5,
+    "patron": "Morgrave University",
+    "adventurePack": "Vecna Unleashed",
+    "baseQuestId": "party_101"
+  },
+  {
+    "id": "taken_in_hand_level_18",
+    "name": "Taken in Hand",
+    "level": 18,
+    "baseFavor": 6,
+    "patron": "Morgrave University",
+    "adventurePack": "Vecna Unleashed",
+    "baseQuestId": "taken_in_hand"
+  },
+  {
+    "id": "taken_in_hand_level_34",
+    "name": "Taken in Hand",
+    "level": 34,
+    "baseFavor": 6,
+    "patron": "Morgrave University",
+    "adventurePack": "Vecna Unleashed",
+    "baseQuestId": "taken_in_hand"
+  },
+  {
+    "id": "the_devils_to_pay_level_18",
+    "name": "The Devils to Pay",
+    "level": 18,
+    "baseFavor": 5,
+    "patron": "Morgrave University",
+    "adventurePack": "Vecna Unleashed",
+    "baseQuestId": "the_devils_to_pay"
+  },
+  {
+    "id": "the_devils_to_pay_level_34",
+    "name": "The Devils to Pay",
+    "level": 34,
+    "baseFavor": 5,
+    "patron": "Morgrave University",
+    "adventurePack": "Vecna Unleashed",
+    "baseQuestId": "the_devils_to_pay"
+  },
+  {
+    "id": "the_evil_we_know_level_18",
+    "name": "The Evil We Know",
+    "level": 18,
+    "baseFavor": 6,
+    "patron": "Morgrave University",
+    "adventurePack": "Vecna Unleashed",
+    "baseQuestId": "the_evil_we_know"
+  },
+  {
+    "id": "the_evil_we_know_level_34",
+    "name": "The Evil We Know",
+    "level": 34,
+    "baseFavor": 6,
+    "patron": "Morgrave University",
+    "adventurePack": "Vecna Unleashed",
+    "baseQuestId": "the_evil_we_know"
+  },
+  {
+    "id": "what_dreams_may_come_level_18",
+    "name": "What Dreams May Come",
+    "level": 18,
+    "baseFavor": 5,
+    "patron": "Morgrave University",
+    "adventurePack": "Vecna Unleashed",
+    "baseQuestId": "what_dreams_may_come"
+  },
+  {
+    "id": "what_dreams_may_come_level_34",
+    "name": "What Dreams May Come",
+    "level": 34,
+    "baseFavor": 5,
+    "patron": "Morgrave University",
+    "adventurePack": "Vecna Unleashed",
+    "baseQuestId": "what_dreams_may_come"
+  },
+  {
+    "id": "grand_theft_aureon_level_18",
+    "name": "Grand Theft Aureon",
+    "level": 18,
+    "baseFavor": 7,
+    "patron": "Morgrave University",
+    "adventurePack": "Vecna Unleashed",
+    "baseQuestId": "grand_theft_aureon"
+  },
+  {
+    "id": "grand_theft_aureon_level_34",
+    "name": "Grand Theft Aureon",
+    "level": 34,
+    "baseFavor": 7,
+    "patron": "Morgrave University",
+    "adventurePack": "Vecna Unleashed",
+    "baseQuestId": "grand_theft_aureon"
+  },
+  {
+    "id": "vecna_denied_level_18",
+    "name": "Vecna Denied",
+    "level": 18,
+    "baseFavor": 7,
+    "patron": "Morgrave University",
+    "adventurePack": "Vecna Unleashed",
+    "baseQuestId": "vecna_denied"
+  },
+  {
+    "id": "vecna_denied_level_34",
+    "name": "Vecna Denied",
+    "level": 34,
+    "baseFavor": 7,
+    "patron": "Morgrave University",
+    "adventurePack": "Vecna Unleashed",
+    "baseQuestId": "vecna_denied"
+  },
+  {
+    "id": "vecna_unleashed_quest_level_18",
+    "name": "Vecna Unleashed (quest)",
+    "level": 18,
+    "baseFavor": 6,
+    "patron": "Morgrave University",
+    "adventurePack": "Vecna Unleashed",
+    "baseQuestId": "vecna_unleashed_quest"
+  },
+  {
+    "id": "vecna_unleashed_quest_level_34",
+    "name": "Vecna Unleashed (quest)",
+    "level": 34,
+    "baseFavor": 6,
+    "patron": "Morgrave University",
+    "adventurePack": "Vecna Unleashed",
+    "baseQuestId": "vecna_unleashed_quest"
+  },
+  {
+    "id": "turn_the_page_quest_level_18",
+    "name": "Turn the Page (quest)",
+    "level": 18,
+    "baseFavor": 6,
+    "patron": "Morgrave University",
+    "adventurePack": "Vecna Unleashed",
+    "baseQuestId": "turn_the_page_quest"
+  },
+  {
+    "id": "turn_the_page_quest_level_34",
+    "name": "Turn the Page (quest)",
+    "level": 34,
+    "baseFavor": 6,
+    "patron": "Morgrave University",
+    "adventurePack": "Vecna Unleashed",
+    "baseQuestId": "turn_the_page_quest"
+  },
+  {
+    "id": "law_and_order_level_18",
+    "name": "Law and Order",
+    "level": 18,
+    "baseFavor": 7,
+    "patron": "Morgrave University",
+    "adventurePack": "Vecna Unleashed",
+    "baseQuestId": "law_and_order"
+  },
+  {
+    "id": "law_and_order_level_34",
+    "name": "Law and Order",
+    "level": 34,
+    "baseFavor": 7,
+    "patron": "Morgrave University",
+    "adventurePack": "Vecna Unleashed",
+    "baseQuestId": "law_and_order"
+  },
+  {
+    "id": "murder_by_night",
+    "name": "Murder by Night",
+    "level": 19,
+    "baseFavor": 6,
+    "patron": "Purple Dragon Knights",
+    "adventurePack": "Menace of the Underdark"
+  },
+  {
+    "id": "the_riddle",
+    "name": "The Riddle",
+    "level": 19,
+    "baseFavor": 7,
+    "patron": "Purple Dragon Knights",
+    "adventurePack": "Menace of the Underdark"
+  },
+  {
+    "id": "blown_to_bits",
+    "name": "Blown to Bits",
+    "level": 19,
+    "baseFavor": 6,
+    "patron": "House Cannith",
+    "adventurePack": "Secrets of the Artificers"
+  },
+  {
+    "id": "power_play",
+    "name": "Power Play",
+    "level": 19,
+    "baseFavor": 7,
+    "patron": "House Cannith",
+    "adventurePack": "Secrets of the Artificers"
+  },
+  {
+    "id": "schemes_of_the_enemy",
+    "name": "Schemes of the Enemy",
+    "level": 19,
+    "baseFavor": 6,
+    "patron": "House Cannith",
+    "adventurePack": "Secrets of the Artificers"
+  },
+  {
+    "id": "the_master_artificer",
+    "name": "The Master Artificer",
+    "level": 19,
+    "baseFavor": 7,
+    "patron": "House Cannith",
+    "adventurePack": "Secrets of the Artificers"
+  },
+  {
+    "id": "the_trackers_trap_level_19",
+    "name": "The Tracker's Trap",
+    "level": 19,
+    "baseFavor": 6,
+    "patron": "The Harpers",
+    "adventurePack": "Shadowfell Conspiracy",
+    "baseQuestId": "the_trackers_trap"
+  },
+  {
+    "id": "the_trackers_trap_level_27",
+    "name": "The Tracker's Trap",
+    "level": 27,
+    "baseFavor": 6,
+    "patron": "The Harpers",
+    "adventurePack": "Shadowfell Conspiracy",
+    "baseQuestId": "the_trackers_trap"
+  },
+  {
+    "id": "lines_of_supply_level_19",
+    "name": "Lines of Supply",
+    "level": 19,
+    "baseFavor": 6,
+    "patron": "The Harpers",
+    "adventurePack": "Shadowfell Conspiracy",
+    "baseQuestId": "lines_of_supply"
+  },
+  {
+    "id": "lines_of_supply_level_27",
+    "name": "Lines of Supply",
+    "level": 27,
+    "baseFavor": 6,
+    "patron": "The Harpers",
+    "adventurePack": "Shadowfell Conspiracy",
+    "baseQuestId": "lines_of_supply"
+  },
+  {
+    "id": "breaking_the_ranks_level_19",
+    "name": "Breaking the Ranks",
+    "level": 19,
+    "baseFavor": 6,
+    "patron": "The Harpers",
+    "adventurePack": "Shadowfell Conspiracy",
+    "baseQuestId": "breaking_the_ranks"
+  },
+  {
+    "id": "breaking_the_ranks_level_27",
+    "name": "Breaking the Ranks",
+    "level": 27,
+    "baseFavor": 6,
+    "patron": "The Harpers",
+    "adventurePack": "Shadowfell Conspiracy",
+    "baseQuestId": "breaking_the_ranks"
+  },
+  {
+    "id": "a_break_in_the_ice_level_19",
+    "name": "A Break In the Ice",
+    "level": 19,
+    "baseFavor": 7,
+    "patron": "The Harpers",
+    "adventurePack": "Shadowfell Conspiracy",
+    "baseQuestId": "a_break_in_the_ice"
+  },
+  {
+    "id": "a_break_in_the_ice_level_27",
+    "name": "A Break In the Ice",
+    "level": 27,
+    "baseFavor": 7,
+    "patron": "The Harpers",
+    "adventurePack": "Shadowfell Conspiracy",
+    "baseQuestId": "a_break_in_the_ice"
+  },
+  {
+    "id": "what_goes_up_level_19",
+    "name": "What Goes Up",
+    "level": 19,
+    "baseFavor": 7,
+    "patron": "The Harpers",
+    "adventurePack": "Shadowfell Conspiracy",
+    "baseQuestId": "what_goes_up"
+  },
+  {
+    "id": "what_goes_up_level_27",
+    "name": "What Goes Up",
+    "level": 27,
+    "baseFavor": 7,
+    "patron": "The Harpers",
+    "adventurePack": "Shadowfell Conspiracy",
+    "baseQuestId": "what_goes_up"
+  },
+  {
+    "id": "a_new_invasion",
+    "name": "A New Invasion",
+    "level": 19,
+    "baseFavor": 7,
+    "patron": "The Yugoloth",
+    "adventurePack": "The Devils of Shavarath"
+  },
+  {
+    "id": "genesis_point",
+    "name": "Genesis Point",
+    "level": 19,
+    "baseFavor": 8,
+    "patron": "The Yugoloth",
+    "adventurePack": "The Devils of Shavarath"
+  },
+  {
+    "id": "bastion_of_power",
+    "name": "Bastion of Power",
+    "level": 19,
+    "baseFavor": 7,
+    "patron": "The Yugoloth",
+    "adventurePack": "The Devils of Shavarath"
+  },
+  {
+    "id": "wrath_of_the_flame",
+    "name": "Wrath of the Flame",
+    "level": 19,
+    "baseFavor": 6,
+    "patron": "The Twelve",
+    "adventurePack": "The Devils of Shavarath"
+  },
+  {
+    "id": "the_weapons_shipment",
+    "name": "The Weapons Shipment",
+    "level": 19,
+    "baseFavor": 6,
+    "patron": "The Twelve",
+    "adventurePack": "The Devils of Shavarath"
+  },
+  {
+    "id": "sins_of_attrition",
+    "name": "Sins of Attrition",
+    "level": 19,
+    "baseFavor": 7,
+    "patron": "The Yugoloth",
+    "adventurePack": "The Devils of Shavarath"
+  },
+  {
+    "id": "eye_of_the_titan",
+    "name": "Eye of the Titan",
+    "level": 19,
+    "baseFavor": 6,
+    "patron": "The Coin Lords",
+    "adventurePack": "The Dreaming Dark"
+  },
+  {
+    "id": "reclaiming_memories",
+    "name": "Reclaiming Memories",
+    "level": 19,
+    "baseFavor": 6,
+    "patron": "The Coin Lords",
+    "adventurePack": "The Dreaming Dark"
+  },
+  {
+    "id": "raiding_the_giants_vault",
+    "name": "Raiding the Giants' Vault",
+    "level": 19,
+    "baseFavor": 6,
+    "patron": "The Coin Lords",
+    "adventurePack": "The Dreaming Dark"
+  },
+  {
+    "id": "mining_for_ancient_secrets",
+    "name": "Mining for Ancient Secrets",
+    "level": 19,
+    "baseFavor": 6,
+    "patron": "The Coin Lords",
+    "adventurePack": "The Dreaming Dark"
+  },
+  {
+    "id": "the_lord_of_blades",
+    "name": "The Lord of Blades",
+    "level": 20,
+    "baseFavor": 7,
+    "patron": "House Cannith",
+    "adventurePack": "Secrets of the Artificers"
+  },
+  {
+    "id": "tower_of_despair",
+    "name": "Tower of Despair",
+    "level": 20,
+    "baseFavor": 8,
+    "patron": "The Yugoloth",
+    "adventurePack": "The Devils of Shavarath"
+  },
+  {
+    "id": "the_dreaming_dark_quest",
+    "name": "The Dreaming Dark (quest)",
+    "level": 20,
+    "baseFavor": 6,
+    "patron": "The Coin Lords",
+    "adventurePack": "The Dreaming Dark"
+  },
+  {
+    "id": "a_study_in_sable",
+    "name": "A Study in Sable",
+    "level": 26,
+    "baseFavor": 9,
+    "patron": "Purple Dragon Knights",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "brothers_of_the_forge",
+    "name": "Brothers of the Forge",
+    "level": 28,
+    "baseFavor": 9,
+    "patron": "House Cannith",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "the_haunted_halls_of_eveningstar",
+    "name": "The Haunted Halls of Eveningstar",
+    "level": 28,
+    "baseFavor": 9,
+    "patron": "The Harpers",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "impossible_demands",
+    "name": "Impossible Demands",
+    "level": 21,
+    "baseFavor": 7,
+    "patron": "Purple Dragon Knights",
+    "adventurePack": "Menace of the Underdark"
+  },
+  {
+    "id": "the_lost_thread",
+    "name": "The Lost Thread",
+    "level": 21,
+    "baseFavor": 8,
+    "patron": "Purple Dragon Knights",
+    "adventurePack": "Menace of the Underdark"
+  },
+  {
+    "id": "the_battle_for_eveningstar",
+    "name": "The Battle for Eveningstar",
+    "level": 21,
+    "baseFavor": 8,
+    "patron": "Purple Dragon Knights",
+    "adventurePack": "Menace of the Underdark"
+  },
+  {
+    "id": "the_unquiet_graves",
+    "name": "The Unquiet Graves",
+    "level": 21,
+    "baseFavor": 7,
+    "patron": "Purple Dragon Knights",
+    "adventurePack": "Menace of the Underdark"
+  },
+  {
+    "id": "dont_drink_the_water",
+    "name": "Don't Drink the Water",
+    "level": 22,
+    "baseFavor": 8,
+    "patron": "Purple Dragon Knights",
+    "adventurePack": "Menace of the Underdark"
+  },
+  {
+    "id": "the_house_of_broken_chains",
+    "name": "The House of Broken Chains",
+    "level": 22,
+    "baseFavor": 8,
+    "patron": "Purple Dragon Knights",
+    "adventurePack": "Menace of the Underdark"
+  },
+  {
+    "id": "the_house_of_rusted_blades",
+    "name": "The House of Rusted Blades",
+    "level": 22,
+    "baseFavor": 8,
+    "patron": "Purple Dragon Knights",
+    "adventurePack": "Menace of the Underdark"
+  },
+  {
+    "id": "the_portal_opens",
+    "name": "The Portal Opens",
+    "level": 22,
+    "baseFavor": 8,
+    "patron": "Purple Dragon Knights",
+    "adventurePack": "Menace of the Underdark"
+  },
+  {
+    "id": "in_the_belly_of_the_beast",
+    "name": "In the Belly of the Beast",
+    "level": 22,
+    "baseFavor": 8,
+    "patron": "Purple Dragon Knights",
+    "adventurePack": "Menace of the Underdark"
+  },
+  {
+    "id": "the_house_of_death_undone",
+    "name": "The House of Death Undone",
+    "level": 22,
+    "baseFavor": 8,
+    "patron": "Purple Dragon Knights",
+    "adventurePack": "Menace of the Underdark"
+  },
+  {
+    "id": "trial_by_fury",
+    "name": "Trial by Fury",
+    "level": 23,
+    "baseFavor": 8,
+    "patron": "Purple Dragon Knights",
+    "adventurePack": "Menace of the Underdark"
+  },
+  {
+    "id": "reclaiming_the_rift",
+    "name": "Reclaiming the Rift",
+    "level": 23,
+    "baseFavor": 8,
+    "patron": "Purple Dragon Knights",
+    "adventurePack": "Menace of the Underdark"
+  },
+  {
+    "id": "the_deal_and_the_demon",
+    "name": "The Deal and the Demon",
+    "level": 23,
+    "baseFavor": 8,
+    "patron": "Purple Dragon Knights",
+    "adventurePack": "Menace of the Underdark"
+  },
+  {
+    "id": "caught_in_the_web",
+    "name": "Caught in the Web",
+    "level": 24,
+    "baseFavor": 8,
+    "patron": "Purple Dragon Knights",
+    "adventurePack": "Menace of the Underdark"
+  },
+  {
+    "id": "return_to_cabal_for_one",
+    "name": "Return to Cabal for One",
+    "level": 24,
+    "baseFavor": 6,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "Ruins of Gianthold"
+  },
+  {
+    "id": "return_to_madstone_crater",
+    "name": "Return to Madstone Crater",
+    "level": 24,
+    "baseFavor": 8,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "Ruins of Gianthold"
+  },
+  {
+    "id": "return_to_prison_of_the_planes",
+    "name": "Return to Prison of the Planes",
+    "level": 24,
+    "baseFavor": 6,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "Ruins of Gianthold"
+  },
+  {
+    "id": "return_to_gianthold_tor",
+    "name": "Return to Gianthold Tor",
+    "level": 24,
+    "baseFavor": 7,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "Ruins of Gianthold"
+  },
+  {
+    "id": "the_fall_of_truth",
+    "name": "The Fall of Truth",
+    "level": 25,
+    "baseFavor": 8,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "Ruins of Gianthold"
+  },
+  {
+    "id": "inferno_of_the_damned_epic",
+    "name": "Inferno of the Damned (epic)",
+    "level": 29,
+    "baseFavor": 6,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Necropolis, Part 4",
+    "baseQuestId": "inferno_of_the_damned"
+  },
+  {
+    "id": "desecrated_temple_of_vol_epic",
+    "name": "Desecrated Temple of Vol (epic)",
+    "level": 29,
+    "baseFavor": 6,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Necropolis, Part 4",
+    "baseQuestId": "desecrated_temple_of_vol"
+  },
+  {
+    "id": "ghosts_of_perdition_epic",
+    "name": "Ghosts of Perdition (epic)",
+    "level": 29,
+    "baseFavor": 6,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Necropolis, Part 4",
+    "baseQuestId": "ghosts_of_perdition"
+  },
+  {
+    "id": "flesh_makers_laboratory_epic",
+    "name": "Flesh Maker's Laboratory (epic)",
+    "level": 29,
+    "baseFavor": 6,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Necropolis, Part 4",
+    "baseQuestId": "flesh_makers_laboratory"
+  },
+  {
+    "id": "old_tomb_new_tenants",
+    "name": "Old Tomb, New Tenants",
+    "level": 25,
+    "baseFavor": 5,
+    "patron": "The Free Agents",
+    "adventurePack": "Three-Barrel Cove"
+  },
+  {
+    "id": "precious_cargo",
+    "name": "Precious Cargo",
+    "level": 25,
+    "baseFavor": 7,
+    "patron": "The Free Agents",
+    "adventurePack": "Three-Barrel Cove"
+  },
+  {
+    "id": "a_legend_revisited",
+    "name": "A Legend Revisited",
+    "level": 25,
+    "baseFavor": 4,
+    "patron": "The Free Agents",
+    "adventurePack": "Three-Barrel Cove"
+  },
+  {
+    "id": "ghost_of_a_chance_epic",
+    "name": "Ghost of a Chance (epic)",
+    "level": 25,
+    "baseFavor": 4,
+    "patron": "The Free Agents",
+    "adventurePack": "Three-Barrel Cove",
+    "baseQuestId": "ghost_of_a_chance"
+  },
+  {
+    "id": "prove_your_worth_epic",
+    "name": "Prove Your Worth (epic)",
+    "level": 25,
+    "baseFavor": 4,
+    "patron": "The Free Agents",
+    "adventurePack": "Three-Barrel Cove",
+    "baseQuestId": "prove_your_worth"
+  },
+  {
+    "id": "the_chronoscope_legendary",
+    "name": "The Chronoscope (Legendary)",
+    "level": 32,
+    "baseFavor": 10,
+    "patron": "The Coin Lords",
+    "adventurePack": "Devil Assault",
+    "baseQuestId": "the_chronoscope"
+  },
+  {
+    "id": "riding_the_storm_out",
+    "name": "Riding the Storm Out",
+    "level": 32,
+    "baseFavor": 10,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "Dragonblood Prophecy"
+  },
+  {
+    "id": "killing_time",
+    "name": "Killing Time",
+    "level": 32,
+    "baseFavor": 11,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "Dragonblood Prophecy"
+  },
+  {
+    "id": "the_dryad_and_the_demigod",
+    "name": "The Dryad and the Demigod",
+    "level": 32,
+    "baseFavor": 10,
+    "patron": "The Summer Court",
+    "adventurePack": "Fables of the Feywild"
+  },
+  {
+    "id": "legendary_tempests_spine",
+    "name": "Legendary Tempest's Spine",
+    "level": 32,
+    "baseFavor": 11,
+    "patron": "House Jorasco",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "legendary_hound_of_xoriat",
+    "name": "Legendary Hound of Xoriat",
+    "level": 32,
+    "baseFavor": 12,
+    "patron": "The Twelve",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "den_of_vipers",
+    "name": "Den of Vipers",
+    "level": 36,
+    "baseFavor": 11,
+    "patron": "The Free Agents",
+    "adventurePack": "Free to Play"
+  },
+  {
+    "id": "hunt_or_be_hunted",
+    "name": "Hunt or Be Hunted",
+    "level": 32,
+    "baseFavor": 10,
+    "patron": "The Summer Court",
+    "adventurePack": "Hunter and Hunted"
+  },
+  {
+    "id": "pilgrims_peril",
+    "name": "Pilgrims' Peril",
+    "level": 34,
+    "baseFavor": 9,
+    "patron": "The Twelve",
+    "adventurePack": "Illithid Invasion"
+  },
+  {
+    "id": "stolen_power",
+    "name": "Stolen Power",
+    "level": 34,
+    "baseFavor": 9,
+    "patron": "The Twelve",
+    "adventurePack": "Illithid Invasion"
+  },
+  {
+    "id": "horde_of_the_illithid_controller",
+    "name": "Horde of the Illithid Controller",
+    "level": 34,
+    "baseFavor": 9,
+    "patron": "The Twelve",
+    "adventurePack": "Illithid Invasion"
+  },
+  {
+    "id": "astral_ambush",
+    "name": "Astral Ambush",
+    "level": 34,
+    "baseFavor": 9,
+    "patron": "The Twelve",
+    "adventurePack": "Illithid Invasion"
+  },
+  {
+    "id": "threats_old_and_new",
+    "name": "Threats Old and New",
+    "level": 35,
+    "baseFavor": 9,
+    "patron": "Cormanthor Elves",
+    "adventurePack": "Magic of Myth Drannor"
+  },
+  {
+    "id": "too_hot_to_handle",
+    "name": "Too Hot to Handle",
+    "level": 32,
+    "baseFavor": 10,
+    "patron": "Sharn City Council",
+    "adventurePack": "Masterminds of Sharn"
+  },
+  {
+    "id": "project_nemesis",
+    "name": "Project Nemesis",
+    "level": 32,
+    "baseFavor": 10,
+    "patron": "Sharn City Council",
+    "adventurePack": "Masterminds of Sharn"
+  },
+  {
+    "id": "the_curse_of_strahd",
+    "name": "The Curse of Strahd",
+    "level": 32,
+    "baseFavor": 10,
+    "patron": "Keepers of Barovia",
+    "adventurePack": "Mists of Ravenloft"
+  },
+  {
+    "id": "old_babas_hut",
+    "name": "Old Baba's Hut",
+    "level": 32,
+    "baseFavor": 9,
+    "patron": "Keepers of Barovia",
+    "adventurePack": "Mists of Ravenloft"
+  },
+  {
+    "id": "legendary_master_artificer",
+    "name": "Legendary Master Artificer",
+    "level": 32,
+    "baseFavor": 10,
+    "patron": "House Cannith",
+    "adventurePack": "Secrets of the Artificers"
+  },
+  {
+    "id": "legendary_lord_of_blades",
+    "name": "Legendary Lord of Blades",
+    "level": 32,
+    "baseFavor": 10,
+    "patron": "House Cannith",
+    "adventurePack": "Secrets of the Artificers"
+  },
+  {
+    "id": "fire_on_thunder_peak",
+    "name": "Fire on Thunder Peak",
+    "level": 30,
+    "baseFavor": 9,
+    "patron": "Purple Dragon Knights",
+    "adventurePack": "Shadow Under Thunderholme"
+  },
+  {
+    "id": "temple_of_the_deathwyrm",
+    "name": "Temple of the Deathwyrm",
+    "level": 30,
+    "baseFavor": 9,
+    "patron": "Purple Dragon Knights",
+    "adventurePack": "Shadow Under Thunderholme"
+  },
+  {
+    "id": "skeletons_in_the_closet",
+    "name": "Skeletons in the Closet",
+    "level": 34,
+    "baseFavor": 10,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Isle of Dread"
+  },
+  {
+    "id": "the_mark_of_death",
+    "name": "The Mark of Death",
+    "level": 30,
+    "baseFavor": 9,
+    "patron": "The Silver Flame",
+    "adventurePack": "The Necropolis, Part 4"
+  },
+  {
+    "id": "the_codex_and_the_shroud",
+    "name": "The Codex and the Shroud",
+    "level": 32,
+    "baseFavor": 14,
+    "patron": "The Gatekeepers",
+    "adventurePack": "The Vale of Twilight"
+  },
+  {
+    "id": "legendary_vision_of_destruction",
+    "name": "Legendary Vision of Destruction",
+    "level": 32,
+    "baseFavor": 12,
+    "patron": "The Twelve",
+    "adventurePack": "The Vale of Twilight"
+  },
+  {
+    "id": "defiler_of_the_just",
+    "name": "Defiler of the Just",
+    "level": 30,
+    "baseFavor": 9,
+    "patron": "The Gatekeepers",
+    "adventurePack": "Trials of the Archons"
+  },
+  {
+    "id": "fire_over_morgrave",
+    "name": "Fire Over Morgrave",
+    "level": 34,
+    "baseFavor": 9,
+    "patron": "Morgrave University",
+    "adventurePack": "Vecna Unleashed"
+  },
+  {
+    "id": "going_rogue",
+    "name": "Going Rogue",
+    "level": 10,
+    "baseFavor": 4,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "The Dragons' Hand"
+  },
+  {
+    "id": "going_rogue_level_36",
+    "name": "Going Rogue",
+    "level": 36,
+    "baseFavor": 4,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "The Dragons' Hand",
+    "baseQuestId": "going_rogue"
+  },
+  {
+    "id": "wish_upon_a_card",
+    "name": "Wish Upon a Card",
+    "level": 10,
+    "baseFavor": 4,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "The Dragons' Hand"
+  },
+  {
+    "id": "wish_upon_a_card_level_36",
+    "name": "Wish Upon a Card",
+    "level": 36,
+    "baseFavor": 4,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "The Dragons' Hand",
+    "baseQuestId": "wish_upon_a_card"
+
+  },
+  {
+    "id": "burning_down_the_house",
+    "name": "Burning Down the House",
+    "level": 10,
+    "baseFavor": 4,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "The Dragons' Hand"
+  }
+  ,
+  {
+    "id": "burning_down_the_house_level_36",
+    "name": "Burning Down the House",
+    "level": 36,
+    "baseFavor": 4,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "The Dragons' Hand",
+    "baseQuestId": "burning_down_the_house"
+  },
+  {
+    "id": "thrall_of_duty",
+    "name": "Thrall of Duty",
+    "level": 10,
+    "baseFavor": 4,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "The Dragons' Hand"
+  },
+  {
+    "id": "thrall_of_duty_level_36",
+    "name": "Thrall of Duty",
+    "level": 36,
+    "baseFavor": 4,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "The Dragons' Hand",
+    "baseQuestId": "thrall_of_duty"
+  },
+  {
+    "id": "the_final_draw",
+    "name": "The Final Draw",
+    "level": 10,
+    "baseFavor": 4,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "The Dragons' Hand"
+  },
+  {
+    "id": "the_final_draw_level_36",
+    "name": "The Final Draw",
+    "level": 36,
+    "baseFavor": 4,
+    "patron": "Agents of Argonnessen",
+    "adventurePack": "The Dragons' Hand",
+    "baseQuestId": "the_final_draw"
+  },
+  {
+    "id": "tower_of_vengeance_level_11",
+    "name": "Tower of Vengeance",
+    "level": 11,
+    "baseFavor": 5,
+    "patron": "Battlehammer Expedition",
+    "adventurePack": "Terror of Demogorgon",
+    "baseQuestId": "tower_of_vengeance"
+  },
+  {
+    "id": "tower_of_vengeance_level_37",
+    "name": "Tower of Vengeance",
+    "level": 37,
+    "baseFavor": 5,
+    "patron": "Battlehammer Expedition",
+    "adventurePack": "Terror of Demogorgon",
+    "baseQuestId": "tower_of_vengeance"
+  },
+  {
+    "id": "the_price_of_an_egg_level_11",
+    "name": "The Price of an Egg",
+    "level": 11,
+    "baseFavor": 5,
+    "patron": "Battlehammer Expedition",
+    "adventurePack": "Terror of Demogorgon",
+    "baseQuestId": "the_price_of_an_egg"
+  },
+  {
+    "id": "the_price_of_an_egg_level_37",
+    "name": "The Price of an Egg",
+    "level": 37,
+    "baseFavor": 5,
+    "patron": "Battlehammer Expedition",
+    "adventurePack": "Terror of Demogorgon",
+    "baseQuestId": "the_price_of_an_egg"
+  },
+  {
+    "id": "the_fetid_wedding_level_11",
+    "name": "The Fetid Wedding",
+    "level": 11,
+    "baseFavor": 5,
+    "patron": "Battlehammer Expedition",
+    "adventurePack": "Terror of Demogorgon",
+    "baseQuestId": "the_fetid_wedding"
+  },
+  {
+    "id": "the_fetid_wedding_level_37",
+    "name": "The Fetid Wedding",
+    "level": 37,
+    "baseFavor": 5,
+    "patron": "Battlehammer Expedition",
+    "adventurePack": "Terror of Demogorgon",
+    "baseQuestId": "the_fetid_wedding"
+  },
+  {
+    "id": "hideous_to_behold_level_11",
+    "name": "Hideous to Behold",
+    "level": 11,
+    "baseFavor": 5,
+    "patron": "Battlehammer Expedition",
+    "adventurePack": "Terror of Demogorgon",
+    "baseQuestId": "hideous_to_behold"
+  },
+  {
+    "id": "hideous_to_behold_level_37",
+    "name": "Hideous to Behold",
+    "level": 37,
+    "baseFavor": 5,
+    "patron": "Battlehammer Expedition",
+    "adventurePack": "Terror of Demogorgon",
+    "baseQuestId": "hideous_to_behold"
+  },
+  {
+    "id": "stealing_from_sorcere_level_11",
+    "name": "Stealing from Sorcere",
+    "level": 11,
+    "baseFavor": 5,
+    "patron": "Battlehammer Expedition",
+    "adventurePack": "Terror of Demogorgon",
+    "baseQuestId": "stealing_from_sorcere"
+  },
+  {
+    "id": "stealing_from_sorcere_level_37",
+    "name": "Stealing from Sorcere",
+    "level": 37,
+    "baseFavor": 5,
+    "patron": "Battlehammer Expedition",
+    "adventurePack": "Terror of Demogorgon",
+    "baseQuestId": "stealing_from_sorcere"
+  },
+  {
+    "id": "back_to_the_abyss_level_11",
+    "name": "Back to the Abyss",
+    "level": 11,
+    "baseFavor": 5,
+    "patron": "Battlehammer Expedition",
+    "adventurePack": "Terror of Demogorgon",
+    "baseQuestId": "back_to_the_abyss"
+  },
+  {
+    "id": "back_to_the_abyss_level_37",
+    "name": "Back to the Abyss",
+    "level": 37,
+    "baseFavor": 5,
+    "patron": "Battlehammer Expedition",
+    "adventurePack": "Terror of Demogorgon",
+    "baseQuestId": "back_to_the_abyss"
+  },
+  {
+    "id": "demon_in_the_rough_level_11",
+    "name": "Demon in the Rough",
+    "level": 11,
+    "baseFavor": 5,
+    "patron": "Battlehammer Expedition",
+    "adventurePack": "Terror of Demogorgon",
+    "baseQuestId": "demon_in_the_rough"
+  },
+  {
+    "id": "demon_in_the_rough_level_37",
+    "name": "Demon in the Rough",
+    "level": 37,
+    "baseFavor": 5,
+    "patron": "Battlehammer Expedition",
+    "adventurePack": "Terror of Demogorgon",
+    "baseQuestId": "demon_in_the_rough"
+  },
+  {
+    "id": "if_it_wasnt_for_bad_luck_level_11",
+    "name": "If It Wasn't For Bad Luck",
+    "level": 11,
+    "baseFavor": 5,
+    "patron": "Battlehammer Expedition",
+    "adventurePack": "Terror of Demogorgon",
+    "baseQuestId": "if_it_wasnt_for_bad_luck"
+  },
+  {
+    "id": "if_it_wasnt_for_bad_luck_level_37",
+    "name": "If It Wasn't For Bad Luck",
+    "level": 37,
+    "baseFavor": 5,
+    "patron": "Battlehammer Expedition",
+    "adventurePack": "Terror of Demogorgon",
+    "baseQuestId": "if_it_wasnt_for_bad_luck"
+  },
+  {
+    "id": "a_long_way_to_mushrooms_level_11",
+    "name": "A Long Way to Mushrooms",
+    "level": 11,
+    "baseFavor": 5,
+    "patron": "Battlehammer Expedition",
+    "adventurePack": "Terror of Demogorgon",
+    "baseQuestId": "a_long_way_to_mushrooms"
+  },
+  {
+    "id": "a_long_way_to_mushrooms_level_37",
+    "name": "A Long Way to Mushrooms",
+    "level": 37,
+    "baseFavor": 5,
+    "patron": "Battlehammer Expedition",
+    "adventurePack": "Terror of Demogorgon",
+    "baseQuestId": "a_long_way_to_mushrooms"
+  },
+  {
+    "id": "flocked_together_level_11",
+    "name": "Flocked Together",
+    "level": 11,
+    "baseFavor": 5,
+    "patron": "Battlehammer Expedition",
+    "adventurePack": "Terror of Demogorgon",
+    "baseQuestId": "flocked_together"
+  },
+  {
+    "id": "flocked_together_level_37",
+    "name": "Flocked Together",
+    "level": 37,
+    "baseFavor": 5,
+    "patron": "Battlehammer Expedition",
+    "adventurePack": "Terror of Demogorgon",
+    "baseQuestId": "flocked_together"
+  },
+  {
+    "id": "for_want_of_a_heart_level_11",
+    "name": "For Want of a Heart",
+    "level": 11,
+    "baseFavor": 5,
+    "patron": "Battlehammer Expedition",
+    "adventurePack": "Terror of Demogorgon",
+    "baseQuestId": "for_want_of_a_heart"
+  },
+  {
+    "id": "for_want_of_a_heart_level_37",
+    "name": "For Want of a Heart",
+    "level": 37,
+    "baseFavor": 5,
+    "patron": "Battlehammer Expedition",
+    "adventurePack": "Terror of Demogorgon",
+    "baseQuestId": "for_want_of_a_heart"
+  },
+  {
+    "id": "a_blood_pact_level_11",
+    "name": "A Blood Pact",
+    "level": 11,
+    "baseFavor": 5,
+    "patron": "Battlehammer Expedition",
+    "adventurePack": "Terror of Demogorgon",
+    "baseQuestId": "a_blood_pact"
+  },
+  {
+    "id": "a_blood_pact_level_37",
+    "name": "A Blood Pact",
+    "level": 37,
+    "baseFavor": 5,
+    "patron": "Battlehammer Expedition",
+    "adventurePack": "Terror of Demogorgon",
+    "baseQuestId": "a_blood_pact"
+  }
+]
