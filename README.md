@@ -69,8 +69,10 @@ import/export.
 ## Data
 
 `static/quests.json` is the quest catalogue shared with DDO Quest Tracker (~856
-quests). Raids are identified by name against `RAID_QUESTS` in
-[src/lib/types.ts](src/lib/types.ts).
+quests) — the two copies are kept byte-identical, so update one and copy it across.
+Raids carry `"raid": true` on the quest entry (each level variant flagged separately);
+`isRaid()` in [src/lib/types.ts](src/lib/types.ts) is the only reader. Adding a raid
+needs no code change in either project.
 
 ## Deployment
 

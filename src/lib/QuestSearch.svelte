@@ -140,7 +140,7 @@
 								<span class="result-name">
 									{quest.name}
 									<TierBadge level={quest.level} size="small" />
-									{#if isRaid(quest.name)}<span class="raid-badge">Raid</span>{/if}
+									{#if isRaid(quest)}<span class="raid-badge">Raid</span>{/if}
 								</span>
 								<span class="result-meta">{quest.patron} · {quest.adventurePack}</span>
 							</span>

@@ -1676,6 +1676,7 @@
     "baseFavor": 5,
     "patron": "The Coin Lords",
     "adventurePack": "Devil Assault",
+    "raid": true,
     "baseQuestId": "the_chronoscope"
   },
   {
@@ -1685,6 +1686,7 @@
     "baseFavor": 5,
     "patron": "The Coin Lords",
     "adventurePack": "Devil Assault",
+    "raid": true,
     "baseQuestId": "the_chronoscope"
   },
   {
@@ -3265,7 +3267,8 @@
     "level": 10,
     "baseFavor": 6,
     "patron": "House Jorasco",
-    "adventurePack": "Free to Play"
+    "adventurePack": "Free to Play",
+    "raid": true
   },
   {
     "id": "the_chamber_of_rahmat",
@@ -3462,6 +3465,7 @@
     "baseFavor": 9,
     "patron": "House Kundarak",
     "adventurePack": "Vault of Night",
+    "raid": true,
     "baseQuestId": "the_vault_of_night"
   },
   {
@@ -3471,6 +3475,7 @@
     "baseFavor": 9,
     "patron": "House Kundarak",
     "adventurePack": "Vault of Night",
+    "raid": true,
     "baseQuestId": "the_vault_of_night"
   },
   {
@@ -3480,6 +3485,7 @@
     "baseFavor": 5,
     "patron": "House Kundarak",
     "adventurePack": "Vault of Night",
+    "raid": true,
     "baseQuestId": "plane_of_night"
   },
   {
@@ -3489,6 +3495,7 @@
     "baseFavor": 5,
     "patron": "House Kundarak",
     "adventurePack": "Vault of Night",
+    "raid": true,
     "baseQuestId": "plane_of_night"
   },
   {
@@ -3707,7 +3714,8 @@
     "level": 11,
     "baseFavor": 10,
     "patron": "The Free Agents",
-    "adventurePack": "The Restless Isles"
+    "adventurePack": "The Restless Isles",
+    "raid": true
   },
   {
     "id": "a_relic_of_a_sovereign_past",
@@ -3840,6 +3848,7 @@
     "baseFavor": 6,
     "patron": "The Free Agents",
     "adventurePack": "Demon Sands",
+    "raid": true,
     "baseQuestId": "zawabis_revenge"
   },
   {
@@ -3849,6 +3858,7 @@
     "baseFavor": 6,
     "patron": "The Free Agents",
     "adventurePack": "Demon Sands",
+    "raid": true,
     "baseQuestId": "zawabis_revenge"
   },
   {
@@ -4009,7 +4019,8 @@
     "level": 12,
     "baseFavor": 6,
     "patron": "The Free Agents",
-    "adventurePack": "The Restless Isles"
+    "adventurePack": "The Restless Isles",
+    "raid": true
   },
   {
     "id": "mired_in_kobolds",
@@ -4609,7 +4620,8 @@
     "level": 14,
     "baseFavor": 6,
     "patron": "Agents of Argonnessen",
-    "adventurePack": "Ruins of Gianthold"
+    "adventurePack": "Ruins of Gianthold",
+    "raid": true
   },
   {
     "id": "a_cabal_for_one",
@@ -5747,7 +5759,8 @@
     "level": 17,
     "baseFavor": 7,
     "patron": "The Silver Flame",
-    "adventurePack": "The Necropolis, Part 4"
+    "adventurePack": "The Necropolis, Part 4",
+    "raid": true
   },
   {
     "id": "enter_the_kobold",
@@ -5895,7 +5908,8 @@
     "level": 17,
     "baseFavor": 11,
     "patron": "The Twelve",
-    "adventurePack": "The Vale of Twilight"
+    "adventurePack": "The Vale of Twilight",
+    "raid": true
   },
   {
     "id": "in_the_demons_den",
@@ -6167,7 +6181,8 @@
     "level": 18,
     "baseFavor": 9,
     "patron": "The Twelve",
-    "adventurePack": "The Vale of Twilight"
+    "adventurePack": "The Vale of Twilight",
+    "raid": true
   },
   {
     "id": "a_vision_of_destruction",
@@ -6175,7 +6190,8 @@
     "level": 18,
     "baseFavor": 9,
     "patron": "The Twelve",
-    "adventurePack": "The Vale of Twilight"
+    "adventurePack": "The Vale of Twilight",
+    "raid": true
   },
   {
     "id": "enemy_of_my_enemy_level_18",
@@ -6457,7 +6473,8 @@
     "level": 19,
     "baseFavor": 7,
     "patron": "House Cannith",
-    "adventurePack": "Secrets of the Artificers"
+    "adventurePack": "Secrets of the Artificers",
+    "raid": true
   },
   {
     "id": "the_trackers_trap_level_19",
@@ -6635,7 +6652,8 @@
     "level": 20,
     "baseFavor": 7,
     "patron": "House Cannith",
-    "adventurePack": "Secrets of the Artificers"
+    "adventurePack": "Secrets of the Artificers",
+    "raid": true
   },
   {
     "id": "tower_of_despair",
@@ -6787,7 +6805,8 @@
     "level": 24,
     "baseFavor": 8,
     "patron": "Purple Dragon Knights",
-    "adventurePack": "Menace of the Underdark"
+    "adventurePack": "Menace of the Underdark",
+    "raid": true
   },
   {
     "id": "return_to_cabal_for_one",
@@ -6827,7 +6846,8 @@
     "level": 25,
     "baseFavor": 8,
     "patron": "Agents of Argonnessen",
-    "adventurePack": "Ruins of Gianthold"
+    "adventurePack": "Ruins of Gianthold",
+    "raid": true
   },
   {
     "id": "inferno_of_the_damned_epic",
@@ -6914,6 +6934,7 @@
     "baseFavor": 10,
     "patron": "The Coin Lords",
     "adventurePack": "Devil Assault",
+    "raid": true,
     "baseQuestId": "the_chronoscope"
   },
   {
@@ -6922,7 +6943,8 @@
     "level": 32,
     "baseFavor": 10,
     "patron": "Agents of Argonnessen",
-    "adventurePack": "Dragonblood Prophecy"
+    "adventurePack": "Dragonblood Prophecy",
+    "raid": true
   },
   {
     "id": "killing_time",
@@ -6930,7 +6952,8 @@
     "level": 32,
     "baseFavor": 11,
     "patron": "Agents of Argonnessen",
-    "adventurePack": "Dragonblood Prophecy"
+    "adventurePack": "Dragonblood Prophecy",
+    "raid": true
   },
   {
     "id": "the_dryad_and_the_demigod",
@@ -6938,7 +6961,8 @@
     "level": 32,
     "baseFavor": 10,
     "patron": "The Summer Court",
-    "adventurePack": "Fables of the Feywild"
+    "adventurePack": "Fables of the Feywild",
+    "raid": true
   },
   {
     "id": "legendary_tempests_spine",
@@ -6946,7 +6970,8 @@
     "level": 32,
     "baseFavor": 11,
     "patron": "House Jorasco",
-    "adventurePack": "Free to Play"
+    "adventurePack": "Free to Play",
+    "raid": true
   },
   {
     "id": "legendary_hound_of_xoriat",
@@ -6954,7 +6979,8 @@
     "level": 32,
     "baseFavor": 12,
     "patron": "The Twelve",
-    "adventurePack": "Free to Play"
+    "adventurePack": "Free to Play",
+    "raid": true
   },
   {
     "id": "den_of_vipers",
@@ -6962,7 +6988,8 @@
     "level": 36,
     "baseFavor": 11,
     "patron": "The Free Agents",
-    "adventurePack": "Free to Play"
+    "adventurePack": "Free to Play",
+    "raid": true
   },
   {
     "id": "hunt_or_be_hunted",
@@ -6970,7 +6997,8 @@
     "level": 32,
     "baseFavor": 10,
     "patron": "The Summer Court",
-    "adventurePack": "Hunter and Hunted"
+    "adventurePack": "Hunter and Hunted",
+    "raid": true
   },
   {
     "id": "pilgrims_peril",
@@ -7010,7 +7038,8 @@
     "level": 35,
     "baseFavor": 9,
     "patron": "Cormanthor Elves",
-    "adventurePack": "Magic of Myth Drannor"
+    "adventurePack": "Magic of Myth Drannor",
+    "raid": true
   },
   {
     "id": "too_hot_to_handle",
@@ -7018,7 +7047,8 @@
     "level": 32,
     "baseFavor": 10,
     "patron": "Sharn City Council",
-    "adventurePack": "Masterminds of Sharn"
+    "adventurePack": "Masterminds of Sharn",
+    "raid": true
   },
   {
     "id": "project_nemesis",
@@ -7026,7 +7056,8 @@
     "level": 32,
     "baseFavor": 10,
     "patron": "Sharn City Council",
-    "adventurePack": "Masterminds of Sharn"
+    "adventurePack": "Masterminds of Sharn",
+    "raid": true
   },
   {
     "id": "the_curse_of_strahd",
@@ -7034,7 +7065,8 @@
     "level": 32,
     "baseFavor": 10,
     "patron": "Keepers of Barovia",
-    "adventurePack": "Mists of Ravenloft"
+    "adventurePack": "Mists of Ravenloft",
+    "raid": true
   },
   {
     "id": "old_babas_hut",
@@ -7042,7 +7074,8 @@
     "level": 32,
     "baseFavor": 9,
     "patron": "Keepers of Barovia",
-    "adventurePack": "Mists of Ravenloft"
+    "adventurePack": "Mists of Ravenloft",
+    "raid": true
   },
   {
     "id": "legendary_master_artificer",
@@ -7050,7 +7083,8 @@
     "level": 32,
     "baseFavor": 10,
     "patron": "House Cannith",
-    "adventurePack": "Secrets of the Artificers"
+    "adventurePack": "Secrets of the Artificers",
+    "raid": true
   },
   {
     "id": "legendary_lord_of_blades",
@@ -7058,7 +7092,8 @@
     "level": 32,
     "baseFavor": 10,
     "patron": "House Cannith",
-    "adventurePack": "Secrets of the Artificers"
+    "adventurePack": "Secrets of the Artificers",
+    "raid": true
   },
   {
     "id": "fire_on_thunder_peak",
@@ -7066,7 +7101,8 @@
     "level": 30,
     "baseFavor": 9,
     "patron": "Purple Dragon Knights",
-    "adventurePack": "Shadow Under Thunderholme"
+    "adventurePack": "Shadow Under Thunderholme",
+    "raid": true
   },
   {
     "id": "temple_of_the_deathwyrm",
@@ -7074,7 +7110,8 @@
     "level": 30,
     "baseFavor": 9,
     "patron": "Purple Dragon Knights",
-    "adventurePack": "Shadow Under Thunderholme"
+    "adventurePack": "Shadow Under Thunderholme",
+    "raid": true
   },
   {
     "id": "skeletons_in_the_closet",
@@ -7082,7 +7119,8 @@
     "level": 34,
     "baseFavor": 10,
     "patron": "The Gatekeepers",
-    "adventurePack": "The Isle of Dread"
+    "adventurePack": "The Isle of Dread",
+    "raid": true
   },
   {
     "id": "the_mark_of_death",
@@ -7090,7 +7128,8 @@
     "level": 30,
     "baseFavor": 9,
     "patron": "The Silver Flame",
-    "adventurePack": "The Necropolis, Part 4"
+    "adventurePack": "The Necropolis, Part 4",
+    "raid": true
   },
   {
     "id": "the_codex_and_the_shroud",
@@ -7098,7 +7137,8 @@
     "level": 32,
     "baseFavor": 14,
     "patron": "The Gatekeepers",
-    "adventurePack": "The Vale of Twilight"
+    "adventurePack": "The Vale of Twilight",
+    "raid": true
   },
   {
     "id": "legendary_vision_of_destruction",
@@ -7106,7 +7146,8 @@
     "level": 32,
     "baseFavor": 12,
     "patron": "The Twelve",
-    "adventurePack": "The Vale of Twilight"
+    "adventurePack": "The Vale of Twilight",
+    "raid": true
   },
   {
     "id": "defiler_of_the_just",
@@ -7114,7 +7155,8 @@
     "level": 30,
     "baseFavor": 9,
     "patron": "The Gatekeepers",
-    "adventurePack": "Trials of the Archons"
+    "adventurePack": "Trials of the Archons",
+    "raid": true
   },
   {
     "id": "fire_over_morgrave",
@@ -7122,7 +7164,8 @@
     "level": 34,
     "baseFavor": 9,
     "patron": "Morgrave University",
-    "adventurePack": "Vecna Unleashed"
+    "adventurePack": "Vecna Unleashed",
+    "raid": true
   },
   {
     "id": "going_rogue",
@@ -7157,7 +7200,6 @@
     "patron": "Agents of Argonnessen",
     "adventurePack": "The Dragons' Hand",
     "baseQuestId": "wish_upon_a_card"
-
   },
   {
     "id": "burning_down_the_house",
@@ -7166,8 +7208,7 @@
     "baseFavor": 4,
     "patron": "Agents of Argonnessen",
     "adventurePack": "The Dragons' Hand"
-  }
-  ,
+  },
   {
     "id": "burning_down_the_house_level_36",
     "name": "Burning Down the House",

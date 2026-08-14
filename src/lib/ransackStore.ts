@@ -490,7 +490,7 @@ const allRows = derived(
 				const quest = $questsById.get(questId);
 				if (!quest) return null;
 
-				const questIsRaid = isRaid(quest.name);
+				const questIsRaid = isRaid(quest);
 				const attached = new Set(characterIds);
 				const entries: CharacterEntry[] = [];
 				const available: Character[] = [];

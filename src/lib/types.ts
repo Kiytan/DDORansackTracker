@@ -6,6 +6,7 @@ export interface Quest {
 	baseFavor: number;
 	patron: string;
 	adventurePack: string;
+	raid?: boolean; // Present and true only on raids; absent on ordinary quests
 	baseQuestId?: string; // For quest variants, reference to the original quest ID
 }
 
@@ -192,43 +193,9 @@ export function getQuestTier(level: number): 'Heroic' | 'Epic' | 'Legendary' {
 	return 'Heroic';
 }
 
-/** Raids are identified by name, not by any field in quests.json. */
-export const RAID_QUESTS = [
-	'The Chronoscope',
-	'The Twilight Forge',
-	'The Shroud',
-	'The Codex and the Shroud',
-	'Legendary Hound of Xoriat',
-	"Legendary Tempest's Spine",
-	'The Fall of Truth',
-	'Caught in the Web',
-	'Fire on Thunder Peak',
-	'Defiler of the Just',
-	'Riding the Storm Out',
-	'The Curse of Strahd',
-	"Old Baba's Hut",
-	'Killing Time',
-	'Too Hot to Handle',
-	'Project Nemesis',
-	'Legendary Vision of Destruction',
-	'Legendary Master Artificer',
-	'Legendary Lord of Blades',
-	'Temple of the Deathwyrm',
-	'The Mark of Death',
-	'The Dryad and the Demigod',
-	'The Lord of Blades',
-	'The Master Artificer',
-	'The Vault of Night',
-	'Hunt or Be Hunted',
-	'Skeletons in the Closet',
-	'Fire Over Morgrave',
-	'Threats Old and New',
-	'Den of Vipers',
-	'The Chronoscope (Legendary)'
-];
-
-export function isRaid(questName: string): boolean {
-	return RAID_QUESTS.includes(questName);
+/** Raids carry `raid: true` in quests.json; ordinary quests omit the field. */
+export function isRaid(quest: Pick<Quest, 'raid'>): boolean {
+	return quest.raid === true;
 }
 
 // --- Sorting and filtering the tracked list ---------------------------------
